@@ -1,1120 +1,1167 @@
 {
   "name": "Buttonwood",
+  "timestamp": "2021-11-05T03:34:22.349Z",
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 1
+  },
+  "tags": {},
   "logoURI": "https://raw.githubusercontent.com/marktoda/buttonwood-token-list/main/assets/buttonwood.svg",
   "keywords": [
     "buttonwood",
     "defi"
   ],
-  "timestamp": "2021-01-06T20:51:23.000+00:00",
   "tokens": [
     {
       "name": "0xBitcoin Token",
-      "address": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31",
       "symbol": "0xBTC",
+      "address": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31",
       "decimals": 8,
+      "chainId": 1
+    },
+    {
+      "name": "Aave interest bearing AMPL",
+      "symbol": "aAMPL",
+      "address": "0x1E6bb68Acec8fefBD87D192bE09bb274170a0548",
+      "decimals": 9,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB6eD7644C69416d67B522e20bC294A9a9B405B31/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x1E6bb68Acec8fefBD87D192bE09bb274170a0548.png"
     },
     {
       "name": "Aave Interest bearing DAI",
-      "address": "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d",
       "symbol": "aDAI",
+      "address": "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d.png"
     },
     {
       "name": "Amon",
-      "address": "0x737F98AC8cA59f2C68aD658E3C3d8C8963E40a4c",
       "symbol": "AMN",
+      "address": "0x737F98AC8cA59f2C68aD658E3C3d8C8963E40a4c",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x737F98AC8cA59f2C68aD658E3C3d8C8963E40a4c/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x737F98AC8cA59f2C68aD658E3C3d8C8963E40a4c.png"
     },
     {
       "name": "Ampleforth",
-      "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
       "symbol": "AMPL",
+      "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
       "decimals": 9,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD46bA6D942050d489DBd938a2C909A5d5039A161/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xD46bA6D942050d489DBd938a2C909A5d5039A161.png"
     },
     {
       "name": "Aragon Network Juror",
-      "address": "0xcD62b1C403fa761BAadFC74C525ce2B51780b184",
       "symbol": "ANJ",
+      "address": "0xcD62b1C403fa761BAadFC74C525ce2B51780b184",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xcD62b1C403fa761BAadFC74C525ce2B51780b184/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xcD62b1C403fa761BAadFC74C525ce2B51780b184.png"
     },
     {
       "name": "Aragon Network Token",
-      "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
       "symbol": "ANT",
+      "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x960b236A07cf122663c4303350609A66A7B288C0/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x960b236A07cf122663c4303350609A66A7B288C0.png"
     },
     {
       "name": "AirSwap Token",
-      "address": "0x27054b13b1B798B345b591a4d22e6562d47eA75a",
       "symbol": "AST",
+      "address": "0x27054b13b1B798B345b591a4d22e6562d47eA75a",
       "decimals": 4,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x27054b13b1B798B345b591a4d22e6562d47eA75a/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x27054b13b1B798B345b591a4d22e6562d47eA75a.png"
     },
     {
       "name": "Balancer",
-      "address": "0xba100000625a3754423978a60c9317c58a424e3D",
       "symbol": "BAL",
+      "address": "0xba100000625a3754423978a60c9317c58a424e3D",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xba100000625a3754423978a60c9317c58a424e3D.png"
     },
     {
       "name": "BandToken",
-      "address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
       "symbol": "BAND",
+      "address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55.png"
     },
     {
       "name": "Basic Attention Token",
-      "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
       "symbol": "BAT",
+      "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0D8775F648430679A709E98d2b0Cb6250d2887EF.png"
+    },
+    {
+      "name": "Button BTC",
+      "symbol": "bBTC",
+      "address": "0x69d4d3629e1aFEE0C4E75B6B345B482979A77112",
+      "decimals": 8,
+      "chainId": 1
+    },
+    {
+      "name": "Button ETH",
+      "symbol": "bETH",
+      "address": "0x125C7b36bEa62Ba3266257521667154446412921",
+      "decimals": 18,
+      "chainId": 1
     },
     {
       "name": "Bloom Token",
-      "address": "0x107c4504cd79C5d2696Ea0030a8dD4e92601B82e",
       "symbol": "BLT",
+      "address": "0x107c4504cd79C5d2696Ea0030a8dD4e92601B82e",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x107c4504cd79C5d2696Ea0030a8dD4e92601B82e/logo.png"
+      "chainId": 1
     },
     {
       "name": "Bancor Network Token",
-      "address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
       "symbol": "BNT",
+      "address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C.png"
     },
     {
       "name": "PieDAO BTC++",
-      "address": "0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd",
       "symbol": "BTC++",
+      "address": "0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd.png"
     },
     {
       "name": "bZx Protocol Token",
-      "address": "0x56d811088235F11C8920698a204A5010a788f4b3",
       "symbol": "BZRX",
+      "address": "0x56d811088235F11C8920698a204A5010a788f4b3",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x56d811088235F11C8920698a204A5010a788f4b3/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x56d811088235F11C8920698a204A5010a788f4b3.png"
     },
     {
       "name": "Compound Dai",
-      "address": "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
       "symbol": "cDAI",
+      "address": "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643.png"
     },
     {
       "name": "Celsius",
-      "address": "0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d",
       "symbol": "CEL",
+      "address": "0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d",
       "decimals": 4,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d.png"
     },
     {
       "name": "CelerToken",
-      "address": "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667",
       "symbol": "CELR",
+      "address": "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4F9254C83EB525f9FCf346490bbb3ed28a81C667/logo.png"
+      "chainId": 1
     },
     {
       "name": "Chai",
-      "address": "0x06AF07097C9Eeb7fD685c692751D5C66dB49c215",
       "symbol": "CHAI",
+      "address": "0x06AF07097C9Eeb7fD685c692751D5C66dB49c215",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x06AF07097C9Eeb7fD685c692751D5C66dB49c215/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x06AF07097C9Eeb7fD685c692751D5C66dB49c215.png"
     },
     {
       "name": "Compound",
-      "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
       "symbol": "COMP",
+      "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xc00e94Cb662C3520282E6f5717214004A7f26888.png"
     },
     {
       "name": "Curve DAO Token",
-      "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
       "symbol": "CRV",
+      "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xD533a949740bb3306d119CC777fa900bA034cd52.png"
     },
     {
       "name": "Compound Dai v1.0 SAI",
-      "address": "0xF5DCe57282A584D2746FaF1593d3121Fcac444dC",
       "symbol": "cSAI",
+      "address": "0xF5DCe57282A584D2746FaF1593d3121Fcac444dC",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF5DCe57282A584D2746FaF1593d3121Fcac444dC/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xF5DCe57282A584D2746FaF1593d3121Fcac444dC.png"
     },
     {
       "name": "Compound USD Coin",
-      "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
       "symbol": "cUSDC",
+      "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x39AA39c021dfbaE8faC545936693aC917d5E7563/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x39AA39c021dfbaE8faC545936693aC917d5E7563.png"
     },
     {
       "name": "Dai Stablecoin",
-      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
       "symbol": "DAI",
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x6B175474E89094C44Da98b954EedeAC495271d0F.png"
     },
     {
       "name": "Streamr DATAcoin",
-      "address": "0x0Cf0Ee63788A0849fE5297F3407f701E122cC023",
       "symbol": "DATA",
+      "address": "0x0Cf0Ee63788A0849fE5297F3407f701E122cC023",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0Cf0Ee63788A0849fE5297F3407f701E122cC023/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0Cf0Ee63788A0849fE5297F3407f701E122cC023.png"
     },
     {
       "name": "DigixDAO",
-      "address": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
       "symbol": "DGD",
+      "address": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
       "decimals": 9,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A/logo.png"
+      "chainId": 1
     },
     {
       "name": "Digix Gold Token",
-      "address": "0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF",
       "symbol": "DGX",
+      "address": "0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF",
       "decimals": 9,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF.png"
     },
     {
       "name": "Decentralized Insurance Protocol",
-      "address": "0xc719d010B63E5bbF2C0551872CD5316ED26AcD83",
       "symbol": "DIP",
+      "address": "0xc719d010B63E5bbF2C0551872CD5316ED26AcD83",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc719d010B63E5bbF2C0551872CD5316ED26AcD83/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xc719d010B63E5bbF2C0551872CD5316ED26AcD83.png"
     },
     {
       "name": "Donut",
-      "address": "0xC0F9bD5Fa5698B6505F643900FFA515Ea5dF54A9",
       "symbol": "DONUT",
+      "address": "0xC0F9bD5Fa5698B6505F643900FFA515Ea5dF54A9",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC0F9bD5Fa5698B6505F643900FFA515Ea5dF54A9/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xC0F9bD5Fa5698B6505F643900FFA515Ea5dF54A9.png"
     },
     {
       "name": "EURBASE Stablecoin",
-      "address": "0x86FADb80d8D2cff3C3680819E4da99C10232Ba0F",
       "symbol": "EBASE",
+      "address": "0x86FADb80d8D2cff3C3680819E4da99C10232Ba0F",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x86FADb80d8D2cff3C3680819E4da99C10232Ba0F/logo.png"
+      "chainId": 1
     },
     {
       "name": "Enjin Coin",
-      "address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
       "symbol": "ENJ",
+      "address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c.png"
     },
     {
       "name": "SAINT FAME Genesis Shirt",
-      "address": "0x06f65b8CfCb13a9FE37d836fE9708dA38Ecb29B2",
       "symbol": "FAME",
+      "address": "0x06f65b8CfCb13a9FE37d836fE9708dA38Ecb29B2",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x06f65b8CfCb13a9FE37d836fE9708dA38Ecb29B2/logo.png"
+      "chainId": 1
     },
     {
       "name": "FOAM Token",
-      "address": "0x4946Fcea7C692606e8908002e55A582af44AC121",
       "symbol": "FOAM",
+      "address": "0x4946Fcea7C692606e8908002e55A582af44AC121",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4946Fcea7C692606e8908002e55A582af44AC121/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x4946Fcea7C692606e8908002e55A582af44AC121.png"
     },
     {
       "name": "FunFair",
-      "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
       "symbol": "FUN",
+      "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b.png"
     },
     {
       "name": "Flexacoin",
-      "address": "0x4a57E687b9126435a9B19E4A802113e266AdeBde",
       "symbol": "FXC",
+      "address": "0x4a57E687b9126435a9B19E4A802113e266AdeBde",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4a57E687b9126435a9B19E4A802113e266AdeBde/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x4a57E687b9126435a9B19E4A802113e266AdeBde.png"
     },
     {
       "name": "DAOstack",
-      "address": "0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf",
       "symbol": "GEN",
+      "address": "0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf.png"
     },
     {
       "name": "Gnosis Token",
-      "address": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
       "symbol": "GNO",
+      "address": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x6810e776880C02933D47DB1b9fc05908e5386b96.png"
     },
     {
       "name": "GRID Token",
-      "address": "0x12B19D3e2ccc14Da04FAe33e63652ce469b3F2FD",
       "symbol": "GRID",
+      "address": "0x12B19D3e2ccc14Da04FAe33e63652ce469b3F2FD",
       "decimals": 12,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x12B19D3e2ccc14Da04FAe33e63652ce469b3F2FD/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x12B19D3e2ccc14Da04FAe33e63652ce469b3F2FD.png"
     },
     {
       "name": "Gastoken.io",
-      "address": "0x0000000000b3F879cb30FE243b4Dfee438691c04",
       "symbol": "GST2",
+      "address": "0x0000000000b3F879cb30FE243b4Dfee438691c04",
       "decimals": 2,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0000000000b3F879cb30FE243b4Dfee438691c04/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0000000000b3F879cb30FE243b4Dfee438691c04.png"
     },
     {
       "name": "HedgeTrade",
-      "address": "0xF1290473E210b2108A85237fbCd7b6eb42Cc654F",
       "symbol": "HEDG",
+      "address": "0xF1290473E210b2108A85237fbCd7b6eb42Cc654F",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF1290473E210b2108A85237fbCd7b6eb42Cc654F/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xF1290473E210b2108A85237fbCd7b6eb42Cc654F.png"
     },
     {
       "name": "HoloToken",
-      "address": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
       "symbol": "HOT",
+      "address": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6c6EE5e31d828De241282B9606C8e98Ea48526E2/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x6c6EE5e31d828De241282B9606C8e98Ea48526E2.png"
     },
     {
       "name": "HUSD",
-      "address": "0xdF574c24545E5FfEcb9a659c229253D4111d87e1",
       "symbol": "HUSD",
+      "address": "0xdF574c24545E5FfEcb9a659c229253D4111d87e1",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdF574c24545E5FfEcb9a659c229253D4111d87e1/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xdF574c24545E5FfEcb9a659c229253D4111d87e1.png"
     },
     {
       "name": "Fulcrum DAI iToken",
-      "address": "0x493C57C4763932315A328269E1ADaD09653B9081",
       "symbol": "iDAI",
+      "address": "0x493C57C4763932315A328269E1ADaD09653B9081",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x493C57C4763932315A328269E1ADaD09653B9081/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x493C57C4763932315A328269E1ADaD09653B9081.png"
     },
     {
       "name": "IoTeX Network",
-      "address": "0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69",
       "symbol": "IOTX",
+      "address": "0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69/logo.png"
+      "chainId": 1
     },
     {
       "name": "Fulcrum SAI iToken ",
-      "address": "0x14094949152EDDBFcd073717200DA82fEd8dC960",
       "symbol": "iSAI",
+      "address": "0x14094949152EDDBFcd073717200DA82fEd8dC960",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x14094949152EDDBFcd073717200DA82fEd8dC960/logo.png"
+      "chainId": 1
     },
     {
       "name": "KEY",
-      "address": "0x4Cd988AfBad37289BAAf53C13e98E2BD46aAEa8c",
       "symbol": "KEY",
+      "address": "0x4Cd988AfBad37289BAAf53C13e98E2BD46aAEa8c",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4Cd988AfBad37289BAAf53C13e98E2BD46aAEa8c/logo.png"
+      "chainId": 1
     },
     {
       "name": "Kyber Network Crystal",
-      "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
       "symbol": "KNC",
+      "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xdd974D5C2e2928deA5F71b9825b8b646686BD200.png"
     },
     {
       "name": "EthLend Token",
-      "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
       "symbol": "LEND",
+      "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03.png"
     },
     {
       "name": "ChainLink Token",
-      "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
       "symbol": "LINK",
+      "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x514910771AF9Ca656af840dff83E8264EcF986CA.png"
     },
     {
       "name": "LoomToken",
-      "address": "0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0",
       "symbol": "LOOM",
+      "address": "0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0.png"
     },
     {
       "name": "Livepeer Token",
-      "address": "0x58b6A8A3302369DAEc383334672404Ee733aB239",
       "symbol": "LPT",
+      "address": "0x58b6A8A3302369DAEc383334672404Ee733aB239",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x58b6A8A3302369DAEc383334672404Ee733aB239/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x58b6A8A3302369DAEc383334672404Ee733aB239.png"
     },
     {
       "name": "Liquidity.Network Token",
-      "address": "0xD29F0b5b3F50b07Fe9a9511F7d86F4f4bAc3f8c4",
       "symbol": "LQD",
+      "address": "0xD29F0b5b3F50b07Fe9a9511F7d86F4f4bAc3f8c4",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD29F0b5b3F50b07Fe9a9511F7d86F4f4bAc3f8c4/logo.png"
+      "chainId": 1
     },
     {
       "name": "LoopringCoin V2",
-      "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
       "symbol": "LRC",
+      "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD.png"
     },
     {
       "name": "Decentraland MANA",
-      "address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
       "symbol": "MANA",
+      "address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942.png"
     },
     {
       "name": "Matic Token",
-      "address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
       "symbol": "MATIC",
+      "address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0.png"
     },
     {
       "name": "Marblecoin",
-      "address": "0x8888889213DD4dA823EbDD1e235b09590633C150",
       "symbol": "MBC",
+      "address": "0x8888889213DD4dA823EbDD1e235b09590633C150",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8888889213DD4dA823EbDD1e235b09590633C150/logo.png"
+      "chainId": 1
     },
     {
       "name": "MachiX Token",
-      "address": "0xd15eCDCF5Ea68e3995b2D0527A0aE0a3258302F8",
       "symbol": "MCX",
+      "address": "0xd15eCDCF5Ea68e3995b2D0527A0aE0a3258302F8",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd15eCDCF5Ea68e3995b2D0527A0aE0a3258302F8/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xd15eCDCF5Ea68e3995b2D0527A0aE0a3258302F8.png"
     },
     {
       "name": "Metronome",
-      "address": "0xa3d58c4E56fedCae3a7c43A725aeE9A71F0ece4e",
       "symbol": "MET",
+      "address": "0xa3d58c4E56fedCae3a7c43A725aeE9A71F0ece4e",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa3d58c4E56fedCae3a7c43A725aeE9A71F0ece4e/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xa3d58c4E56fedCae3a7c43A725aeE9A71F0ece4e.png"
     },
     {
       "name": "Magnolia Token",
-      "address": "0x80f222a749a2e18Eb7f676D371F19ad7EFEEe3b7",
       "symbol": "MGN",
+      "address": "0x80f222a749a2e18Eb7f676D371F19ad7EFEEe3b7",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x80f222a749a2e18Eb7f676D371F19ad7EFEEe3b7/logo.png"
+      "chainId": 1
     },
     {
       "name": "Maker",
-      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
       "symbol": "MKR",
+      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2.png"
     },
     {
       "name": "Melon Token",
-      "address": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
       "symbol": "MLN",
+      "address": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xec67005c4E498Ec7f55E092bd1d35cbC47C91892/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xec67005c4E498Ec7f55E092bd1d35cbC47C91892.png"
     },
     {
       "name": "Modum Token",
-      "address": "0x957c30aB0426e0C93CD8241E2c60392d08c6aC8e",
       "symbol": "MOD",
+      "address": "0x957c30aB0426e0C93CD8241E2c60392d08c6aC8e",
       "decimals": 0,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x957c30aB0426e0C93CD8241E2c60392d08c6aC8e/logo.png"
+      "chainId": 1
     },
     {
       "name": "Meta",
-      "address": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
       "symbol": "MTA",
-      "chainId": 1,
+      "address": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2/logo.png"
+      "chainId": 1,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2.png"
     },
     {
       "name": "mStable USD",
-      "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5",
       "symbol": "mUSD",
+      "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xe2f2a5C287993345a840Db3B0845fbC70f5935a5/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xe2f2a5C287993345a840Db3B0845fbC70f5935a5.png"
     },
     {
       "name": "Nexo",
-      "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
       "symbol": "NEXO",
+      "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206.png"
     },
     {
       "name": "Numeraire",
-      "address": "0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671",
       "symbol": "NMR",
+      "address": "0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671.png"
     },
     {
       "name": "Ocean Token",
-      "address": "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e",
       "symbol": "OCEAN",
+      "address": "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e/logo.png"
+      "chainId": 1
     },
     {
       "name": "Orchid",
-      "address": "0x4575f41308EC1483f3d399aa9a2826d74Da13Deb",
       "symbol": "OXT",
+      "address": "0x4575f41308EC1483f3d399aa9a2826d74Da13Deb",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4575f41308EC1483f3d399aa9a2826d74Da13Deb/logo.png"
+      "chainId": 1
     },
     {
       "name": "Panvala pan",
-      "address": "0xD56daC73A4d6766464b38ec6D91eB45Ce7457c44",
       "symbol": "PAN",
+      "address": "0xD56daC73A4d6766464b38ec6D91eB45Ce7457c44",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD56daC73A4d6766464b38ec6D91eB45Ce7457c44/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xD56daC73A4d6766464b38ec6D91eB45Ce7457c44.png"
     },
     {
       "name": "PAX",
-      "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
       "symbol": "PAX",
+      "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8E870D67F660D95d5be530380D0eC0bd388289E1/logo.png"
+      "chainId": 1
     },
     {
       "name": "Paxos Gold",
-      "address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
       "symbol": "PAXG",
+      "address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x45804880De22913dAFE09f4980848ECE6EcbAf78/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x45804880De22913dAFE09f4980848ECE6EcbAf78.png"
     },
     {
       "name": "Pinakion",
-      "address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
       "symbol": "PNK",
+      "address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d.png"
     },
     {
       "name": "POA ERC20 on Foundation",
-      "address": "0x6758B7d441a9739b98552B373703d8d3d14f9e62",
       "symbol": "POA20",
+      "address": "0x6758B7d441a9739b98552B373703d8d3d14f9e62",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6758B7d441a9739b98552B373703d8d3d14f9e62/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x6758B7d441a9739b98552B373703d8d3d14f9e62.png"
     },
     {
       "name": "QChi",
-      "address": "0x687BfC3E73f6af55F0CccA8450114D107E781a0e",
       "symbol": "QCH",
+      "address": "0x687BfC3E73f6af55F0CccA8450114D107E781a0e",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x687BfC3E73f6af55F0CccA8450114D107E781a0e/logo.png"
+      "chainId": 1
     },
     {
       "name": "Quant",
-      "address": "0x4a220E6096B25EADb88358cb44068A3248254675",
       "symbol": "QNT",
+      "address": "0x4a220E6096B25EADb88358cb44068A3248254675",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4a220E6096B25EADb88358cb44068A3248254675/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x4a220E6096B25EADb88358cb44068A3248254675.png"
     },
     {
       "name": "Quantstamp Token",
-      "address": "0x99ea4dB9EE77ACD40B119BD1dC4E33e1C070b80d",
       "symbol": "QSP",
+      "address": "0x99ea4dB9EE77ACD40B119BD1dC4E33e1C070b80d",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x99ea4dB9EE77ACD40B119BD1dC4E33e1C070b80d/logo.png"
+      "chainId": 1
     },
     {
       "name": "Ripio Credit Network Token",
-      "address": "0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6",
       "symbol": "RCN",
+      "address": "0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6.png"
     },
     {
       "name": "Raiden Token",
-      "address": "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6",
       "symbol": "RDN",
+      "address": "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6.png"
     },
     {
       "name": "Republic Token",
-      "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
       "symbol": "REN",
+      "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x408e41876cCCDC0F92210600ef50372656052a38/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x408e41876cCCDC0F92210600ef50372656052a38.png"
     },
     {
       "name": "renBCH",
-      "address": "0x459086F2376525BdCebA5bDDA135e4E9d3FeF5bf",
       "symbol": "renBCH",
+      "address": "0x459086F2376525BdCebA5bDDA135e4E9d3FeF5bf",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x459086F2376525BdCebA5bDDA135e4E9d3FeF5bf/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x459086F2376525BdCebA5bDDA135e4E9d3FeF5bf.png"
     },
     {
       "name": "renBTC",
-      "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
       "symbol": "renBTC",
+      "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D.png"
     },
     {
       "name": "renZEC",
-      "address": "0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2",
       "symbol": "renZEC",
+      "address": "0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2.png"
     },
     {
       "name": "Reputation Augur v1",
-      "address": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
       "symbol": "REP",
+      "address": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1985365e9f78359a9B6AD760e32412f4a445E862/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x1985365e9f78359a9B6AD760e32412f4a445E862.png"
     },
     {
       "name": "Reputation Augur v2",
-      "address": "0x221657776846890989a759BA2973e427DfF5C9bB",
       "symbol": "REPv2",
+      "address": "0x221657776846890989a759BA2973e427DfF5C9bB",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x221657776846890989a759BA2973e427DfF5C9bB/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x221657776846890989a759BA2973e427DfF5C9bB.png"
     },
     {
       "name": "Darwinia Network Native Token",
-      "address": "0x9469D013805bFfB7D3DEBe5E7839237e535ec483",
       "symbol": "RING",
+      "address": "0x9469D013805bFfB7D3DEBe5E7839237e535ec483",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9469D013805bFfB7D3DEBe5E7839237e535ec483/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x9469D013805bFfB7D3DEBe5E7839237e535ec483.png"
     },
     {
       "name": "iEx.ec Network Token",
-      "address": "0x607F4C5BB672230e8672085532f7e901544a7375",
       "symbol": "RLC",
+      "address": "0x607F4C5BB672230e8672085532f7e901544a7375",
       "decimals": 9,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x607F4C5BB672230e8672085532f7e901544a7375/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x607F4C5BB672230e8672085532f7e901544a7375.png"
     },
     {
       "name": "Rocket Pool",
-      "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
       "symbol": "RPL",
+      "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB4EFd85c19999D84251304bDA99E90B92300Bd93/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xB4EFd85c19999D84251304bDA99E90B92300Bd93.png"
     },
     {
       "name": "Dai Stablecoin v1.0 SAI",
-      "address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359",
       "symbol": "SAI",
+      "address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359.png"
     },
     {
       "name": "Salt",
-      "address": "0x4156D3342D5c385a87D264F90653733592000581",
       "symbol": "SALT",
+      "address": "0x4156D3342D5c385a87D264F90653733592000581",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4156D3342D5c385a87D264F90653733592000581/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x4156D3342D5c385a87D264F90653733592000581.png"
     },
     {
       "name": "SANtiment network token",
-      "address": "0x7C5A0CE9267ED19B22F8cae653F198e3E8daf098",
       "symbol": "SAN",
+      "address": "0x7C5A0CE9267ED19B22F8cae653F198e3E8daf098",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7C5A0CE9267ED19B22F8cae653F198e3E8daf098/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x7C5A0CE9267ED19B22F8cae653F198e3E8daf098.png"
     },
     {
       "name": "Synth sETH",
-      "address": "0x5e74C9036fb86BD7eCdcb084a0673EFc32eA31cb",
       "symbol": "sETH",
+      "address": "0x5e74C9036fb86BD7eCdcb084a0673EFc32eA31cb",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5e74C9036fb86BD7eCdcb084a0673EFc32eA31cb/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x5e74C9036fb86BD7eCdcb084a0673EFc32eA31cb.png"
     },
     {
       "name": "Shuffle.Monster V3",
-      "address": "0x3A9FfF453d50D4Ac52A6890647b823379ba36B9E",
       "symbol": "SHUF",
+      "address": "0x3A9FfF453d50D4Ac52A6890647b823379ba36B9E",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3A9FfF453d50D4Ac52A6890647b823379ba36B9E/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x3A9FfF453d50D4Ac52A6890647b823379ba36B9E.png"
     },
     {
       "name": "Status Network Token",
-      "address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
       "symbol": "SNT",
+      "address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x744d70FDBE2Ba4CF95131626614a1763DF805B9E/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x744d70FDBE2Ba4CF95131626614a1763DF805B9E.png"
     },
     {
       "name": "Synthetix Network Token",
-      "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
       "symbol": "SNX",
+      "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F.png"
     },
     {
       "name": "Unisocks Edition 0",
-      "address": "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5",
       "symbol": "SOCKS",
+      "address": "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x23B608675a2B2fB1890d3ABBd85c5775c51691d5/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x23B608675a2B2fB1890d3ABBd85c5775c51691d5.png"
     },
     {
       "name": "SPANK",
-      "address": "0x42d6622deCe394b54999Fbd73D108123806f6a18",
       "symbol": "SPANK",
+      "address": "0x42d6622deCe394b54999Fbd73D108123806f6a18",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x42d6622deCe394b54999Fbd73D108123806f6a18/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x42d6622deCe394b54999Fbd73D108123806f6a18.png"
     },
     {
       "name": "Serum",
-      "address": "0x476c5E26a75bd202a9683ffD34359C0CC15be0fF",
       "symbol": "SRM",
-      "chainId": 1,
+      "address": "0x476c5E26a75bd202a9683ffD34359C0CC15be0fF",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png"
+      "chainId": 1,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF.png"
     },
     {
       "name": "STAKE",
-      "address": "0x0Ae055097C6d159879521C384F1D2123D1f195e6",
       "symbol": "STAKE",
+      "address": "0x0Ae055097C6d159879521C384F1D2123D1f195e6",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0Ae055097C6d159879521C384F1D2123D1f195e6/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0Ae055097C6d159879521C384F1D2123D1f195e6.png"
     },
     {
       "name": "StorjToken",
-      "address": "0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
       "symbol": "STORJ",
+      "address": "0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC.png"
     },
     {
       "name": "Synth sUSD",
-      "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
       "symbol": "sUSD",
+      "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x57Ab1ec28D129707052df4dF418D58a2D46d5f51/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x57Ab1ec28D129707052df4dF418D58a2D46d5f51.png"
     },
     {
       "name": "Synth sXAU",
-      "address": "0x261EfCdD24CeA98652B9700800a13DfBca4103fF",
       "symbol": "sXAU",
+      "address": "0x261EfCdD24CeA98652B9700800a13DfBca4103fF",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x261EfCdD24CeA98652B9700800a13DfBca4103fF/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x261EfCdD24CeA98652B9700800a13DfBca4103fF.png"
     },
     {
       "name": "Swipe",
-      "address": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
       "symbol": "SXP",
+      "address": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9.png"
     },
     {
       "name": "TrueAUD",
-      "address": "0x00006100F7090010005F1bd7aE6122c3C2CF0090",
       "symbol": "TAUD",
+      "address": "0x00006100F7090010005F1bd7aE6122c3C2CF0090",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00006100F7090010005F1bd7aE6122c3C2CF0090/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x00006100F7090010005F1bd7aE6122c3C2CF0090.png"
     },
     {
       "name": "TrueCAD",
-      "address": "0x00000100F2A2bd000715001920eB70D229700085",
       "symbol": "TCAD",
+      "address": "0x00000100F2A2bd000715001920eB70D229700085",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00000100F2A2bd000715001920eB70D229700085/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x00000100F2A2bd000715001920eB70D229700085.png"
     },
     {
       "name": "TrueGBP",
-      "address": "0x00000000441378008EA67F4284A57932B1c000a5",
       "symbol": "TGBP",
+      "address": "0x00000000441378008EA67F4284A57932B1c000a5",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00000000441378008EA67F4284A57932B1c000a5/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x00000000441378008EA67F4284A57932B1c000a5.png"
     },
     {
       "name": "TrueHKD",
-      "address": "0x0000852600CEB001E08e00bC008be620d60031F2",
       "symbol": "THKD",
+      "address": "0x0000852600CEB001E08e00bC008be620d60031F2",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0000852600CEB001E08e00bC008be620d60031F2/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0000852600CEB001E08e00bC008be620d60031F2.png"
     },
     {
       "name": "Monolith TKN",
-      "address": "0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a",
       "symbol": "TKN",
+      "address": "0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a.png"
     },
     {
       "name": "Tellor Tributes",
-      "address": "0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5",
       "symbol": "TRB",
+      "address": "0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5.png"
     },
     {
       "name": "Trustcoin",
-      "address": "0xCb94be6f13A1182E4A4B6140cb7bf2025d28e41B",
       "symbol": "TRST",
+      "address": "0xCb94be6f13A1182E4A4B6140cb7bf2025d28e41B",
       "decimals": 6,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xCb94be6f13A1182E4A4B6140cb7bf2025d28e41B/logo.png"
+      "chainId": 1
     },
     {
       "name": "BiLira",
-      "address": "0x2C537E5624e4af88A7ae4060C022609376C8D0EB",
       "symbol": "TRYB",
+      "address": "0x2C537E5624e4af88A7ae4060C022609376C8D0EB",
       "decimals": 6,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2C537E5624e4af88A7ae4060C022609376C8D0EB/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x2C537E5624e4af88A7ae4060C022609376C8D0EB.png"
     },
     {
       "name": "TrueUSD",
-      "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
       "symbol": "TUSD",
+      "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0000000000085d4780B73119b644AE5ecd22b376/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0000000000085d4780B73119b644AE5ecd22b376.png"
+    },
+    {
+      "name": "Unbuttoned AAVE AMPL",
+      "symbol": "ubAAMPL",
+      "address": "0xF03387d8d0FF326ab586A58E0ab4121d106147DF",
+      "decimals": 18,
+      "chainId": 1
     },
     {
       "name": "UniBright",
-      "address": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
       "symbol": "UBT",
+      "address": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e.png"
     },
     {
       "name": "UMA Voting Token v1",
-      "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
       "symbol": "UMA",
+      "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828.png"
     },
     {
       "name": "Uniswap",
-      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "symbol": "UNI",
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984.png"
     },
     {
       "name": "PieDAO USD++",
-      "address": "0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e",
       "symbol": "USD++",
+      "address": "0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e.png"
     },
     {
       "name": "USDCoin",
-      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "symbol": "USDC",
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "decimals": 6,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.png"
     },
     {
       "name": "StableUSD",
-      "address": "0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe",
       "symbol": "USDS",
+      "address": "0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe",
       "decimals": 6,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe.png"
     },
     {
       "name": "Tether USD",
-      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "symbol": "USDT",
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "decimals": 6,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
     },
     {
       "name": "dForce",
-      "address": "0xeb269732ab75A6fD61Ea60b06fE994cD32a83549",
       "symbol": "USDx",
+      "address": "0xeb269732ab75A6fD61Ea60b06fE994cD32a83549",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xeb269732ab75A6fD61Ea60b06fE994cD32a83549/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xeb269732ab75A6fD61Ea60b06fE994cD32a83549.png"
     },
     {
       "name": "Veritaseum",
-      "address": "0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374",
       "symbol": "VERI",
+      "address": "0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374/logo.png"
+      "chainId": 1
     },
     {
       "name": "Wrapped BTC",
-      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
       "symbol": "WBTC",
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
     },
     {
       "name": "Wrapped CryptoKitties",
-      "address": "0x09fE5f0236F0Ea5D930197DCE254d77B04128075",
       "symbol": "WCK",
+      "address": "0x09fE5f0236F0Ea5D930197DCE254d77B04128075",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x09fE5f0236F0Ea5D930197DCE254d77B04128075/logo.png"
+      "chainId": 1
     },
     {
       "name": "Wrapped Ether",
-      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "symbol": "WETH",
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
     {
       "name": "CryptoFranc",
-      "address": "0xB4272071eCAdd69d933AdcD19cA99fe80664fc08",
       "symbol": "XCHF",
+      "address": "0xB4272071eCAdd69d933AdcD19cA99fe80664fc08",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB4272071eCAdd69d933AdcD19cA99fe80664fc08/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xB4272071eCAdd69d933AdcD19cA99fe80664fc08.png"
     },
     {
       "name": "XIO Network",
-      "address": "0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704",
       "symbol": "XIO",
+      "address": "0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704.png"
     },
     {
       "name": "0x Protocol Token",
-      "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
       "symbol": "ZRX",
+      "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xE41d2489571d322189246DaFA5ebDe1F4699F498.png"
     },
     {
       "name": "Dai Stablecoin",
+      "symbol": "DAI",
       "address": "0xaD6D458402F60fD3Bd25163575031ACDce07538D",
-      "symbol": "DAI",
       "decimals": 18,
       "chainId": 3,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaD6D458402F60fD3Bd25163575031ACDce07538D/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x6B175474E89094C44Da98b954EedeAC495271d0F.png"
     },
     {
       "name": "Uniswap",
-      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "symbol": "UNI",
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "decimals": 18,
       "chainId": 3,
-      "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984.png"
     },
     {
       "name": "Wrapped Ether",
-      "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
       "symbol": "WETH",
+      "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
       "decimals": 18,
       "chainId": 3,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
     {
       "name": "Dai Stablecoin",
+      "symbol": "DAI",
       "address": "0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735",
-      "symbol": "DAI",
       "decimals": 18,
       "chainId": 4,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x6B175474E89094C44Da98b954EedeAC495271d0F.png"
     },
     {
       "name": "Maker",
-      "address": "0xF9bA5210F91D0474bd1e1DcDAeC4C58E359AaD85",
       "symbol": "MKR",
+      "address": "0xF9bA5210F91D0474bd1e1DcDAeC4C58E359AaD85",
       "decimals": 18,
       "chainId": 4,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF9bA5210F91D0474bd1e1DcDAeC4C58E359AaD85/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2.png"
     },
     {
       "name": "Uniswap",
-      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "symbol": "UNI",
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "decimals": 18,
       "chainId": 4,
-      "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984.png"
     },
     {
       "name": "Wrapped Ether",
+      "symbol": "WETH",
       "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
-      "symbol": "WETH",
       "decimals": 18,
       "chainId": 4,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
     {
       "name": "Uniswap",
-      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "symbol": "UNI",
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "decimals": 18,
       "chainId": 5,
-      "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984.png"
     },
     {
       "name": "Wrapped Ether",
-      "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
       "symbol": "WETH",
+      "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
       "decimals": 18,
       "chainId": 5,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
+    },
+    {
+      "name": "Ampleforth",
+      "symbol": "AMPL",
+      "address": "0x3E0437898a5667a4769B1Ca5A34aAB1ae7E81377",
+      "decimals": 9,
+      "chainId": 42,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xD46bA6D942050d489DBd938a2C909A5d5039A161.png"
+    },
+    {
+      "name": "Button BTC",
+      "symbol": "bBTC",
+      "address": "0x414Fec543D85f2ef95a98221Ec214CEc745862e0",
+      "decimals": 8,
+      "chainId": 42
+    },
+    {
+      "name": "Button ETH",
+      "symbol": "bETH",
+      "address": "0x80Ee392D7F9FE19CcfDbC5365983e7Fc4C68CA4e",
+      "decimals": 18,
+      "chainId": 42
     },
     {
       "name": "Dai Stablecoin",
-      "address": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
       "symbol": "DAI",
+      "address": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
       "decimals": 18,
       "chainId": 42,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x6B175474E89094C44Da98b954EedeAC495271d0F.png"
     },
     {
       "name": "Maker",
-      "address": "0xAaF64BFCC32d0F15873a02163e7E500671a4ffcD",
       "symbol": "MKR",
+      "address": "0xAaF64BFCC32d0F15873a02163e7E500671a4ffcD",
       "decimals": 18,
       "chainId": 42,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAaF64BFCC32d0F15873a02163e7E500671a4ffcD/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2.png"
     },
     {
       "name": "Uniswap",
-      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "symbol": "UNI",
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "decimals": 18,
       "chainId": 42,
-      "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0xaFF4481D10270F50f203E0763e2597776068CBc5",
+      "decimals": 18,
+      "chainId": 42,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
+    },
+    {
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "address": "0xA0A5aD2296b38Bd3e3Eb59AAEAF1589E8d9a29A9",
+      "decimals": 8,
+      "chainId": 42,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
     },
     {
       "name": "Wrapped Ether",
-      "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
       "symbol": "WETH",
+      "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
       "decimals": 18,
       "chainId": 42,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd0A1E359811322d97991E03f863a0C30C2cF029C/logo.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     }
-  ],
-  "version": {
-    "major": 0,
-    "minor": 1,
-    "patch": 0
-  }
+  ]
 }
