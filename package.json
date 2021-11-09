@@ -10,9 +10,11 @@
     "node": ">=14.17"
   },
   "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@uniswap/token-lists": "*"
+  },
   "devDependencies": {
     "@ethersproject/address": "^5.5.0",
-    "@uniswap/token-lists": "*",
     "ajv": "^8.6.3",
     "chai": "^4.3.4",
     "mocha": "^9.1.3",
