@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2021-11-05T03:34:22.349Z",
+  "timestamp": "2021-11-09T00:52:02.680Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -105,14 +105,16 @@
       "symbol": "bBTC",
       "address": "0x69d4d3629e1aFEE0C4E75B6B345B482979A77112",
       "decimals": 8,
-      "chainId": 1
+      "chainId": 1,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x69d4d3629e1aFEE0C4E75B6B345B482979A77112.png"
     },
     {
       "name": "Button ETH",
       "symbol": "bETH",
       "address": "0x125C7b36bEa62Ba3266257521667154446412921",
       "decimals": 18,
-      "chainId": 1
+      "chainId": 1,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x125C7b36bEa62Ba3266257521667154446412921.png"
     },
     {
       "name": "Bloom Token",
@@ -901,7 +903,8 @@
       "symbol": "ubAAMPL",
       "address": "0xF03387d8d0FF326ab586A58E0ab4121d106147DF",
       "decimals": 18,
-      "chainId": 1
+      "chainId": 1,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xF03387d8d0FF326ab586A58E0ab4121d106147DF.png"
     },
     {
       "name": "UniBright",
@@ -1106,14 +1109,16 @@
       "symbol": "bBTC",
       "address": "0x414Fec543D85f2ef95a98221Ec214CEc745862e0",
       "decimals": 8,
-      "chainId": 42
+      "chainId": 42,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x69d4d3629e1aFEE0C4E75B6B345B482979A77112.png"
     },
     {
       "name": "Button ETH",
       "symbol": "bETH",
       "address": "0x80Ee392D7F9FE19CcfDbC5365983e7Fc4C68CA4e",
       "decimals": 18,
-      "chainId": 42
+      "chainId": 42,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x125C7b36bEa62Ba3266257521667154446412921.png"
     },
     {
       "name": "Dai Stablecoin",

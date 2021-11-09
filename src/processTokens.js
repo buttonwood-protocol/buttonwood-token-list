@@ -44,24 +44,19 @@ async function doesLogoExist(address) {
 
 async function generateWrapperLogo(address, wrapperConfig) {
 	const wrapperPath = path.join('.', 'src', 'wrappers', wrapperConfig.wrapper);
-	const styles = await fs.readdir(wrapperPath);
-	for (const style of styles) {
-		const canvas = createCanvas(logoSize, logoSize);
-		const ctx = canvas.getContext('2d');
-		ctx.quality = 'best';
-		const underlyingAssetImage = await loadImage(getLocalLogoPath(wrapperConfig.underlying.address));
-		const overlayImage = await loadImage(path.join(wrapperPath, style, 'overlay.png'));
-		const maskImage = await loadImage(path.join(wrapperPath, style, 'mask.png'));
-		ctx.drawImage(maskImage, 0, 0, logoSize, logoSize);
-		ctx.globalCompositeOperation = 'source-atop';
-		ctx.drawImage(underlyingAssetImage, 0, 0, logoSize, logoSize);
-		ctx.globalCompositeOperation = 'source-over';
-		ctx.drawImage(overlayImage, 0, 0, logoSize, logoSize);
-		const output = canvas.toBuffer('image/png');
-		const outputPath = path.join('.', 'assets', 'wrappers', wrapperConfig.wrapper, style);
-		await ensureDir(outputPath);
-		await fs.writeFile(path.join(outputPath, `${address}.png`), output);
-	}
+	const canvas = createCanvas(logoSize, logoSize);
+	const ctx = canvas.getContext('2d');
+	ctx.quality = 'best';
+	const underlyingAssetImage = await loadImage(getLocalLogoPath(wrapperConfig.underlying.address));
+	const overlayImage = await loadImage(path.join(wrapperPath, 'overlay.png'));
+	const maskImage = await loadImage(path.join(wrapperPath, 'mask.png'));
+	ctx.drawImage(maskImage, 0, 0, logoSize, logoSize);
+	ctx.globalCompositeOperation = 'source-atop';
+	ctx.drawImage(underlyingAssetImage, 0, 0, logoSize, logoSize);
+	ctx.globalCompositeOperation = 'source-over';
+	ctx.drawImage(overlayImage, 0, 0, logoSize, logoSize);
+	const output = canvas.toBuffer('image/png');
+	await fs.writeFile(path.join('.', 'assets', 'tokens', `${address}.png`), output);
 }
 
 async function processLogo(address, wrapperConfig) {
@@ -73,29 +68,13 @@ async function processLogo(address, wrapperConfig) {
 			// underlying asset logo doesn't exist, so grab it
 			await downloadLogo(addressUnderlying);
 		}
+		await generateWrapperLogo(address, wrapperConfig);
 	} else {
 		// check logo exists already
 		if (!await doesLogoExist(address)) {
 			// logo doesn't exist, so grab it
 			await downloadLogo(address);
 		}
-	}
-	const wrapperConfigs = [
-		{
-			"wrapper": "button",
-			"underlying": {
-				"address": address
-			}
-		},
-		{
-			"wrapper": "unbutton",
-			"underlying": {
-				"address": address
-			}
-		},
-	];
-	for (config of wrapperConfigs) {
-		await generateWrapperLogo(address, config);
 	}
 }
 
