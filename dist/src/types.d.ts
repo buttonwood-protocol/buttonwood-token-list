@@ -1,12 +1,9 @@
 import { Tags, Version } from '@uniswap/token-lists';
-
 export { TokenList } from '@uniswap/token-lists';
-
 export interface WrapperPair {
     readonly unwrapped: string;
     readonly wrapped: string;
 }
-
 export interface WrapperMap {
     readonly name: string;
     readonly timestamp: string;
@@ -19,7 +16,6 @@ export interface WrapperMap {
     readonly logoURI?: string;
     readonly tokens?: TokenData[];
 }
-
 export interface TokenConfig {
     name: string;
     symbol: string;
@@ -30,14 +26,12 @@ export interface TokenConfig {
     };
     derived?: DerivedTokenConfig;
 }
-
 export interface DerivedTokenConfig {
     wrapper: string;
     underlying: {
         address: string;
     };
 }
-
 export interface TokenData {
     name: string;
     symbol: string;
