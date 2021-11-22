@@ -21,6 +21,9 @@ const logoSize = 256;
 function getLocalLogoPath(address) {
     return path_1.default.join('.', 'assets', 'tokens', `${address}.png`);
 }
+function getWrapperPath(wrapper) {
+    return path_1.default.join('.', 'src', 'wrappers', wrapper);
+}
 function downloadLogo(address) {
     return __awaiter(this, void 0, void 0, function* () {
         const canvas = (0, canvas_1.createCanvas)(logoSize, logoSize);
@@ -51,7 +54,7 @@ function doesLogoExist(address) {
 }
 function generateWrapperLogo(address, wrapperConfig) {
     return __awaiter(this, void 0, void 0, function* () {
-        const wrapperPath = path_1.default.join('.', 'src', 'wrappers', wrapperConfig.wrapper);
+        const wrapperPath = getWrapperPath(wrapperConfig.wrapper);
         const canvas = (0, canvas_1.createCanvas)(logoSize, logoSize);
         const ctx = canvas.getContext('2d');
         ctx.quality = 'best';
@@ -69,7 +72,19 @@ function generateWrapperLogo(address, wrapperConfig) {
 }
 function processLogo(address, wrapperConfig) {
     return __awaiter(this, void 0, void 0, function* () {
+        let handleWrapped = false;
         if (wrapperConfig) {
+            const wrapperPath = getWrapperPath(wrapperConfig.wrapper);
+            try {
+                yield promises_1.default.stat(wrapperPath);
+                // wrapper defined
+                handleWrapped = true;
+            }
+            catch (err) {
+                // wrapper not defined, handle like unwrapped asset
+            }
+        }
+        if (handleWrapped && wrapperConfig) {
             // regenerate logo
             const addressUnderlying = wrapperConfig.underlying.address;
             // check underlying asset logo exists already
