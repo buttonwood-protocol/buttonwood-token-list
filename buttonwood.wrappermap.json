@@ -1,10 +1,10 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2021-11-09T21:21:45.082Z",
+  "timestamp": "2021-11-22T19:38:08.055Z",
   "version": {
     "major": 0,
     "minor": 1,
-    "patch": 1
+    "patch": 2
   },
   "tags": {},
   "logoURI": "https://raw.githubusercontent.com/marktoda/buttonwood-token-list/main/assets/buttonwood.svg",
@@ -17,6 +17,10 @@
       {
         "unwrapped": "0x1E6bb68Acec8fefBD87D192bE09bb274170a0548",
         "wrapped": "0xF03387d8d0FF326ab586A58E0ab4121d106147DF"
+      },
+      {
+        "unwrapped": "0x3E0437898a5667a4769B1Ca5A34aAB1ae7E81377",
+        "wrapped": "0xeBB66682BE59c7DE222AFD7e884C065b5f1cA9Ca"
       }
     ],
     "button": [
@@ -35,6 +39,16 @@
       {
         "unwrapped": "0xA0A5aD2296b38Bd3e3Eb59AAEAF1589E8d9a29A9",
         "wrapped": "0x414Fec543D85f2ef95a98221Ec214CEc745862e0"
+      }
+    ],
+    "wampl": [
+      {
+        "unwrapped": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+        "wrapped": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef"
+      },
+      {
+        "unwrapped": "0x3E0437898a5667a4769B1Ca5A34aAB1ae7E81377",
+        "wrapped": "0xD012092D13e5a4aa7A9032335B380C62Fc707232"
       }
     ]
   }

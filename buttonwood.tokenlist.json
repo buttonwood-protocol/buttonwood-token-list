@@ -1,10 +1,10 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2021-11-09T21:21:45.081Z",
+  "timestamp": "2021-11-22T19:38:08.053Z",
   "version": {
     "major": 0,
     "minor": 1,
-    "patch": 1
+    "patch": 2
   },
   "tags": {},
   "logoURI": "https://raw.githubusercontent.com/marktoda/buttonwood-token-list/main/assets/buttonwood.svg",
@@ -271,6 +271,14 @@
       "decimals": 18,
       "chainId": 1,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c.png"
+    },
+    {
+      "name": "Ether",
+      "symbol": "ETH",
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
     },
     {
       "name": "SAINT FAME Genesis Shirt",
@@ -978,6 +986,14 @@
       "chainId": 1
     },
     {
+      "name": "Wrapped Ampleforth",
+      "symbol": "WAMPL",
+      "address": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef.png"
+    },
+    {
       "name": "Wrapped BTC",
       "symbol": "WBTC",
       "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
@@ -1129,12 +1145,28 @@
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x6B175474E89094C44Da98b954EedeAC495271d0F.png"
     },
     {
+      "name": "Ether",
+      "symbol": "ETH",
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "decimals": 18,
+      "chainId": 42,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+    },
+    {
       "name": "Maker",
       "symbol": "MKR",
       "address": "0xAaF64BFCC32d0F15873a02163e7E500671a4ffcD",
       "decimals": 18,
       "chainId": 42,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2.png"
+    },
+    {
+      "name": "Unbuttoned AMPL",
+      "symbol": "ubAMPL",
+      "address": "0xeBB66682BE59c7DE222AFD7e884C065b5f1cA9Ca",
+      "decimals": 18,
+      "chainId": 42,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xeBB66682BE59c7DE222AFD7e884C065b5f1cA9Ca.png"
     },
     {
       "name": "Uniswap",
@@ -1151,6 +1183,14 @@
       "decimals": 18,
       "chainId": 42,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
+    },
+    {
+      "name": "Wrapped Ampleforth",
+      "symbol": "WAMPL",
+      "address": "0xD012092D13e5a4aa7A9032335B380C62Fc707232",
+      "decimals": 18,
+      "chainId": 42,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef.png"
     },
     {
       "name": "Wrapped BTC",

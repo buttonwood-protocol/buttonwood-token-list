@@ -1,6 +1,6 @@
 {
     "name": "buttonwood-token-list",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "private": true,
     "description": "Tokenlist for Buttonwood Protocol",
     "main": "./dist/src/index.js",
@@ -20,7 +20,7 @@
         "prettier": "prettier --config .prettierrc --write \"**/*.{js,json,md,sol,ts}\"",
         "prettier:list-different": "prettier --config .prettierrc --list-different \"**/*.{js,json,md,sol,ts}\"",
         "start": "yarn build && node dist/src/build.js",
-        "test": "mocha"
+        "test": "mocha -r ts-node/register 'test/**/*test.ts'"
     },
     "engines": {
         "node": ">=14.17"
@@ -37,6 +37,8 @@
     },
     "devDependencies": {
         "@ethersproject/address": "^5.5.0",
+        "@types/chai": "^4.2.22",
+        "@types/mocha": "^9.0.0",
         "@types/node": "^16.11.7",
         "ajv": "^8.6.3",
         "ajv-formats": "^2.1.1",
