@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2021-11-22T19:38:08.055Z",
+  "timestamp": "2022-03-05T02:29:50.505Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -16,39 +16,62 @@
     "unbutton": [
       {
         "unwrapped": "0x1E6bb68Acec8fefBD87D192bE09bb274170a0548",
-        "wrapped": "0xF03387d8d0FF326ab586A58E0ab4121d106147DF"
+        "wrapped": "0xF03387d8d0FF326ab586A58E0ab4121d106147DF",
+        "chainId": 1
       },
       {
         "unwrapped": "0x3E0437898a5667a4769B1Ca5A34aAB1ae7E81377",
-        "wrapped": "0xeBB66682BE59c7DE222AFD7e884C065b5f1cA9Ca"
+        "wrapped": "0xeBB66682BE59c7DE222AFD7e884C065b5f1cA9Ca",
+        "chainId": 42
       }
     ],
     "button": [
       {
         "unwrapped": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "wrapped": "0x125C7b36bEa62Ba3266257521667154446412921"
+        "wrapped": "0x125C7b36bEa62Ba3266257521667154446412921",
+        "chainId": 1
       },
       {
         "unwrapped": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-        "wrapped": "0x80Ee392D7F9FE19CcfDbC5365983e7Fc4C68CA4e"
+        "wrapped": "0x80Ee392D7F9FE19CcfDbC5365983e7Fc4C68CA4e",
+        "chainId": 42
+      },
+      {
+        "unwrapped": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+        "wrapped": "0x227d7A0e2586A5bFdA7f32aDF066d20D1bfDfDfb",
+        "chainId": 43114
       },
       {
         "unwrapped": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-        "wrapped": "0x69d4d3629e1aFEE0C4E75B6B345B482979A77112"
+        "wrapped": "0x69d4d3629e1aFEE0C4E75B6B345B482979A77112",
+        "chainId": 1
       },
       {
         "unwrapped": "0xA0A5aD2296b38Bd3e3Eb59AAEAF1589E8d9a29A9",
-        "wrapped": "0x414Fec543D85f2ef95a98221Ec214CEc745862e0"
+        "wrapped": "0x414Fec543D85f2ef95a98221Ec214CEc745862e0",
+        "chainId": 42
+      },
+      {
+        "unwrapped": "0x50b7545627a5162f82a992c33b87adc75187b218",
+        "wrapped": "0x9bFE32D18e66ffAF6dcB0306AE7D24F768469f91",
+        "chainId": 43114
+      },
+      {
+        "unwrapped": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+        "wrapped": "0x9f61aE42c01698aC35AedeF651B0FE5E407bC6A0",
+        "chainId": 43114
       }
     ],
     "wampl": [
       {
         "unwrapped": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
-        "wrapped": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef"
+        "wrapped": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef",
+        "chainId": 1
       },
       {
         "unwrapped": "0x3E0437898a5667a4769B1Ca5A34aAB1ae7E81377",
-        "wrapped": "0xD012092D13e5a4aa7A9032335B380C62Fc707232"
+        "wrapped": "0xD012092D13e5a4aa7A9032335B380C62Fc707232",
+        "chainId": 42
       }
     ]
   }

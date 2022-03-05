@@ -37,6 +37,7 @@ export function buildWrapperMap(): WrapperMap {
                     wrapper.push({
                         unwrapped: underlyingToken.chains[chainId].address,
                         wrapped: token.chains[chainId].address,
+                        chainId: parseInt(chainId),
                     });
                 }
             }

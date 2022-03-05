@@ -6,7 +6,10 @@ import {DerivedTokenConfig, TokenConfig, TokenData} from './types';
 
 const logoSize = 256;
 
-function getLocalLogoPath(address: string): string {
+function getLocalLogoPath(address: string, chainId?: number): string {
+    if (chainId) {
+        return path.join('.', 'assets', 'tokens', chainId.toString(), `${address}.png`);
+    }
     return path.join('.', 'assets', 'tokens', `${address}.png`);
 }
 
@@ -30,9 +33,9 @@ async function downloadLogo(address: string) {
     await fs.writeFile(getLocalLogoPath(address), output);
 }
 
-async function doesLogoExist(address: string): Promise<boolean> {
+async function doesLogoExist(address: string, chainId?: number): Promise<boolean> {
     try {
-        await fs.access(getLocalLogoPath(address));
+        await fs.access(getLocalLogoPath(address, chainId));
         return true;
     } catch (err) {
         return false;
@@ -108,7 +111,6 @@ export async function processTokens(
         );
         const primaryAddress: string =
             tokenConfig.chains[tokenConfig.primaryChainId].address;
-        let logoURI = null;
 
         try {
             if (skipImageProcessing) {
@@ -119,7 +121,6 @@ export async function processTokens(
                 await processLogo(primaryAddress, tokenConfig.derived);
             }
 
-            logoURI = `https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/${primaryAddress}.png`;
         } catch (err) {
             console.error(
                 `Failed to get logoURI for ${tokenConfig.name} [${tokenConfig.symbol}]: ${err}`,
@@ -132,8 +133,14 @@ export async function processTokens(
                 ...tokenConfig.chains[chainId],
             };
             const tokenData = {name, symbol, address, decimals, chainId};
-            if (logoURI) {
-                Object.assign(tokenData, {logoURI});
+            if (await doesLogoExist(primaryAddress, chainId)) {
+                Object.assign(tokenData, { 
+                    logoURI: `https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/${chainId}/${primaryAddress}.png`,
+                });
+            } else if (await doesLogoExist(primaryAddress)) {
+                Object.assign(tokenData, { 
+                    logoURI: `https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/${primaryAddress}.png`,
+                });
             }
             tokens.push(tokenData);
         }
