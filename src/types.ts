@@ -5,6 +5,7 @@ export { TokenList } from '@uniswap/token-lists';
 export interface WrapperPair {
     readonly unwrapped: string;
     readonly wrapped: string;
+    readonly chainId: number;
 }
 
 export interface WrapperMap {
