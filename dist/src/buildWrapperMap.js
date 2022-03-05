@@ -6,10 +6,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.buildWrapperMap = void 0;
 const package_json_1 = __importDefault(require("../package.json"));
 const tokens_json_1 = __importDefault(require("./tokens.json"));
-function getAddressKeyedTokenMap(tokenJson) {
+function getSymbolKeyedTokenMap(tokenJson) {
     const keyedTokenMap = {};
     for (const token of tokenJson) {
-        const key = token.chains[token.primaryChainId].address;
+        const key = token.symbol;
         keyedTokenMap[key] = token;
     }
     return keyedTokenMap;
@@ -18,7 +18,7 @@ function buildWrapperMap() {
     const [major, minor, patch] = package_json_1.default.version
         .split('.')
         .map((segment) => parseInt(segment, 10));
-    const keyedTokenMap = getAddressKeyedTokenMap(tokens_json_1.default);
+    const keyedTokenMap = getSymbolKeyedTokenMap(tokens_json_1.default);
     const wrappers = {};
     for (const token of tokens_json_1.default) {
         if (token.derived) {
@@ -26,7 +26,8 @@ function buildWrapperMap() {
             if (!wrapper) {
                 wrapper = wrappers[token.derived.wrapper] = [];
             }
-            const underlyingToken = keyedTokenMap[token.derived.underlying.address];
+            console.log(token.derived.underlying);
+            const underlyingToken = keyedTokenMap[token.derived.underlying.symbol];
             for (const chainId of Object.keys(token.chains)) {
                 if (underlyingToken.chains[chainId]) {
                     wrapper.push({

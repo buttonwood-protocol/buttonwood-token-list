@@ -6,15 +6,15 @@ import {DerivedTokenConfig, TokenConfig, TokenData} from './types';
 
 const logoSize = 256;
 
-function getLocalLogoPath(address: string): string {
-    return path.join('.', 'assets', 'tokens', `${address}.png`);
+function getLocalLogoPath(symbol: string): string {
+    return path.join('.', 'assets', 'tokens', `${symbol}.png`);
 }
 
 function getWrapperPath(wrapper: string) {
     return path.join('.', 'src', 'wrappers', wrapper,);
 }
 
-async function downloadLogo(address: string) {
+async function downloadLogo(symbol: string, address: string) {
     const canvas = createCanvas(logoSize, logoSize);
     const ctx = canvas.getContext('2d');
     ctx.quality = 'best';
@@ -27,7 +27,7 @@ async function downloadLogo(address: string) {
     }
     ctx.drawImage(image, 0, 0, logoSize, logoSize);
     const output = canvas.toBuffer('image/png');
-    await fs.writeFile(getLocalLogoPath(address), output);
+    await fs.writeFile(getLocalLogoPath(symbol), output);
 }
 
 async function doesLogoExist(address: string): Promise<boolean> {
@@ -40,7 +40,7 @@ async function doesLogoExist(address: string): Promise<boolean> {
 }
 
 async function generateWrapperLogo(
-    address: string,
+    symbol: string,
     wrapperConfig: DerivedTokenConfig,
 ): Promise<void> {
     const wrapperPath = getWrapperPath(wrapperConfig.wrapper);
@@ -48,7 +48,7 @@ async function generateWrapperLogo(
     const ctx = canvas.getContext('2d');
     ctx.quality = 'best';
     const underlyingAssetImage = await loadImage(
-        getLocalLogoPath(wrapperConfig.underlying.address),
+        getLocalLogoPath(wrapperConfig.underlying.symbol),
     );
     const overlayImage = await loadImage(path.join(wrapperPath, 'overlay.png'));
     const maskImage = await loadImage(path.join(wrapperPath, 'mask.png'));
@@ -59,13 +59,14 @@ async function generateWrapperLogo(
     ctx.drawImage(overlayImage, 0, 0, logoSize, logoSize);
     const output = canvas.toBuffer('image/png');
     await fs.writeFile(
-        path.join('.', 'assets', 'tokens', `${address}.png`),
+        path.join('.', 'assets', 'tokens', `${symbol}.png`),
         output,
     );
 }
 
 async function processLogo(
     address: string,
+    symbol: string,
     wrapperConfig?: DerivedTokenConfig,
 ): Promise<void> {
     let handleWrapped = false;
@@ -81,18 +82,18 @@ async function processLogo(
     }
     if (handleWrapped && wrapperConfig) {
         // regenerate logo
-        const addressUnderlying = wrapperConfig.underlying.address;
+        const underlyingSymbol = wrapperConfig.underlying.symbol;
         // check underlying asset logo exists already
-        if (!(await doesLogoExist(addressUnderlying))) {
+        if (!(await doesLogoExist(underlyingSymbol))) {
             // underlying asset logo doesn't exist, so grab it
-            await downloadLogo(addressUnderlying);
+            await downloadLogo(symbol, underlyingSymbol);
         }
-        await generateWrapperLogo(address, wrapperConfig);
+        await generateWrapperLogo(symbol, wrapperConfig);
     } else {
         // check logo exists already
-        if (!(await doesLogoExist(address))) {
+        if (!(await doesLogoExist(symbol))) {
             // logo doesn't exist, so grab it
-            await downloadLogo(address);
+            await downloadLogo(symbol, address);
         }
     }
 }
@@ -112,14 +113,14 @@ export async function processTokens(
 
         try {
             if (skipImageProcessing) {
-                if (!(await doesLogoExist(primaryAddress))) {
+                if (!(await doesLogoExist(tokenConfig.symbol))) {
                     throw new Error(`Local asset doesn't exist`);
                 }
             } else {
-                await processLogo(primaryAddress, tokenConfig.derived);
+                await processLogo(primaryAddress, tokenConfig.symbol, tokenConfig.derived);
             }
 
-            logoURI = `https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/${primaryAddress}.png`;
+            logoURI = `https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/${tokenConfig.symbol}.png`;
         } catch (err) {
             console.error(
                 `Failed to get logoURI for ${tokenConfig.name} [${tokenConfig.symbol}]: ${err}`,

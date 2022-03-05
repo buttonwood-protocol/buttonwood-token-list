@@ -29,7 +29,7 @@ export interface TokenConfig {
 export interface DerivedTokenConfig {
     wrapper: string;
     underlying: {
-        address: string;
+        symbol: string;
     };
 }
 export interface TokenData {

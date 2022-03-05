@@ -6,11 +6,11 @@ interface KeyedTokenMap {
     [key: string]: TokenConfig;
 }
 
-function getAddressKeyedTokenMap(tokenJson: TokenConfig[]): KeyedTokenMap {
+function getSymbolKeyedTokenMap(tokenJson: TokenConfig[]): KeyedTokenMap {
     const keyedTokenMap: KeyedTokenMap = {};
 
     for (const token of tokenJson) {
-        const key = token.chains[token.primaryChainId].address;
+        const key = token.symbol;
         keyedTokenMap[key] = token;
     }
 
@@ -21,7 +21,7 @@ export function buildWrapperMap(): WrapperMap {
     const [major, minor, patch] = packageJson.version
         .split('.')
         .map((segment) => parseInt(segment, 10));
-    const keyedTokenMap = getAddressKeyedTokenMap(tokenJson as TokenConfig[]);
+    const keyedTokenMap = getSymbolKeyedTokenMap(tokenJson as TokenConfig[]);
     const wrappers: { [key: string]: WrapperPair[] } = {};
     for (const token of tokenJson as TokenConfig[]) {
         if (token.derived) {
@@ -30,7 +30,7 @@ export function buildWrapperMap(): WrapperMap {
                 wrapper = wrappers[token.derived.wrapper] = [];
             }
             const underlyingToken =
-                keyedTokenMap[token.derived.underlying.address];
+                keyedTokenMap[token.derived.underlying.symbol];
 
             for (const chainId of Object.keys(token.chains)) {
                 if (underlyingToken.chains[chainId]) {

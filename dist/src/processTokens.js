@@ -18,13 +18,13 @@ const path_1 = __importDefault(require("path"));
 const canvas_1 = require("canvas");
 const tokens_json_1 = __importDefault(require("./tokens.json"));
 const logoSize = 256;
-function getLocalLogoPath(address) {
-    return path_1.default.join('.', 'assets', 'tokens', `${address}.png`);
+function getLocalLogoPath(symbol) {
+    return path_1.default.join('.', 'assets', 'tokens', `${symbol}.png`);
 }
 function getWrapperPath(wrapper) {
     return path_1.default.join('.', 'src', 'wrappers', wrapper);
 }
-function downloadLogo(address) {
+function downloadLogo(symbol, address) {
     return __awaiter(this, void 0, void 0, function* () {
         const canvas = (0, canvas_1.createCanvas)(logoSize, logoSize);
         const ctx = canvas.getContext('2d');
@@ -38,7 +38,7 @@ function downloadLogo(address) {
         }
         ctx.drawImage(image, 0, 0, logoSize, logoSize);
         const output = canvas.toBuffer('image/png');
-        yield promises_1.default.writeFile(getLocalLogoPath(address), output);
+        yield promises_1.default.writeFile(getLocalLogoPath(symbol), output);
     });
 }
 function doesLogoExist(address) {
@@ -52,13 +52,13 @@ function doesLogoExist(address) {
         }
     });
 }
-function generateWrapperLogo(address, wrapperConfig) {
+function generateWrapperLogo(symbol, wrapperConfig) {
     return __awaiter(this, void 0, void 0, function* () {
         const wrapperPath = getWrapperPath(wrapperConfig.wrapper);
         const canvas = (0, canvas_1.createCanvas)(logoSize, logoSize);
         const ctx = canvas.getContext('2d');
         ctx.quality = 'best';
-        const underlyingAssetImage = yield (0, canvas_1.loadImage)(getLocalLogoPath(wrapperConfig.underlying.address));
+        const underlyingAssetImage = yield (0, canvas_1.loadImage)(getLocalLogoPath(wrapperConfig.underlying.symbol));
         const overlayImage = yield (0, canvas_1.loadImage)(path_1.default.join(wrapperPath, 'overlay.png'));
         const maskImage = yield (0, canvas_1.loadImage)(path_1.default.join(wrapperPath, 'mask.png'));
         ctx.drawImage(maskImage, 0, 0, logoSize, logoSize);
@@ -67,10 +67,10 @@ function generateWrapperLogo(address, wrapperConfig) {
         ctx.globalCompositeOperation = 'source-over';
         ctx.drawImage(overlayImage, 0, 0, logoSize, logoSize);
         const output = canvas.toBuffer('image/png');
-        yield promises_1.default.writeFile(path_1.default.join('.', 'assets', 'tokens', `${address}.png`), output);
+        yield promises_1.default.writeFile(path_1.default.join('.', 'assets', 'tokens', `${symbol}.png`), output);
     });
 }
-function processLogo(address, wrapperConfig) {
+function processLogo(address, symbol, wrapperConfig) {
     return __awaiter(this, void 0, void 0, function* () {
         let handleWrapped = false;
         if (wrapperConfig) {
@@ -86,19 +86,19 @@ function processLogo(address, wrapperConfig) {
         }
         if (handleWrapped && wrapperConfig) {
             // regenerate logo
-            const addressUnderlying = wrapperConfig.underlying.address;
+            const underlyingSymbol = wrapperConfig.underlying.symbol;
             // check underlying asset logo exists already
-            if (!(yield doesLogoExist(addressUnderlying))) {
+            if (!(yield doesLogoExist(underlyingSymbol))) {
                 // underlying asset logo doesn't exist, so grab it
-                yield downloadLogo(addressUnderlying);
+                yield downloadLogo(symbol, underlyingSymbol);
             }
-            yield generateWrapperLogo(address, wrapperConfig);
+            yield generateWrapperLogo(symbol, wrapperConfig);
         }
         else {
             // check logo exists already
-            if (!(yield doesLogoExist(address))) {
+            if (!(yield doesLogoExist(symbol))) {
                 // logo doesn't exist, so grab it
-                yield downloadLogo(address);
+                yield downloadLogo(symbol, address);
             }
         }
     });
@@ -112,14 +112,14 @@ function processTokens(skipImageProcessing) {
             let logoURI = null;
             try {
                 if (skipImageProcessing) {
-                    if (!(yield doesLogoExist(primaryAddress))) {
+                    if (!(yield doesLogoExist(tokenConfig.symbol))) {
                         throw new Error(`Local asset doesn't exist`);
                     }
                 }
                 else {
-                    yield processLogo(primaryAddress, tokenConfig.derived);
+                    yield processLogo(primaryAddress, tokenConfig.symbol, tokenConfig.derived);
                 }
-                logoURI = `https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/${primaryAddress}.png`;
+                logoURI = `https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/${tokenConfig.symbol}.png`;
             }
             catch (err) {
                 console.error(`Failed to get logoURI for ${tokenConfig.name} [${tokenConfig.symbol}]: ${err}`);
