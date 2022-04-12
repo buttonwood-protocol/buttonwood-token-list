@@ -1,10 +1,10 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2022-03-05T02:29:50.505Z",
+  "timestamp": "2022-04-12T01:12:29.854Z",
   "version": {
     "major": 0,
     "minor": 1,
-    "patch": 2
+    "patch": 3
   },
   "tags": {},
   "logoURI": "https://raw.githubusercontent.com/marktoda/buttonwood-token-list/main/assets/buttonwood.svg",
@@ -33,7 +33,7 @@
       },
       {
         "unwrapped": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-        "wrapped": "0x80Ee392D7F9FE19CcfDbC5365983e7Fc4C68CA4e",
+        "wrapped": "0x8ea34f5856bd3dfaaA27309F85853F1737BE7832",
         "chainId": 42
       },
       {
@@ -48,7 +48,7 @@
       },
       {
         "unwrapped": "0xA0A5aD2296b38Bd3e3Eb59AAEAF1589E8d9a29A9",
-        "wrapped": "0x414Fec543D85f2ef95a98221Ec214CEc745862e0",
+        "wrapped": "0xaB6FCbBb7828B3de2f44A0fA22027A001572f7Ad",
         "chainId": 42
       },
       {
