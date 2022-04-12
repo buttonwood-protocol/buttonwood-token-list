@@ -1,10 +1,10 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2022-03-05T02:29:50.504Z",
+  "timestamp": "2022-04-12T01:12:29.853Z",
   "version": {
     "major": 0,
     "minor": 1,
-    "patch": 2
+    "patch": 3
   },
   "tags": {},
   "logoURI": "https://raw.githubusercontent.com/marktoda/buttonwood-token-list/main/assets/buttonwood.svg",
@@ -1124,7 +1124,7 @@
     {
       "name": "Button BTC",
       "symbol": "bBTC",
-      "address": "0x414Fec543D85f2ef95a98221Ec214CEc745862e0",
+      "address": "0xaB6FCbBb7828B3de2f44A0fA22027A001572f7Ad",
       "decimals": 8,
       "chainId": 42,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x69d4d3629e1aFEE0C4E75B6B345B482979A77112.png"
@@ -1132,7 +1132,7 @@
     {
       "name": "Button ETH",
       "symbol": "bETH",
-      "address": "0x80Ee392D7F9FE19CcfDbC5365983e7Fc4C68CA4e",
+      "address": "0x8ea34f5856bd3dfaaA27309F85853F1737BE7832",
       "decimals": 18,
       "chainId": 42,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x125C7b36bEa62Ba3266257521667154446412921.png"
