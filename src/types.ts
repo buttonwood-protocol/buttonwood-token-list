@@ -1,6 +1,6 @@
 import { Tags, Version } from '@uniswap/token-lists';
 
-export { TokenList } from '@uniswap/token-lists';
+export type { TokenList } from '@uniswap/token-lists';
 
 export interface WrapperPair {
     readonly unwrapped: string;
