@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2022-04-12T01:12:29.853Z",
+  "timestamp": "2022-04-18T19:48:59.398Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -104,18 +104,18 @@
     {
       "name": "Button BTC",
       "symbol": "bBTC",
-      "address": "0x69d4d3629e1aFEE0C4E75B6B345B482979A77112",
+      "address": "0x8e8212386d580d8dd731a2b1a36a43935250304e",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x69d4d3629e1aFEE0C4E75B6B345B482979A77112.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8e8212386d580d8dd731a2b1a36a43935250304e.png"
     },
     {
       "name": "Button ETH",
       "symbol": "bETH",
-      "address": "0x125C7b36bEa62Ba3266257521667154446412921",
+      "address": "0x8f471e1896d16481678db553f86283eab1561b02",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x125C7b36bEa62Ba3266257521667154446412921.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8f471e1896d16481678db553f86283eab1561b02.png"
     },
     {
       "name": "Bloom Token",
@@ -1127,7 +1127,7 @@
       "address": "0xaB6FCbBb7828B3de2f44A0fA22027A001572f7Ad",
       "decimals": 8,
       "chainId": 42,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x69d4d3629e1aFEE0C4E75B6B345B482979A77112.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8e8212386d580d8dd731a2b1a36a43935250304e.png"
     },
     {
       "name": "Button ETH",
@@ -1135,7 +1135,7 @@
       "address": "0x8ea34f5856bd3dfaaA27309F85853F1737BE7832",
       "decimals": 18,
       "chainId": 42,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x125C7b36bEa62Ba3266257521667154446412921.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8f471e1896d16481678db553f86283eab1561b02.png"
     },
     {
       "name": "Dai Stablecoin",
@@ -1223,7 +1223,7 @@
       "address": "0x9bFE32D18e66ffAF6dcB0306AE7D24F768469f91",
       "decimals": 8,
       "chainId": 43114,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x69d4d3629e1aFEE0C4E75B6B345B482979A77112.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8e8212386d580d8dd731a2b1a36a43935250304e.png"
     },
     {
       "name": "Button ETH",
@@ -1231,7 +1231,7 @@
       "address": "0x227d7A0e2586A5bFdA7f32aDF066d20D1bfDfDfb",
       "decimals": 18,
       "chainId": 43114,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x125C7b36bEa62Ba3266257521667154446412921.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8f471e1896d16481678db553f86283eab1561b02.png"
     },
     {
       "name": "Button Wrapped Avalanche",
