@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2022-04-18T19:48:59.398Z",
+  "timestamp": "2022-06-02T20:15:49.271Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -104,18 +104,18 @@
     {
       "name": "Button BTC",
       "symbol": "bBTC",
-      "address": "0x8e8212386d580d8dd731a2b1a36a43935250304e",
+      "address": "0x8e8212386d580D8dD731a2B1a36A43935250304e",
       "decimals": 8,
       "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8e8212386d580d8dd731a2b1a36a43935250304e.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8e8212386d580D8dD731a2B1a36A43935250304e.png"
     },
     {
       "name": "Button ETH",
       "symbol": "bETH",
-      "address": "0x8f471e1896d16481678db553f86283eab1561b02",
+      "address": "0x8F471E1896D16481678db553F86283EAB1561B02",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8f471e1896d16481678db553f86283eab1561b02.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8F471E1896D16481678db553F86283EAB1561B02.png"
     },
     {
       "name": "Bloom Token",
@@ -1127,7 +1127,7 @@
       "address": "0xaB6FCbBb7828B3de2f44A0fA22027A001572f7Ad",
       "decimals": 8,
       "chainId": 42,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8e8212386d580d8dd731a2b1a36a43935250304e.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8e8212386d580D8dD731a2B1a36A43935250304e.png"
     },
     {
       "name": "Button ETH",
@@ -1135,7 +1135,7 @@
       "address": "0x8ea34f5856bd3dfaaA27309F85853F1737BE7832",
       "decimals": 18,
       "chainId": 42,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8f471e1896d16481678db553f86283eab1561b02.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8F471E1896D16481678db553F86283EAB1561B02.png"
     },
     {
       "name": "Dai Stablecoin",
@@ -1196,7 +1196,7 @@
     {
       "name": "Wrapped BTC",
       "symbol": "WBTC",
-      "address": "0xA0A5aD2296b38Bd3e3Eb59AAEAF1589E8d9a29A9",
+      "address": "0x11c3d23EF6Cbb1acC757064D17A5cF9f105273D4",
       "decimals": 8,
       "chainId": 42,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
@@ -1223,7 +1223,7 @@
       "address": "0x9bFE32D18e66ffAF6dcB0306AE7D24F768469f91",
       "decimals": 8,
       "chainId": 43114,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8e8212386d580d8dd731a2b1a36a43935250304e.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8e8212386d580D8dD731a2B1a36A43935250304e.png"
     },
     {
       "name": "Button ETH",
@@ -1231,7 +1231,7 @@
       "address": "0x227d7A0e2586A5bFdA7f32aDF066d20D1bfDfDfb",
       "decimals": 18,
       "chainId": 43114,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8f471e1896d16481678db553f86283eab1561b02.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8F471E1896D16481678db553F86283EAB1561B02.png"
     },
     {
       "name": "Button Wrapped Avalanche",
@@ -1244,15 +1244,15 @@
     {
       "name": "Wrapped Avalanche",
       "symbol": "WAVAX",
-      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
       "decimals": 18,
       "chainId": 43114,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7.png"
     },
     {
       "name": "Wrapped BTC",
       "symbol": "WBTC.e",
-      "address": "0x50b7545627a5162f82a992c33b87adc75187b218",
+      "address": "0x50b7545627a5162F82A992c33b87aDc75187B218",
       "decimals": 8,
       "chainId": 43114,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
@@ -1260,7 +1260,7 @@
     {
       "name": "Wrapped Ether",
       "symbol": "WETH.e",
-      "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+      "address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
       "decimals": 18,
       "chainId": 43114,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"

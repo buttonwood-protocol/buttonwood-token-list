@@ -2,6 +2,15 @@
 
 See https://github.com/Uniswap/token-lists or https://tokenlists.org/.
 
+## Setup instructions
+
+If you're running this on mac, `node-gyp` might throw some errors during `yarn install`.
+
+Can typically be resolved by brew installing  the following:
+```shell
+brew install pixman cairo pango
+```
+
 ## Dev
 
 The tokenlist is produced by processing the data stored in `src/tokens.json`, which maps Buttonwood wrapped tokens back to their underlying token.
