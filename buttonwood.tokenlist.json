@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2022-08-30T20:53:09.335Z",
+  "timestamp": "2022-08-31T16:53:58.949Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -1121,6 +1121,14 @@
       "decimals": 18,
       "chainId": 5,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8F471E1896D16481678db553F86283EAB1561B02.png"
+    },
+    {
+      "name": "Ether",
+      "symbol": "ETH",
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "decimals": 18,
+      "chainId": 5,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
     },
     {
       "name": "Uniswap",
