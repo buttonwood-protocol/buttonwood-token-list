@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2022-08-31T16:53:58.949Z",
+  "timestamp": "2022-09-06T22:14:58.267Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -1110,7 +1110,7 @@
       "name": "Button WBTC",
       "symbol": "bWBTC",
       "address": "0x37E4496AfD20e04Eec7A0Ac17410C0684a252287",
-      "decimals": 8,
+      "decimals": 18,
       "chainId": 5,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x8e8212386d580D8dD731a2B1a36A43935250304e.png"
     },
@@ -1150,7 +1150,7 @@
       "name": "Wrapped BTC",
       "symbol": "WBTC",
       "address": "0xF19162950528A40a27d922f52413d26f71B25926",
-      "decimals": 8,
+      "decimals": 18,
       "chainId": 5,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
     },
