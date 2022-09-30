@@ -6,7 +6,8 @@ See https://github.com/Uniswap/token-lists or https://tokenlists.org/.
 
 If you're running this on mac, `node-gyp` might throw some errors during `yarn install`.
 
-Can typically be resolved by brew installing  the following:
+Can typically be resolved by brew installing the following:
+
 ```shell
 brew install pixman cairo pango
 ```

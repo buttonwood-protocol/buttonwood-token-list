@@ -1,20 +1,26 @@
 import fs from 'fs/promises';
 import path from 'path';
-import {createCanvas, loadImage} from 'canvas';
+import { createCanvas, loadImage } from 'canvas';
 import tokenJson from './tokens.json';
-import {DerivedTokenConfig, TokenConfig, TokenData} from './types';
+import { DerivedTokenConfig, TokenConfig, TokenData } from './types';
 
 const logoSize = 256;
 
 function getLocalLogoPath(address: string, chainId?: number): string {
     if (chainId) {
-        return path.join('.', 'assets', 'tokens', chainId.toString(), `${address}.png`);
+        return path.join(
+            '.',
+            'assets',
+            'tokens',
+            chainId.toString(),
+            `${address}.png`,
+        );
     }
     return path.join('.', 'assets', 'tokens', `${address}.png`);
 }
 
 function getWrapperPath(wrapper: string) {
-    return path.join('.', 'src', 'wrappers', wrapper,);
+    return path.join('.', 'src', 'wrappers', wrapper);
 }
 
 async function downloadLogo(address: string) {
@@ -33,7 +39,10 @@ async function downloadLogo(address: string) {
     await fs.writeFile(getLocalLogoPath(address), output);
 }
 
-async function doesLogoExist(address: string, chainId?: number): Promise<boolean> {
+async function doesLogoExist(
+    address: string,
+    chainId?: number,
+): Promise<boolean> {
     try {
         await fs.access(getLocalLogoPath(address, chainId));
         return true;
@@ -120,7 +129,6 @@ export async function processTokens(
             } else {
                 await processLogo(primaryAddress, tokenConfig.derived);
             }
-
         } catch (err) {
             console.error(
                 `Failed to get logoURI for ${tokenConfig.name} [${tokenConfig.symbol}]: ${err}`,
@@ -128,17 +136,17 @@ export async function processTokens(
         }
 
         for (const chainId of chainIds) {
-            const {name, symbol, address, decimals} = {
+            const { name, symbol, address, decimals } = {
                 ...tokenConfig,
                 ...tokenConfig.chains[chainId],
             };
-            const tokenData = {name, symbol, address, decimals, chainId};
+            const tokenData = { name, symbol, address, decimals, chainId };
             if (await doesLogoExist(primaryAddress, chainId)) {
-                Object.assign(tokenData, { 
+                Object.assign(tokenData, {
                     logoURI: `https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/${chainId}/${primaryAddress}.png`,
                 });
             } else if (await doesLogoExist(primaryAddress)) {
-                Object.assign(tokenData, { 
+                Object.assign(tokenData, {
                     logoURI: `https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/${primaryAddress}.png`,
                 });
             }

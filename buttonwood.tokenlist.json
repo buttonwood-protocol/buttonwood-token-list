@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2022-09-06T22:14:58.267Z",
+  "timestamp": "2022-09-30T00:36:14.214Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -232,8 +232,7 @@
       "symbol": "DATA",
       "address": "0x0Cf0Ee63788A0849fE5297F3407f701E122cC023",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0Cf0Ee63788A0849fE5297F3407f701E122cC023.png"
+      "chainId": 1
     },
     {
       "name": "DigixDAO",
@@ -247,8 +246,7 @@
       "symbol": "DGX",
       "address": "0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF",
       "decimals": 9,
-      "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF.png"
+      "chainId": 1
     },
     {
       "name": "Decentralized Insurance Protocol",
@@ -317,8 +315,7 @@
       "symbol": "FXC",
       "address": "0x4a57E687b9126435a9B19E4A802113e266AdeBde",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x4a57E687b9126435a9B19E4A802113e266AdeBde.png"
+      "chainId": 1
     },
     {
       "name": "DAOstack",
@@ -435,8 +432,7 @@
       "symbol": "LOOM",
       "address": "0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0.png"
+      "chainId": 1
     },
     {
       "name": "Livepeer Token",
@@ -612,8 +608,7 @@
       "symbol": "POA20",
       "address": "0x6758B7d441a9739b98552B373703d8d3d14f9e62",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x6758B7d441a9739b98552B373703d8d3d14f9e62.png"
+      "chainId": 1
     },
     {
       "name": "QChi",
@@ -722,8 +717,7 @@
       "symbol": "RPL",
       "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xB4EFd85c19999D84251304bDA99E90B92300Bd93.png"
+      "chainId": 1
     },
     {
       "name": "Dai Stablecoin v1.0 SAI",
@@ -850,16 +844,14 @@
       "symbol": "TAUD",
       "address": "0x00006100F7090010005F1bd7aE6122c3C2CF0090",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x00006100F7090010005F1bd7aE6122c3C2CF0090.png"
+      "chainId": 1
     },
     {
       "name": "TrueCAD",
       "symbol": "TCAD",
       "address": "0x00000100F2A2bd000715001920eB70D229700085",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x00000100F2A2bd000715001920eB70D229700085.png"
+      "chainId": 1
     },
     {
       "name": "TrueGBP",
@@ -874,8 +866,7 @@
       "symbol": "THKD",
       "address": "0x0000852600CEB001E08e00bC008be620d60031F2",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x0000852600CEB001E08e00bC008be620d60031F2.png"
+      "chainId": 1
     },
     {
       "name": "Monolith TKN",
@@ -985,8 +976,7 @@
       "symbol": "USDx",
       "address": "0xeb269732ab75A6fD61Ea60b06fE994cD32a83549",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xeb269732ab75A6fD61Ea60b06fE994cD32a83549.png"
+      "chainId": 1
     },
     {
       "name": "Veritaseum",
