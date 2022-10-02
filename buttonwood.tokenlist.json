@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2022-09-30T00:36:14.214Z",
+  "timestamp": "2022-10-02T04:26:18.441Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -1097,6 +1097,14 @@
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
     {
+      "name": "Ampleforth",
+      "symbol": "AMPL",
+      "address": "0x08c5b39F000705ebeC8427C1d64D6262392944EE",
+      "decimals": 9,
+      "chainId": 5,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xD46bA6D942050d489DBd938a2C909A5d5039A161.png"
+    },
+    {
       "name": "Button WBTC",
       "symbol": "bWBTC",
       "address": "0x37E4496AfD20e04Eec7A0Ac17410C0684a252287",
@@ -1135,6 +1143,14 @@
       "decimals": 18,
       "chainId": 5,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
+    },
+    {
+      "name": "Wrapped Ampleforth",
+      "symbol": "WAMPL",
+      "address": "0x3b624861a14979537DE1B88F9565F41a7fc45FBf",
+      "decimals": 18,
+      "chainId": 5,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef.png"
     },
     {
       "name": "Wrapped BTC",
