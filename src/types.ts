@@ -1,6 +1,8 @@
-import { Tags, Version } from '@uniswap/token-lists';
+import { TokenList } from '@uniswap/token-lists';
 
 export type { TokenList } from '@uniswap/token-lists';
+
+export type CommonList = Omit<TokenList, 'tokens'>;
 
 export interface WrapperPair {
     readonly unwrapped: string;
@@ -8,17 +10,12 @@ export interface WrapperPair {
     readonly chainId: number;
 }
 
-export interface WrapperMap {
-    readonly name: string;
-    readonly timestamp: string;
-    readonly version: Version;
-    readonly wrappers?: {
-        [key: string]: WrapperPair[];
-    };
-    readonly keywords?: string[];
-    readonly tags?: Tags;
-    readonly logoURI?: string;
-    readonly tokens?: TokenData[];
+export interface WrapperMapWrappers {
+    [key: string]: WrapperPair[];
+}
+
+export interface WrapperMap extends CommonList {
+    readonly wrappers?: WrapperMapWrappers;
 }
 
 export interface TokenConfig {
@@ -46,4 +43,10 @@ export interface TokenData {
     address: string;
     chainId: number;
     logoURI?: string;
+}
+
+export interface BondTokenLogoUriDedupeMap {
+    [key: string]: {
+        [key: string]: string;
+    };
 }

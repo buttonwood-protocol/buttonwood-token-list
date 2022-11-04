@@ -1,6 +1,6 @@
-import packageJson from '../package.json';
 import tokenJson from './tokens.json';
-import { WrapperPair, WrapperMap, TokenConfig } from './types';
+import { TokenConfig, WrapperMap, WrapperMapWrappers } from './types';
+import { getWrapperMap } from './getWrapperMap';
 
 interface KeyedTokenMap {
     [key: string]: TokenConfig;
@@ -18,11 +18,8 @@ function getAddressKeyedTokenMap(tokenJson: TokenConfig[]): KeyedTokenMap {
 }
 
 export function buildWrapperMap(): WrapperMap {
-    const [major, minor, patch] = packageJson.version
-        .split('.')
-        .map((segment) => parseInt(segment, 10));
     const keyedTokenMap = getAddressKeyedTokenMap(tokenJson as TokenConfig[]);
-    const wrappers: { [key: string]: WrapperPair[] } = {};
+    const wrappers: WrapperMapWrappers = {};
     for (const token of tokenJson as TokenConfig[]) {
         if (token.derived) {
             let wrapper = wrappers[token.derived.wrapper];
@@ -43,18 +40,11 @@ export function buildWrapperMap(): WrapperMap {
             }
         }
     }
-    return {
-        name: 'Buttonwood',
-        timestamp: new Date().toISOString(),
-        version: {
-            major,
-            minor,
-            patch,
+    return getWrapperMap(
+        {
+            name: 'Buttonwood',
+            keywords: ['buttonwood', 'defi'],
         },
-        tags: {},
-        logoURI:
-            'https://raw.githubusercontent.com/marktoda/buttonwood-token-list/main/assets/buttonwood.svg',
-        keywords: ['buttonwood', 'defi'],
         wrappers,
-    };
+    );
 }

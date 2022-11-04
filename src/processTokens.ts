@@ -3,6 +3,7 @@ import path from 'path';
 import { createCanvas, loadImage } from 'canvas';
 import tokenJson from './tokens.json';
 import { DerivedTokenConfig, TokenConfig, TokenData } from './types';
+import { getAssetUri } from './getAssetUri';
 
 const logoSize = 256;
 
@@ -39,7 +40,7 @@ async function downloadLogo(address: string) {
     await fs.writeFile(getLocalLogoPath(address), output);
 }
 
-async function doesLogoExist(
+export async function doesLogoExist(
     address: string,
     chainId?: number,
 ): Promise<boolean> {
@@ -76,7 +77,7 @@ async function generateWrapperLogo(
     );
 }
 
-async function processLogo(
+export async function processLogo(
     address: string,
     wrapperConfig?: DerivedTokenConfig,
 ): Promise<void> {
@@ -143,11 +144,13 @@ export async function processTokens(
             const tokenData = { name, symbol, address, decimals, chainId };
             if (await doesLogoExist(primaryAddress, chainId)) {
                 Object.assign(tokenData, {
-                    logoURI: `https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/${chainId}/${primaryAddress}.png`,
+                    logoURI: getAssetUri(
+                        `tokens/${chainId}/${primaryAddress}.png`,
+                    ),
                 });
             } else if (await doesLogoExist(primaryAddress)) {
                 Object.assign(tokenData, {
-                    logoURI: `https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/${primaryAddress}.png`,
+                    logoURI: getAssetUri(`tokens/${primaryAddress}.png`),
                 });
             }
             tokens.push(tokenData);
