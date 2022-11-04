@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2022-11-04T01:34:45.798Z",
+  "timestamp": "2022-11-04T01:48:26.322Z",
   "version": {
     "major": 0,
     "minor": 2,
@@ -131,6 +131,14 @@
       "decimals": 9,
       "chainId": 5,
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0xD46bA6D942050d489DBd938a2C909A5d5039A161.png"
+    },
+    {
+      "name": "Button WAMPL",
+      "symbol": "bWAMPL",
+      "address": "0x7176c51918A279641a06A4889d70670C10B2Aad9",
+      "decimals": 18,
+      "chainId": 5,
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/0x6484F9c02fe1a0ed1edE923BE36243d361A480F5.png"
     },
     {
       "name": "Button WBTC",
