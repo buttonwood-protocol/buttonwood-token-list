@@ -1,11 +1,40 @@
-import { TokenList } from '@uniswap/token-lists';
-import { TokenData } from './types';
+import { TokenInfo, TokenList } from '@uniswap/token-lists';
+import { TokenDefinition, TokenDefinitions } from './types';
 import { CommonListParams, getCommonList } from './getCommonList';
+import { TokenDefinitionsMap } from './TokenDefinitionsMap';
+import { getLogoLocation } from './getLogoLocation';
+import { pathExists } from './utils/pathExists';
 
-export function getTokenList(
+async function getTokenInfo(
+    tokenDefinitionsMap: TokenDefinitionsMap,
+    tokenDefinition: TokenDefinition,
+): Promise<TokenInfo> {
+    const { chainId, address, name, decimals, symbol } = tokenDefinition;
+    const { localPath, logoURI } = getLogoLocation(
+        tokenDefinitionsMap,
+        chainId,
+        address,
+    );
+    return {
+        chainId,
+        address,
+        name,
+        decimals,
+        symbol,
+        logoURI: (await pathExists(localPath)) ? logoURI : undefined,
+    };
+}
+
+export async function getTokenList(
     commonParams: CommonListParams,
-    tokens: TokenData[],
-): TokenList {
+    tokenDefinitionsMap: TokenDefinitionsMap,
+    tokenDefinitions: TokenDefinitions,
+): Promise<TokenList> {
+    const tokens = await Promise.all(
+        tokenDefinitions.map((tokenDefinition) => {
+            return getTokenInfo(tokenDefinitionsMap, tokenDefinition);
+        }),
+    );
     return {
         ...getCommonList(commonParams),
         tokens: tokens

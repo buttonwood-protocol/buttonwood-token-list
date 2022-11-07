@@ -1,4 +1,3 @@
-import fs from 'fs/promises';
 import path from 'path';
 import packageJson from '../package.json';
 import schema from '@uniswap/token-lists/src/tokenlist.schema.json';
@@ -6,7 +5,8 @@ import { expect } from 'chai';
 import { getAddress } from '@ethersproject/address';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
-import { buildBondList } from '../src/buildBondList';
+import { loadJson } from './loadJson';
+import { getLocalPath } from './getLocalPath';
 
 const rootPath = process.cwd();
 
@@ -15,7 +15,9 @@ addFormats(ajv);
 const validator = ajv.compile(schema);
 
 describe('buildBondList', () => {
-    const tokenListPromise = buildBondList(true);
+    const tokenListPromise = loadJson(
+        path.join('.', 'buttonwood-bonds.tokenlist.json'),
+    );
 
     it('validates', async () => {
         const tokenList = await tokenListPromise;
@@ -44,26 +46,18 @@ describe('buildBondList', () => {
     });
 
     it('all asset addresses are valid and checksummed', async () => {
-        const chain1Files = await fs.readdir(
-            path.join(rootPath, 'assets', 'tokens'),
-            { withFileTypes: true },
-        );
-        const assetFileNames = [];
-        for (const file of chain1Files) {
-            if (file.isDirectory()) {
-                const chainAltFiles = await fs.readdir(
-                    path.join(rootPath, 'assets', 'tokens', file.name),
-                );
-                assetFileNames.push(...chainAltFiles);
-            } else {
-                assetFileNames.push(file.name);
+        const tokenList = await tokenListPromise;
+        for (const token of tokenList.tokens) {
+            if (token.logoURI) {
+                const localPath = getLocalPath(token.logoURI);
+                if (localPath) {
+                    const ext = path.extname(localPath);
+                    expect(ext).to.eq('.png');
+                    const name = path.basename(localPath, ext);
+                    const [address] = name.split('-');
+                    expect(address).to.eq(getAddress(address));
+                }
             }
-        }
-        for (const fileName of assetFileNames) {
-            const ext = path.extname(fileName);
-            expect(ext).to.eq('.png');
-            const name = path.basename(fileName, ext);
-            expect(name).to.eq(getAddress(name));
         }
     });
 

@@ -1,10 +1,13 @@
 import packageJson from '../package.json';
 import { expect } from 'chai';
 import { getAddress } from '@ethersproject/address';
-import { buildWrapperMap } from '../src/buildWrapperMap';
+import { loadJson } from './loadJson';
+import path from 'path';
 
 describe('buildWrapperMap', () => {
-    const wrapperMapPromise = buildWrapperMap();
+    const wrapperMapPromise = loadJson(
+        path.join('.', 'buttonwood.wrappermap.json'),
+    );
 
     it('contains no duplicate entries', async () => {
         const wrapperMap = await wrapperMapPromise;
