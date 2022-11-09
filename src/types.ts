@@ -1,6 +1,8 @@
-import { Tags, Version } from '@uniswap/token-lists';
+import { TokenList } from '@uniswap/token-lists';
 
 export type { TokenList } from '@uniswap/token-lists';
+
+export type CommonList = Omit<TokenList, 'tokens'>;
 
 export interface WrapperPair {
     readonly unwrapped: string;
@@ -8,42 +10,32 @@ export interface WrapperPair {
     readonly chainId: number;
 }
 
-export interface WrapperMap {
-    readonly name: string;
-    readonly timestamp: string;
-    readonly version: Version;
-    readonly wrappers?: {
-        [key: string]: WrapperPair[];
-    };
-    readonly keywords?: string[];
-    readonly tags?: Tags;
-    readonly logoURI?: string;
-    readonly tokens?: TokenData[];
+export interface WrapperMapWrappers {
+    [key: string]: WrapperPair[];
 }
 
-export interface TokenConfig {
-    name: string;
-    symbol: string;
-    decimals: number;
-    primaryChainId: number;
-    chains: {
-        [key: string]: Partial<TokenData> & Pick<TokenData, 'address'>;
-    };
-    derived?: DerivedTokenConfig;
+export interface WrapperMap extends CommonList {
+    readonly wrappers?: WrapperMapWrappers;
 }
 
-export interface DerivedTokenConfig {
-    wrapper: string;
-    underlying: {
-        address: string;
-    };
-}
-
-export interface TokenData {
-    name: string;
-    symbol: string;
-    decimals: number;
+export interface TokenDefinition {
     address: string;
     chainId: number;
-    logoURI?: string;
+    name: string;
+    symbol: string;
+    decimals: number;
+    derived?: {
+        wrapper: string;
+        underlying: {
+            address: string;
+            chainId: number;
+        };
+        bespokeLogo?: boolean;
+    };
+    dedupe?: {
+        address: string;
+        chainId: number;
+    };
 }
+
+export type TokenDefinitions = TokenDefinition[];

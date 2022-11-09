@@ -1,13 +1,12 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2022-11-01T00:28:00.858Z",
+  "timestamp": "2022-11-07T20:18:22.729Z",
   "version": {
     "major": 0,
-    "minor": 1,
-    "patch": 3
+    "minor": 2,
+    "patch": 0
   },
-  "tags": {},
-  "logoURI": "https://raw.githubusercontent.com/marktoda/buttonwood-token-list/main/assets/buttonwood.svg",
+  "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/buttonwood.svg",
   "keywords": [
     "buttonwood",
     "defi"

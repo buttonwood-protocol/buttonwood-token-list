@@ -1,15 +1,64 @@
 import { writeFile } from 'fs/promises';
-import { buildList } from './buildList';
-import { buildWrapperMap } from './buildWrapperMap';
+import { getTokenDefinitionsFromConfig } from './getTokenDefinitionsFromConfig';
+import { TokenDefinitions } from './types';
+import { getTokenDefinitionsFromBonds } from './getTokenDefinitionsFromBonds';
+import { TokenDefinitionsMap } from './TokenDefinitionsMap';
+import { getTokenList } from './getTokenList';
+import { getWrapperMap } from './getWrapperMap';
+import { createLogos } from './createLogos';
 
 async function build(): Promise<void> {
-    const tokenList = await buildList();
+    let tokenDefinitions: TokenDefinitions = [];
+    tokenDefinitions = tokenDefinitions.concat(getTokenDefinitionsFromConfig());
+    tokenDefinitions = tokenDefinitions.concat(
+        await getTokenDefinitionsFromBonds(),
+    );
+    const tokenDefinitionsMap = new TokenDefinitionsMap(tokenDefinitions);
+    await createLogos(tokenDefinitionsMap, tokenDefinitions);
+    const buttonwoodTokenDefs = [];
+    const buttonwoodBondsTokenDefs = [];
+    for (const tokenDef of tokenDefinitions) {
+        if (tokenDef.derived?.wrapper.startsWith('tranche')) {
+            buttonwoodBondsTokenDefs.push(tokenDef);
+        } else {
+            buttonwoodTokenDefs.push(tokenDef);
+        }
+    }
+
+    const buttonwoodTokenList = await getTokenList(
+        {
+            name: 'Buttonwood',
+            keywords: ['buttonwood', 'defi'],
+        },
+        tokenDefinitionsMap,
+        buttonwoodTokenDefs,
+    );
+    const buttonwoodBondsTokenList = await getTokenList(
+        {
+            name: 'Buttonwood Bonds',
+            keywords: ['buttonwood', 'bonds', 'defi'],
+        },
+        tokenDefinitionsMap,
+        buttonwoodBondsTokenDefs,
+    );
+    const wrapperMap = getWrapperMap(
+        {
+            name: 'Buttonwood',
+            keywords: ['buttonwood', 'defi'],
+        },
+        buttonwoodTokenDefs,
+    );
+
     await writeFile(
         './buttonwood.tokenlist.json',
-        JSON.stringify(tokenList, null, 2),
+        JSON.stringify(buttonwoodTokenList, null, 2),
         'utf8',
     );
-    const wrapperMap = buildWrapperMap();
+    await writeFile(
+        './buttonwood-bonds.tokenlist.json',
+        JSON.stringify(buttonwoodBondsTokenList, null, 2),
+        'utf8',
+    );
     await writeFile(
         './buttonwood.wrappermap.json',
         JSON.stringify(wrapperMap, null, 2),
