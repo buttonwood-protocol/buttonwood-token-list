@@ -1,21 +1,20 @@
-import path from 'path';
-import packageJson from '../package.json';
-import schema from '@uniswap/token-lists/src/tokenlist.schema.json';
-import { expect } from 'chai';
 import { getAddress } from '@ethersproject/address';
+import { TokenList } from '@uniswap/token-lists';
+import schema from '@uniswap/token-lists/src/tokenlist.schema.json';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
-import { loadJson } from './loadJson';
+import { expect } from 'chai';
+import path from 'path';
+import packageJson from '../package.json';
 import { getLocalPath } from './getLocalPath';
-
-const rootPath = process.cwd();
+import { loadJson } from './loadJson';
 
 const ajv = new Ajv({ allErrors: true, verbose: true });
 addFormats(ajv);
 const validator = ajv.compile(schema);
 
 describe('buildBondList', () => {
-    const tokenListPromise = loadJson(
+    const tokenListPromise = loadJson<TokenList>(
         path.join('.', 'buttonwood-bonds.tokenlist.json'),
     );
 
@@ -30,7 +29,7 @@ describe('buildBondList', () => {
 
     it('contains no duplicate addresses', async () => {
         const tokenList = await tokenListPromise;
-        const map: any = {};
+        const map: Record<string, true> = {};
         for (const token of tokenList.tokens) {
             const key = `${token.chainId}-${token.address}`;
             expect(typeof map[key]).to.equal('undefined');

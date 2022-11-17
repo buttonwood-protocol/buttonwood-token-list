@@ -1,21 +1,22 @@
-import packageJson from '../package.json';
-import { expect } from 'chai';
 import { getAddress } from '@ethersproject/address';
-import { loadJson } from './loadJson';
+import { expect } from 'chai';
 import path from 'path';
+import { WrapperMap } from '../dist';
+import packageJson from '../package.json';
+import { loadJson } from './loadJson';
 
 describe('buildWrapperMap', () => {
-    const wrapperMapPromise = loadJson(
+    const wrapperMapPromise = loadJson<WrapperMap>(
         path.join('.', 'buttonwood.wrappermap.json'),
     );
 
     it('contains no duplicate entries', async () => {
         const wrapperMap = await wrapperMapPromise;
-        const map: any = {};
+        const map: Record<string, true> = {};
         if (wrapperMap.wrappers) {
             for (const wrapper of Object.keys(wrapperMap.wrappers)) {
                 for (const wrapperPair of wrapperMap.wrappers[wrapper]) {
-                    const key: any = `${
+                    const key = `${
                         wrapperPair.chainId
                     }-${wrapperPair.unwrapped.toLowerCase()}-${wrapperPair.wrapped.toLowerCase()}`;
                     expect(typeof map[key]).to.equal(
