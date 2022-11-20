@@ -24,6 +24,7 @@ These new tokenlists can then be communicated to us at Buttonwood where we will 
 
 This list contains assets that are directly used by Buttonwood in our ongoing activities.
 This comprises:
+
 - raw collateral assets for the bonds we create
 - button and unbutton tokens that we have deployed
 - loan currencies that we set up bond markets with
@@ -64,6 +65,7 @@ The other two layers are wrapper specific, and found at `src/wrappers/<wrapper n
 
 So you've copied this repository and intend to tailor it to your own tokenlists.
 The following is a list of files to examine and edit, with some brief pointers:
+
 - `src/tokens.json`
   - refer to https://github.com/buttonwood-protocol/buttonwood-token-list/blob/main/src/tokens.json for a working example of the structure to adhere to
 - `src/wrappers`

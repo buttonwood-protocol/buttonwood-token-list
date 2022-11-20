@@ -1,20 +1,20 @@
-import { TokenDefinitionsMap } from './TokenDefinitionsMap';
 import path from 'path';
 import { getAssetUri } from './getAssetUri';
+import { TokenDefinitionsMap } from './TokenDefinitionsMap';
 
 interface LogoLocation {
-    /**
-     * The local directory the logo is in
-     */
-    localDir: string;
-    /**
-     * The path to the local logo file
-     */
-    localPath: string;
-    /**
-     * The URI for where the logo will be hosted
-     */
-    logoURI: string;
+  /**
+   * The local directory the logo is in
+   */
+  localDir: string;
+  /**
+   * The path to the local logo file
+   */
+  localPath: string;
+  /**
+   * The URI for where the logo will be hosted
+   */
+  logoURI: string;
 }
 
 /**
@@ -35,55 +35,52 @@ interface LogoLocation {
  * @param address
  */
 export function getLogoLocation(
-    tokenDefinitionsMap: TokenDefinitionsMap,
-    chainId: number,
-    address: string,
+  tokenDefinitionsMap: TokenDefinitionsMap,
+  chainId: number,
+  address: string,
 ): LogoLocation {
-    const wrappers = [];
-    let tokenDefinition = tokenDefinitionsMap.get(chainId, address);
-    let infinityBlocker = 100;
-    while (tokenDefinition.derived && !tokenDefinition.derived.bespokeLogo) {
-        const { wrapper, underlying } = tokenDefinition.derived;
-        wrappers.push(wrapper);
-        tokenDefinition = tokenDefinitionsMap.get(
-            underlying.chainId,
-            underlying.address,
-        );
-        infinityBlocker--;
-        if (infinityBlocker <= 0) {
-            const key = TokenDefinitionsMap.getKey(chainId, address);
-            throw new Error(`Cyclic wrapper definitions for ${key}`);
-        }
-    }
-    if (tokenDefinition.dedupe) {
-        const { dedupe } = tokenDefinition;
-        tokenDefinition = tokenDefinitionsMap.get(
-            dedupe.chainId,
-            dedupe.address,
-        );
-    }
-    if (
-        (tokenDefinition.derived && !tokenDefinition.derived.bespokeLogo) ||
-        tokenDefinition.dedupe
-    ) {
-        throw new Error(`Foundational assumptions have proven to be wrong`);
-    }
-    const filename = `${[tokenDefinition.address]
-        .concat(wrappers.reverse())
-        .join('-')}.png`;
-    const localDir = path.join(
-        '.',
-        'assets',
-        'tokens',
-        tokenDefinition.chainId.toString(),
+  const wrappers = [];
+  let tokenDefinition = tokenDefinitionsMap.get(chainId, address);
+  let infinityBlocker = 100;
+  while (tokenDefinition.derived && !tokenDefinition.derived.bespokeLogo) {
+    const { wrapper, underlying } = tokenDefinition.derived;
+    wrappers.push(wrapper);
+    tokenDefinition = tokenDefinitionsMap.get(
+      underlying.chainId,
+      underlying.address,
     );
-    const localPath = path.join(localDir, filename);
-    const logoURI = getAssetUri(
-        path.posix.join('tokens', tokenDefinition.chainId.toString(), filename),
-    );
-    return {
-        localDir,
-        localPath,
-        logoURI,
-    };
+    infinityBlocker--;
+    if (infinityBlocker <= 0) {
+      const key = TokenDefinitionsMap.getKey(chainId, address);
+      throw new Error(`Cyclic wrapper definitions for ${key}`);
+    }
+  }
+  if (tokenDefinition.dedupe) {
+    const { dedupe } = tokenDefinition;
+    tokenDefinition = tokenDefinitionsMap.get(dedupe.chainId, dedupe.address);
+  }
+  if (
+    (tokenDefinition.derived && !tokenDefinition.derived.bespokeLogo) ||
+    tokenDefinition.dedupe
+  ) {
+    throw new Error(`Foundational assumptions have proven to be wrong`);
+  }
+  const filename = `${[tokenDefinition.address]
+    .concat(wrappers.reverse())
+    .join('-')}.png`;
+  const localDir = path.join(
+    '.',
+    'assets',
+    'tokens',
+    tokenDefinition.chainId.toString(),
+  );
+  const localPath = path.join(localDir, filename);
+  const logoURI = getAssetUri(
+    path.posix.join('tokens', tokenDefinition.chainId.toString(), filename),
+  );
+  return {
+    localDir,
+    localPath,
+    logoURI,
+  };
 }
