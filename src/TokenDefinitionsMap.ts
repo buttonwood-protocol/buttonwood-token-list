@@ -19,7 +19,7 @@ export class TokenDefinitionsMap {
         }
     }
 
-    get(chainId: number, address: string) {
+    get(chainId: number, address: string): TokenDefinition {
         const key = TokenDefinitionsMap.getKey(chainId, address);
         const tokenDefinition = this.map.get(key);
         if (!tokenDefinition) {

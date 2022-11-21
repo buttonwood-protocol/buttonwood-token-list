@@ -5,7 +5,10 @@
         "node": true
     },
     "parser": "@typescript-eslint/parser",
-    "ignorePatterns": ["dist/**/*.d.ts"],
+    "ignorePatterns": [
+        "dist/**/*.d.ts",
+        "build/**/*.d.ts"
+    ],
     "parserOptions": {
         "project": "tsconfig.json",
         "sourceType": "module"

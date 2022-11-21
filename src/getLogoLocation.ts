@@ -2,6 +2,21 @@ import { TokenDefinitionsMap } from './TokenDefinitionsMap';
 import path from 'path';
 import { getAssetUri } from './getAssetUri';
 
+interface LogoLocation {
+    /**
+     * The local directory the logo is in
+     */
+    localDir: string;
+    /**
+     * The path to the local logo file
+     */
+    localPath: string;
+    /**
+     * The URI for where the logo will be hosted
+     */
+    logoURI: string;
+}
+
 /**
  * Dictates the location for an asset's logo
  *
@@ -23,7 +38,7 @@ export function getLogoLocation(
     tokenDefinitionsMap: TokenDefinitionsMap,
     chainId: number,
     address: string,
-) {
+): LogoLocation {
     const wrappers = [];
     let tokenDefinition = tokenDefinitionsMap.get(chainId, address);
     let infinityBlocker = 100;
