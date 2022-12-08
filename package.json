@@ -24,7 +24,7 @@
     "eslint:fix": "eslint . --fix --ext .ts,.tsx",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,json,md,sol,ts}\"",
     "prettier:list-different": "prettier --config .prettierrc --list-different \"**/*.{js,json,md,sol,ts}\"",
-    "start": "yarn build && node build/src/build.js",
+    "start": "yarn build && node dist-build/src/build.js",
     "test": "mocha -r ts-node/register 'test/**/*test.ts'"
   },
   "engines": {
