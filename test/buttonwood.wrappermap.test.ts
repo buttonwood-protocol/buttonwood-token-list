@@ -1,21 +1,14 @@
 import { getAddress } from '@ethersproject/address';
 import { expect } from 'chai';
-import path from 'path';
-import { WrapperMap } from '../dist';
 import packageJson from '../package.json';
-import { loadJson } from './loadJson';
+import { buttonwoodWrapperMap } from '../src';
 
 describe('buildWrapperMap', () => {
-  const wrapperMapPromise = loadJson<WrapperMap>(
-    path.join('.', 'buttonwood.wrappermap.json'),
-  );
-
   it('contains no duplicate entries', async () => {
-    const wrapperMap = await wrapperMapPromise;
     const map: Record<string, true> = {};
-    if (wrapperMap.wrappers) {
-      for (const wrapper of Object.keys(wrapperMap.wrappers)) {
-        for (const wrapperPair of wrapperMap.wrappers[wrapper]) {
+    if (buttonwoodWrapperMap.wrappers) {
+      for (const wrapper of Object.keys(buttonwoodWrapperMap.wrappers)) {
+        for (const wrapperPair of buttonwoodWrapperMap.wrappers[wrapper]) {
           const key = `${
             wrapperPair.chainId
           }-${wrapperPair.unwrapped.toLowerCase()}-${wrapperPair.wrapped.toLowerCase()}`;
@@ -30,10 +23,9 @@ describe('buildWrapperMap', () => {
   });
 
   it('all wrapperMap addresses are valid and checksummed', async () => {
-    const wrapperMap = await wrapperMapPromise;
-    if (wrapperMap.wrappers) {
-      for (const wrapper of Object.keys(wrapperMap.wrappers)) {
-        for (const wrapperPair of wrapperMap.wrappers[wrapper]) {
+    if (buttonwoodWrapperMap.wrappers) {
+      for (const wrapper of Object.keys(buttonwoodWrapperMap.wrappers)) {
+        for (const wrapperPair of buttonwoodWrapperMap.wrappers[wrapper]) {
           expect(wrapperPair.unwrapped).to.eq(
             getAddress(wrapperPair.unwrapped),
           );
@@ -44,10 +36,9 @@ describe('buildWrapperMap', () => {
   });
 
   it('version matches package.json', async () => {
-    const wrapperMap = await wrapperMapPromise;
     expect(packageJson.version).to.match(/^\d+\.\d+\.\d+$/);
     expect(packageJson.version).to.equal(
-      `${wrapperMap.version.major}.${wrapperMap.version.minor}.${wrapperMap.version.patch}`,
+      `${buttonwoodWrapperMap.version.major}.${buttonwoodWrapperMap.version.minor}.${buttonwoodWrapperMap.version.patch}`,
     );
   });
 });
