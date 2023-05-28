@@ -50,17 +50,17 @@ async function build(): Promise<void> {
   );
 
   await writeFile(
-    './buttonwood.tokenlist.json',
+    './src/buttonwood.tokenlist.json',
     JSON.stringify(buttonwoodTokenList, null, 2),
     'utf8',
   );
   await writeFile(
-    './buttonwood-bonds.tokenlist.json',
+    './src/buttonwood-bonds.tokenlist.json',
     JSON.stringify(buttonwoodBondsTokenList, null, 2),
     'utf8',
   );
   await writeFile(
-    './buttonwood.wrappermap.json',
+    './src/buttonwood.wrappermap.json',
     JSON.stringify(wrapperMap, null, 2),
     'utf8',
   );

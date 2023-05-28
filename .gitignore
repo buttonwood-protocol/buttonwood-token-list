@@ -1,5 +1,6 @@
 .DS_Store
 /node_modules
 /.idea
-yarn-error.log 
-build/
+yarn-error.log
+.yarn/
+dist-build/
