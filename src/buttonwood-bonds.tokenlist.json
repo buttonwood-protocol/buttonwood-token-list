@@ -1,9 +1,9 @@
 {
   "name": "Buttonwood Bonds",
-  "timestamp": "2022-12-08T16:28:45.291Z",
+  "timestamp": "2023-05-28T14:29:39.955Z",
   "version": {
     "major": 0,
-    "minor": 2,
+    "minor": 3,
     "patch": 0
   },
   "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/buttonwood.svg",
@@ -536,6 +536,102 @@
     {
       "chainId": 1,
       "address": "0x8C0CD6d5E056c1A2a8c5d7b804C956aEA82b670e",
+      "name": "ButtonTranche bWETH Z",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWETH-Z",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button-tranche-z.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0x338EED8415c542dD63b18e92362a598C12B3f152",
+      "name": "ButtonTranche bWAMPL A",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWAMPL-A",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button-tranche-a.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0x5ca38FCF242441f2Ab39273D5d99A8aEb8104464",
+      "name": "ButtonTranche bWAMPL A",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWAMPL-A",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button-tranche-a.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0xA574fF6f73568E9B6DdCE4988B01dc2aD2146061",
+      "name": "ButtonTranche bWAMPL B",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWAMPL-B",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button-tranche-b.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0x24E15b5dFdA3D6fD1590a90Df7950A294baBa0cC",
+      "name": "ButtonTranche bWAMPL B",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWAMPL-B",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button-tranche-b.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0xEdB214C236fb4E0ecfc38F9aD5b27198eec623FE",
+      "name": "ButtonTranche bWAMPL Z",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWAMPL-Z",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button-tranche-z.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0xA846B34809ab19AFaBe01e5Bf5179032ef92e958",
+      "name": "ButtonTranche bWAMPL Z",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWAMPL-Z",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button-tranche-z.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0xa249f66bF55c7d80aBDe0d1D9Ded0022E512bb51",
+      "name": "ButtonTranche bWBTC A",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWBTC-A",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599-button-tranche-a.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0x03d3447504531c2c7Eaf2E15BB3936C6FcF4f2DA",
+      "name": "ButtonTranche bWBTC B",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWBTC-B",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599-button-tranche-b.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0x1CE352F1EA2A369D2660F17B0E68D15fD6ea71A0",
+      "name": "ButtonTranche bWBTC Z",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWBTC-Z",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599-button-tranche-z.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0xf2B21C27E6641f572498DFf5F4790d76B265eC7E",
+      "name": "ButtonTranche bWETH A",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWETH-A",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button-tranche-a.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0x1425A7410ef3f79105Af62d254e9fE9cEF3d22ca",
+      "name": "ButtonTranche bWETH B",
+      "decimals": 18,
+      "symbol": "TRANCHE-bWETH-B",
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button-tranche-b.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0xb0213D74178A4B29451d77B8a81D06C538E274aF",
       "name": "ButtonTranche bWETH Z",
       "decimals": 18,
       "symbol": "TRANCHE-bWETH-Z",
