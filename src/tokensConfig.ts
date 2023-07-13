@@ -41,7 +41,7 @@ class TokensConfig {
         parseInt(key, 10),
       );
       for (const chainId of chainIds) {
-        const {address} = tokenConfig.chains[chainId];
+        const { address } = tokenConfig.chains[chainId];
         const key = TokensConfig.getKey(chainId, address);
         if (this.map.has(key)) {
           throw new Error(`Duplicate definition for ${key}`);

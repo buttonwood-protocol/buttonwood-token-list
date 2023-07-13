@@ -1,12 +1,12 @@
-import {writeFile} from 'fs/promises';
-import {createLogos} from './createLogos';
-import {getTokenDefinitionsFromBonds} from './getTokenDefinitionsFromBonds';
-import {getTokenDefinitionsFromConfig} from './getTokenDefinitionsFromConfig';
-import {getTokenList} from './getTokenList';
-import {getWrapperMap} from './getWrapperMap';
-import {TokenDefinitionsMap} from './TokenDefinitionsMap';
-import {TokenDefinitions} from './types';
-import {validTags} from "./validTags";
+import { writeFile } from 'fs/promises';
+import { createLogos } from './createLogos';
+import { getTokenDefinitionsFromBonds } from './getTokenDefinitionsFromBonds';
+import { getTokenDefinitionsFromConfig } from './getTokenDefinitionsFromConfig';
+import { getTokenList } from './getTokenList';
+import { getWrapperMap } from './getWrapperMap';
+import { TokenDefinitionsMap } from './TokenDefinitionsMap';
+import { TokenDefinitions } from './types';
+import { validTags } from './validTags';
 
 async function build(): Promise<void> {
   let tokenDefinitions: TokenDefinitions = [];
@@ -18,7 +18,11 @@ async function build(): Promise<void> {
     if (tokenDefinition.tags) {
       tokenDefinition.tags.forEach((tagId) => {
         if (!validTags[tagId]) {
-          throw new Error(`Invalid tagId "${tagId}" listed for tokenDefinition ${JSON.stringify(tokenDefinition)}`);
+          throw new Error(
+            `Invalid tagId "${tagId}" listed for tokenDefinition ${JSON.stringify(
+              tokenDefinition,
+            )}`,
+          );
         }
       });
     }
