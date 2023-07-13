@@ -90,7 +90,7 @@ async function getBondTokenDefinitionsForNetwork({
       const decimals = parseInt(tranche.token.decimals, 10);
       const wrapper = getBondWrapper(trancheCount, parseInt(tranche.index, 10));
       const tags = [
-        "wrapped-tranche",
+        "wrapper-tranche",
       ].sort();
       const tokenDefinition: TokenDefinition = {
         address,

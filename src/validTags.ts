@@ -29,18 +29,18 @@ export const validTags = [
   // The token is specifically wrapped Avalanche
   "wrapped-avalanche",
 
-  // The token uses the Buttonwood Button wrapper
-  "wrapped-button",
-
   // The token is specifically wrapped Ether
   "wrapped-ether",
 
+  // The token uses the Buttonwood Button wrapper
+  "wrapper-button",
+
   // The token is a wrapped network token
-  "wrapped-network-token",
+  "wrapper-network-token",
 
   // The token uses the Buttonwood Tranche wrapper
-  "wrapped-tranche",
+  "wrapper-tranche",
 
   // The token uses the Buttonwood Unbutton wrapper
-  "wrapped-unbutton",
+  "wrapper-unbutton",
 ];

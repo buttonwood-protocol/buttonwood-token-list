@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2023-07-13T05:48:28.872Z",
+  "timestamp": "2023-07-13T07:47:34.628Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -45,7 +45,7 @@
       "tags": [
         "ampleforth-ecosystem",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button.png"
     },
@@ -58,7 +58,7 @@
       "tags": [
         "bitcoin",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599-button.png"
     },
@@ -72,7 +72,7 @@
         "ethereum",
         "network-token-derived",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
     },
@@ -108,7 +108,7 @@
       "symbol": "ubAAMPL",
       "tags": [
         "ampleforth-ecosystem",
-        "wrapped-unbutton"
+        "wrapper-unbutton"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x1E6bb68Acec8fefBD87D192bE09bb274170a0548-unbutton.png"
     },
@@ -166,7 +166,7 @@
         "ethereum",
         "network-token-derived",
         "wrapped-ether",
-        "wrapped-network-token"
+        "wrapper-network-token"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
@@ -180,7 +180,7 @@
         "ethereum",
         "network-token-derived",
         "wrapped-ether",
-        "wrapped-network-token"
+        "wrapper-network-token"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
@@ -194,7 +194,7 @@
         "ethereum",
         "network-token-derived",
         "wrapped-ether",
-        "wrapped-network-token"
+        "wrapper-network-token"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
@@ -219,7 +219,7 @@
       "tags": [
         "ampleforth-ecosystem",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button.png"
     },
@@ -232,7 +232,7 @@
       "tags": [
         "bitcoin",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599-button.png"
     },
@@ -246,7 +246,7 @@
         "ethereum",
         "network-token-derived",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
     },
@@ -317,7 +317,7 @@
         "ethereum",
         "network-token-derived",
         "wrapped-ether",
-        "wrapped-network-token"
+        "wrapper-network-token"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
@@ -342,7 +342,7 @@
       "tags": [
         "ampleforth-ecosystem",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button.png"
     },
@@ -355,7 +355,7 @@
       "tags": [
         "bitcoin",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599-button.png"
     },
@@ -369,7 +369,7 @@
         "ethereum",
         "network-token-derived",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
     },
@@ -393,7 +393,7 @@
       "symbol": "ubAMPL",
       "tags": [
         "ampleforth-ecosystem",
-        "wrapped-unbutton"
+        "wrapper-unbutton"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xD46bA6D942050d489DBd938a2C909A5d5039A161-unbutton.png"
     },
@@ -440,7 +440,7 @@
         "ethereum",
         "network-token-derived",
         "wrapped-ether",
-        "wrapped-network-token"
+        "wrapper-network-token"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
@@ -466,7 +466,7 @@
         "avalanche",
         "network-token-derived",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7-button.png"
     },
@@ -479,7 +479,7 @@
       "tags": [
         "bitcoin",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599-button.png"
     },
@@ -493,7 +493,7 @@
         "ethereum",
         "network-token-derived",
         "rebases",
-        "wrapped-button"
+        "wrapper-button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
     },
@@ -507,7 +507,7 @@
         "avalanche",
         "network-token-derived",
         "wrapped-avalanche",
-        "wrapped-network-token"
+        "wrapper-network-token"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7.png"
     },
@@ -532,7 +532,7 @@
         "ethereum",
         "network-token-derived",
         "wrapped-ether",
-        "wrapped-network-token"
+        "wrapper-network-token"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     }
