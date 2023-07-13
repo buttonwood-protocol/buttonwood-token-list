@@ -1,5 +1,5 @@
-import { tokensConfig } from './tokensConfig';
-import { TokenDefinition, TokenDefinitions } from './types';
+import {tokensConfig} from './tokensConfig';
+import {TokenDefinition, TokenDefinitions} from './types';
 
 export function getTokenDefinitionsFromConfig(): TokenDefinitions {
   const tokenDefinitions: TokenDefinitions = [];
@@ -7,11 +7,11 @@ export function getTokenDefinitionsFromConfig(): TokenDefinitions {
     const chainIds = Object.keys(tokenConfig.chains).map((key) =>
       parseInt(key, 10),
     );
-    const { primaryChainId, derived, chains } = tokenConfig;
+    const {primaryChainId, derived, chains} = tokenConfig;
     const primaryAddress: string = chains[primaryChainId].address;
 
     for (const chainId of chainIds) {
-      const { address, name, symbol, decimals } = {
+      const {address, name, symbol, decimals, tags} = {
         ...tokenConfig,
         ...chains[chainId],
       };
@@ -22,6 +22,9 @@ export function getTokenDefinitionsFromConfig(): TokenDefinitions {
         symbol,
         decimals,
       };
+      if (tags) {
+        tokenDefinition.tags = tags.sort();
+      }
       if (derived) {
         const underlying = tokensConfig.get(
           primaryChainId,

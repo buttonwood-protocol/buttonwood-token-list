@@ -1,11 +1,12 @@
-import { writeFile } from 'fs/promises';
-import { createLogos } from './createLogos';
-import { getTokenDefinitionsFromBonds } from './getTokenDefinitionsFromBonds';
-import { getTokenDefinitionsFromConfig } from './getTokenDefinitionsFromConfig';
-import { getTokenList } from './getTokenList';
-import { getWrapperMap } from './getWrapperMap';
-import { TokenDefinitionsMap } from './TokenDefinitionsMap';
-import { TokenDefinitions } from './types';
+import {writeFile} from 'fs/promises';
+import {createLogos} from './createLogos';
+import {getTokenDefinitionsFromBonds} from './getTokenDefinitionsFromBonds';
+import {getTokenDefinitionsFromConfig} from './getTokenDefinitionsFromConfig';
+import {getTokenList} from './getTokenList';
+import {getWrapperMap} from './getWrapperMap';
+import {TokenDefinitionsMap} from './TokenDefinitionsMap';
+import {TokenDefinitions} from './types';
+import {validTags} from "./validTags";
 
 async function build(): Promise<void> {
   let tokenDefinitions: TokenDefinitions = [];
@@ -13,6 +14,15 @@ async function build(): Promise<void> {
   tokenDefinitions = tokenDefinitions.concat(
     await getTokenDefinitionsFromBonds(),
   );
+  for (const tokenDefinition of tokenDefinitions) {
+    if (tokenDefinition.tags) {
+      tokenDefinition.tags.forEach((tag) => {
+        if (!validTags.includes(tag)) {
+          throw new Error(`Invalid tag "${tag}" listed for tokenDefinition ${JSON.stringify(tokenDefinition)}`);
+        }
+      });
+    }
+  }
   const tokenDefinitionsMap = new TokenDefinitionsMap(tokenDefinitions);
   await createLogos(tokenDefinitionsMap, tokenDefinitions);
   const buttonwoodTokenDefs = [];

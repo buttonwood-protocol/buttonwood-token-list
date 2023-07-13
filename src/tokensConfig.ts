@@ -26,6 +26,7 @@ export interface TokenConfig {
     [key: string]: Partial<TokenData> & Pick<TokenData, 'address'>;
   };
   derived?: DerivedTokenConfig;
+  tags?: string[];
 }
 
 class TokensConfig {
@@ -40,7 +41,7 @@ class TokensConfig {
         parseInt(key, 10),
       );
       for (const chainId of chainIds) {
-        const { address } = tokenConfig.chains[chainId];
+        const {address} = tokenConfig.chains[chainId];
         const key = TokensConfig.getKey(chainId, address);
         if (this.map.has(key)) {
           throw new Error(`Duplicate definition for ${key}`);

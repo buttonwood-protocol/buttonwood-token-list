@@ -89,12 +89,16 @@ async function getBondTokenDefinitionsForNetwork({
       const { name, symbol } = tranche.token;
       const decimals = parseInt(tranche.token.decimals, 10);
       const wrapper = getBondWrapper(trancheCount, parseInt(tranche.index, 10));
+      const tags = [
+        "wrapped-tranche",
+      ].sort();
       const tokenDefinition: TokenDefinition = {
         address,
         chainId,
         name,
         symbol,
         decimals,
+        tags,
       };
       if (!underlying.chains[chainId]) {
         throw new Error(

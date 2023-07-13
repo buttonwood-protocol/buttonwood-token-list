@@ -18,6 +18,7 @@ export interface TokenDefinition {
     name: string;
     symbol: string;
     decimals: number;
+    tags?: string[];
     derived?: {
         wrapper: string;
         underlying: {
