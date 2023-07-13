@@ -16,9 +16,9 @@ async function build(): Promise<void> {
   );
   for (const tokenDefinition of tokenDefinitions) {
     if (tokenDefinition.tags) {
-      tokenDefinition.tags.forEach((tag) => {
-        if (!validTags.includes(tag)) {
-          throw new Error(`Invalid tag "${tag}" listed for tokenDefinition ${JSON.stringify(tokenDefinition)}`);
+      tokenDefinition.tags.forEach((tagId) => {
+        if (!validTags[tagId]) {
+          throw new Error(`Invalid tagId "${tagId}" listed for tokenDefinition ${JSON.stringify(tokenDefinition)}`);
         }
       });
     }
@@ -39,6 +39,7 @@ async function build(): Promise<void> {
     {
       name: 'Buttonwood',
       keywords: ['buttonwood', 'defi'],
+      tags: validTags,
     },
     tokenDefinitionsMap,
     buttonwoodTokenDefs,
@@ -47,6 +48,7 @@ async function build(): Promise<void> {
     {
       name: 'Buttonwood Bonds',
       keywords: ['buttonwood', 'bonds', 'defi'],
+      tags: validTags,
     },
     tokenDefinitionsMap,
     buttonwoodBondsTokenDefs,
@@ -55,6 +57,7 @@ async function build(): Promise<void> {
     {
       name: 'Buttonwood',
       keywords: ['buttonwood', 'defi'],
+      tags: validTags,
     },
     buttonwoodTokenDefs,
   );

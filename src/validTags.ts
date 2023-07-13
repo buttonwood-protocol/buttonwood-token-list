@@ -1,46 +1,67 @@
-export const validTags = [
-  // The token is used within the Ampleforth ecosystem
-  "ampleforth-ecosystem",
+import {Tags} from "@uniswap/token-lists/dist/types";
 
-  // The token is used within the Avalanche ecosystem
-  "avalanche",
+// Note: the schema imposes a limit of 10 characters on the tag ID.
+// It also limits tokens to no more than 10 tags each.
 
-  // The token is used within the Bitcoin ecosystem
-  "bitcoin",
-
-  // The token is used within the Ethereum ecosystem
-  "ethereum",
-
-  // The token is the network token for a chain
-  "network-token",
-
-  // The token is derived from the network token for a chain
-  "network-token-derived",
-
-  // The token is rebasing
-  "rebases",
-
-  // The token is a staked Ether token
-  "staked-ether",
-
-  // The token is a fiat-backed stablecoin
-  "usd",
-
-  // The token is specifically wrapped Avalanche
-  "wrapped-avalanche",
-
-  // The token is specifically wrapped Ether
-  "wrapped-ether",
-
-  // The token uses the Buttonwood Button wrapper
-  "wrapper-button",
-
-  // The token is a wrapped network token
-  "wrapper-network-token",
-
-  // The token uses the Buttonwood Tranche wrapper
-  "wrapper-tranche",
-
-  // The token uses the Buttonwood Unbutton wrapper
-  "wrapper-unbutton",
-];
+export const validTags: Tags = {
+  "ampl_eco": {
+    "name": "ampleforth_ecosystem",
+    "description": "The token is used within the Ampleforth ecosystem"
+  },
+  "avax_eco": {
+    "name": "avalanche_ecosystem",
+    "description": "The token is used within the Avalanche ecosystem"
+  },
+  "btc_eco": {
+    "name": "bitcoin_ecosystem",
+    "description": "The token is used within the Bitcoin ecosystem"
+  },
+  "eth_eco": {
+    "name": "ethereum_ecosystem",
+    "description": "The token is used within the Ethereum ecosystem"
+  },
+  "net": {
+    "name": "network",
+    "description": "The token is the network token for a chain"
+  },
+  "net_d": {
+    "name": "network_derived",
+    "description": "The token is derived from the network token for a chain"
+  },
+  "rebasing": {
+    "name": "rebasing",
+    "description": "The token is rebasing"
+  },
+  "staked_eth": {
+    "name": "staked_ether",
+    "description": "The token is a staked Ether token"
+  },
+  "usd": {
+    "name": "usd",
+    "description": "The token is a fiat backed stablecoin"
+  },
+  "wavax": {
+    "name": "wrapped_avalanche",
+    "description": "The token is specifically wrapped Avalanche"
+  },
+  "weth": {
+    "name": "wrapped_ether",
+    "description": "The token is specifically wrapped Ether"
+  },
+  "w_button": {
+    "name": "wrapper_button",
+    "description": "The token uses the Buttonwood Button wrapper"
+  },
+  "w_net": {
+    "name": "wrapper_network",
+    "description": "The token is a wrapped network token"
+  },
+  "w_tranche": {
+    "name": "wrapper_tranche",
+    "description": "The token uses the Buttonwood Tranche wrapper"
+  },
+  "w_unbutton": {
+    "name": "wrapper_unbutton",
+    "description": "The token uses the Buttonwood Unbutton wrapper"
+  },
+};
