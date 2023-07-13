@@ -1,9 +1,9 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2023-05-28T14:29:39.953Z",
+  "timestamp": "2023-07-13T07:47:34.628Z",
   "version": {
     "major": 0,
-    "minor": 3,
+    "minor": 4,
     "patch": 0
   },
   "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/buttonwood.svg",
@@ -18,6 +18,10 @@
       "name": "Aave interest bearing AMPL",
       "decimals": 9,
       "symbol": "aAMPL",
+      "tags": [
+        "ampleforth-ecosystem",
+        "rebases"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x1E6bb68Acec8fefBD87D192bE09bb274170a0548.png"
     },
     {
@@ -26,6 +30,10 @@
       "name": "Ampleforth",
       "decimals": 9,
       "symbol": "AMPL",
+      "tags": [
+        "ampleforth-ecosystem",
+        "rebases"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xD46bA6D942050d489DBd938a2C909A5d5039A161.png"
     },
     {
@@ -34,6 +42,11 @@
       "name": "Button WAMPL",
       "decimals": 18,
       "symbol": "bWAMPL",
+      "tags": [
+        "ampleforth-ecosystem",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button.png"
     },
     {
@@ -42,6 +55,11 @@
       "name": "Button WBTC",
       "decimals": 8,
       "symbol": "bWBTC",
+      "tags": [
+        "bitcoin",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599-button.png"
     },
     {
@@ -50,6 +68,12 @@
       "name": "Button WETH",
       "decimals": 18,
       "symbol": "bWETH",
+      "tags": [
+        "ethereum",
+        "network-token-derived",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
     },
     {
@@ -58,7 +82,23 @@
       "name": "Ether",
       "decimals": 18,
       "symbol": "ETH",
+      "tags": [
+        "ethereum",
+        "network-token"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+      "name": "Lido Staked Ether",
+      "decimals": 18,
+      "symbol": "stETH",
+      "tags": [
+        "rebases",
+        "staked-ether"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84.png"
     },
     {
       "chainId": 1,
@@ -66,6 +106,10 @@
       "name": "Unbuttoned AAVE AMPL",
       "decimals": 18,
       "symbol": "ubAAMPL",
+      "tags": [
+        "ampleforth-ecosystem",
+        "wrapper-unbutton"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x1E6bb68Acec8fefBD87D192bE09bb274170a0548-unbutton.png"
     },
     {
@@ -74,6 +118,9 @@
       "name": "USDCoin",
       "decimals": 6,
       "symbol": "USDC",
+      "tags": [
+        "usd"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.png"
     },
     {
@@ -82,6 +129,9 @@
       "name": "Tether USD",
       "decimals": 6,
       "symbol": "USDT",
+      "tags": [
+        "usd"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
     },
     {
@@ -90,6 +140,9 @@
       "name": "Wrapped Ampleforth",
       "decimals": 18,
       "symbol": "WAMPL",
+      "tags": [
+        "ampleforth-ecosystem"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef.png"
     },
     {
@@ -98,6 +151,9 @@
       "name": "Wrapped BTC",
       "decimals": 8,
       "symbol": "WBTC",
+      "tags": [
+        "bitcoin"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
     },
     {
@@ -106,6 +162,12 @@
       "name": "Wrapped Ether",
       "decimals": 18,
       "symbol": "WETH",
+      "tags": [
+        "ethereum",
+        "network-token-derived",
+        "wrapped-ether",
+        "wrapper-network-token"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
     {
@@ -114,6 +176,12 @@
       "name": "Wrapped Ether",
       "decimals": 18,
       "symbol": "WETH",
+      "tags": [
+        "ethereum",
+        "network-token-derived",
+        "wrapped-ether",
+        "wrapper-network-token"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
     {
@@ -122,6 +190,12 @@
       "name": "Wrapped Ether",
       "decimals": 18,
       "symbol": "WETH",
+      "tags": [
+        "ethereum",
+        "network-token-derived",
+        "wrapped-ether",
+        "wrapper-network-token"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
     {
@@ -130,6 +204,10 @@
       "name": "Ampleforth",
       "decimals": 9,
       "symbol": "AMPL",
+      "tags": [
+        "ampleforth-ecosystem",
+        "rebases"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xD46bA6D942050d489DBd938a2C909A5d5039A161.png"
     },
     {
@@ -138,6 +216,11 @@
       "name": "Button WAMPL",
       "decimals": 18,
       "symbol": "bWAMPL",
+      "tags": [
+        "ampleforth-ecosystem",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button.png"
     },
     {
@@ -146,6 +229,11 @@
       "name": "Button WBTC",
       "decimals": 18,
       "symbol": "bWBTC",
+      "tags": [
+        "bitcoin",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599-button.png"
     },
     {
@@ -154,6 +242,12 @@
       "name": "Button WETH",
       "decimals": 18,
       "symbol": "bWETH",
+      "tags": [
+        "ethereum",
+        "network-token-derived",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
     },
     {
@@ -162,7 +256,23 @@
       "name": "Ether",
       "decimals": 18,
       "symbol": "ETH",
+      "tags": [
+        "ethereum",
+        "network-token"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0x1643E812aE58766192Cf7D2Cf9567dF2C37e9B7F",
+      "name": "Lido Staked Ether",
+      "decimals": 18,
+      "symbol": "stETH",
+      "tags": [
+        "rebases",
+        "staked-ether"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84.png"
     },
     {
       "chainId": 5,
@@ -170,6 +280,9 @@
       "name": "Tether USD",
       "decimals": 18,
       "symbol": "USDT",
+      "tags": [
+        "usd"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
     },
     {
@@ -178,6 +291,9 @@
       "name": "Wrapped Ampleforth",
       "decimals": 18,
       "symbol": "WAMPL",
+      "tags": [
+        "ampleforth-ecosystem"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef.png"
     },
     {
@@ -186,6 +302,9 @@
       "name": "Wrapped BTC",
       "decimals": 18,
       "symbol": "WBTC",
+      "tags": [
+        "bitcoin"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
     },
     {
@@ -194,6 +313,12 @@
       "name": "Wrapped Ether",
       "decimals": 18,
       "symbol": "WETH",
+      "tags": [
+        "ethereum",
+        "network-token-derived",
+        "wrapped-ether",
+        "wrapper-network-token"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
     {
@@ -202,6 +327,10 @@
       "name": "Ampleforth",
       "decimals": 9,
       "symbol": "AMPL",
+      "tags": [
+        "ampleforth-ecosystem",
+        "rebases"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xD46bA6D942050d489DBd938a2C909A5d5039A161.png"
     },
     {
@@ -210,6 +339,11 @@
       "name": "Button WAMPL",
       "decimals": 18,
       "symbol": "bWAMPL",
+      "tags": [
+        "ampleforth-ecosystem",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef-button.png"
     },
     {
@@ -218,6 +352,11 @@
       "name": "Button WBTC",
       "decimals": 8,
       "symbol": "bWBTC",
+      "tags": [
+        "bitcoin",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599-button.png"
     },
     {
@@ -226,6 +365,12 @@
       "name": "Button WETH",
       "decimals": 18,
       "symbol": "bWETH",
+      "tags": [
+        "ethereum",
+        "network-token-derived",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
     },
     {
@@ -234,6 +379,10 @@
       "name": "Ether",
       "decimals": 18,
       "symbol": "ETH",
+      "tags": [
+        "ethereum",
+        "network-token"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
     },
     {
@@ -242,6 +391,10 @@
       "name": "Unbuttoned AMPL",
       "decimals": 18,
       "symbol": "ubAMPL",
+      "tags": [
+        "ampleforth-ecosystem",
+        "wrapper-unbutton"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xD46bA6D942050d489DBd938a2C909A5d5039A161-unbutton.png"
     },
     {
@@ -250,6 +403,9 @@
       "name": "Tether USD",
       "decimals": 18,
       "symbol": "USDT",
+      "tags": [
+        "usd"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
     },
     {
@@ -258,6 +414,9 @@
       "name": "Wrapped Ampleforth",
       "decimals": 18,
       "symbol": "WAMPL",
+      "tags": [
+        "ampleforth-ecosystem"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEDB171C18cE90B633DB442f2A6F72874093b49Ef.png"
     },
     {
@@ -266,6 +425,9 @@
       "name": "Wrapped BTC",
       "decimals": 8,
       "symbol": "WBTC",
+      "tags": [
+        "bitcoin"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
     },
     {
@@ -274,6 +436,12 @@
       "name": "Wrapped Ether",
       "decimals": 18,
       "symbol": "WETH",
+      "tags": [
+        "ethereum",
+        "network-token-derived",
+        "wrapped-ether",
+        "wrapper-network-token"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
     {
@@ -282,6 +450,10 @@
       "name": "Avalanche",
       "decimals": 18,
       "symbol": "AVAX",
+      "tags": [
+        "avalanche",
+        "network-token"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
     },
     {
@@ -290,6 +462,12 @@
       "name": "Button Wrapped Avalanche",
       "decimals": 18,
       "symbol": "bWAVAX",
+      "tags": [
+        "avalanche",
+        "network-token-derived",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7-button.png"
     },
     {
@@ -298,6 +476,11 @@
       "name": "Button WBTC",
       "decimals": 8,
       "symbol": "bWBTC",
+      "tags": [
+        "bitcoin",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599-button.png"
     },
     {
@@ -306,6 +489,12 @@
       "name": "Button WETH",
       "decimals": 18,
       "symbol": "bWETH",
+      "tags": [
+        "ethereum",
+        "network-token-derived",
+        "rebases",
+        "wrapper-button"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
     },
     {
@@ -314,6 +503,12 @@
       "name": "Wrapped Avalanche",
       "decimals": 18,
       "symbol": "WAVAX",
+      "tags": [
+        "avalanche",
+        "network-token-derived",
+        "wrapped-avalanche",
+        "wrapper-network-token"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7.png"
     },
     {
@@ -322,6 +517,9 @@
       "name": "Wrapped BTC",
       "decimals": 8,
       "symbol": "WBTC.e",
+      "tags": [
+        "bitcoin"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
     },
     {
@@ -330,6 +528,12 @@
       "name": "Wrapped Ether",
       "decimals": 18,
       "symbol": "WETH.e",
+      "tags": [
+        "ethereum",
+        "network-token-derived",
+        "wrapped-ether",
+        "wrapper-network-token"
+      ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     }
   ]

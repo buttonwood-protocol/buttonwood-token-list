@@ -9,7 +9,7 @@ async function getTokenInfo(
   tokenDefinitionsMap: TokenDefinitionsMap,
   tokenDefinition: TokenDefinition,
 ): Promise<TokenInfo> {
-  const { chainId, address, name, decimals, symbol } = tokenDefinition;
+  const { chainId, address, name, decimals, symbol, tags } = tokenDefinition;
   const { localPath, logoURI } = getLogoLocation(
     tokenDefinitionsMap,
     chainId,
@@ -21,6 +21,7 @@ async function getTokenInfo(
     name,
     decimals,
     symbol,
+    tags,
     logoURI: (await pathExists(localPath)) ? logoURI : undefined,
   };
 }
