@@ -1,10 +1,10 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2023-07-13T12:57:59.479Z",
+  "timestamp": "2023-07-17T07:46:32.368Z",
   "version": {
     "major": 0,
     "minor": 4,
-    "patch": 0
+    "patch": 1
   },
   "tags": {
     "ampl_eco": {
@@ -177,7 +177,7 @@
     {
       "chainId": 1,
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-      "name": "USDCoin",
+      "name": "USD Coin",
       "decimals": 6,
       "symbol": "USDC",
       "tags": [
@@ -507,6 +507,65 @@
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
     {
+      "chainId": 42161,
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "name": "Ether",
+      "decimals": 18,
+      "symbol": "ETH",
+      "tags": [
+        "eth_eco",
+        "net"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "name": "USD Coin",
+      "decimals": 6,
+      "symbol": "USDC",
+      "tags": [
+        "usd"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+      "name": "Tether USD",
+      "decimals": 6,
+      "symbol": "USDT",
+      "tags": [
+        "usd"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+      "name": "Wrapped BTC",
+      "decimals": 8,
+      "symbol": "WBTC",
+      "tags": [
+        "btc_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "symbol": "WETH",
+      "tags": [
+        "eth_eco",
+        "net_d",
+        "w_net",
+        "weth"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
+    },
+    {
       "chainId": 43114,
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
       "name": "Avalanche",
@@ -590,6 +649,54 @@
       "name": "Wrapped Ether",
       "decimals": 18,
       "symbol": "WETH.e",
+      "tags": [
+        "eth_eco",
+        "net_d",
+        "w_net",
+        "weth"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
+    },
+    {
+      "chainId": 421613,
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "name": "Ether",
+      "decimals": 18,
+      "symbol": "ETH",
+      "tags": [
+        "eth_eco",
+        "net"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+    },
+    {
+      "chainId": 421613,
+      "address": "0xdD49833BDE5eC81D7DEaab71ea4409DD1ab6eb94",
+      "name": "Tether USD",
+      "decimals": 18,
+      "symbol": "USDT",
+      "tags": [
+        "usd"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
+    },
+    {
+      "chainId": 421613,
+      "address": "0x1BE6e871D9AE7403A535DC6536Bf6c704a99313b",
+      "name": "Wrapped BTC",
+      "decimals": 18,
+      "symbol": "WBTC",
+      "tags": [
+        "btc_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
+    },
+    {
+      "chainId": 421613,
+      "address": "0xe39Ab88f8A4777030A534146A9Ca3B52bd5D43A3",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "symbol": "WETH",
       "tags": [
         "eth_eco",
         "net_d",
