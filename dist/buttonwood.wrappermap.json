@@ -1,6 +1,6 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2023-08-09T09:51:25.465Z",
+    "timestamp": "2023-08-09T11:33:50.111Z",
     "version": {
         "major": 0,
         "minor": 4,
@@ -86,11 +86,6 @@
                 "chainId": 5
             },
             {
-                "unwrapped": "0xD012092D13e5a4aa7A9032335B380C62Fc707232",
-                "wrapped": "0x36bAE294D987209FCE01c5f482E135424D6C21AB",
-                "chainId": 42
-            },
-            {
                 "unwrapped": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
                 "wrapped": "0x9f61aE42c01698aC35AedeF651B0FE5E407bC6A0",
                 "chainId": 43114
@@ -104,11 +99,6 @@
                 "unwrapped": "0xF19162950528A40a27d922f52413d26f71B25926",
                 "wrapped": "0x37E4496AfD20e04Eec7A0Ac17410C0684a252287",
                 "chainId": 5
-            },
-            {
-                "unwrapped": "0x11c3d23EF6Cbb1acC757064D17A5cF9f105273D4",
-                "wrapped": "0xaB6FCbBb7828B3de2f44A0fA22027A001572f7Ad",
-                "chainId": 42
             },
             {
                 "unwrapped": "0x50b7545627a5162F82A992c33b87aDc75187B218",
@@ -126,11 +116,6 @@
                 "chainId": 5
             },
             {
-                "unwrapped": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-                "wrapped": "0x8ea34f5856bd3dfaaA27309F85853F1737BE7832",
-                "chainId": 42
-            },
-            {
                 "unwrapped": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
                 "wrapped": "0x227d7A0e2586A5bFdA7f32aDF066d20D1bfDfDfb",
                 "chainId": 43114
@@ -141,11 +126,6 @@
                 "unwrapped": "0x1E6bb68Acec8fefBD87D192bE09bb274170a0548",
                 "wrapped": "0xF03387d8d0FF326ab586A58E0ab4121d106147DF",
                 "chainId": 1
-            },
-            {
-                "unwrapped": "0x3E0437898a5667a4769B1Ca5A34aAB1ae7E81377",
-                "wrapped": "0xeBB66682BE59c7DE222AFD7e884C065b5f1cA9Ca",
-                "chainId": 42
             }
         ],
         "wampl": [
@@ -158,11 +138,6 @@
                 "unwrapped": "0x08c5b39F000705ebeC8427C1d64D6262392944EE",
                 "wrapped": "0x3b624861a14979537DE1B88F9565F41a7fc45FBf",
                 "chainId": 5
-            },
-            {
-                "unwrapped": "0x3E0437898a5667a4769B1Ca5A34aAB1ae7E81377",
-                "wrapped": "0xD012092D13e5a4aa7A9032335B380C62Fc707232",
-                "chainId": 42
             }
         ]
     }

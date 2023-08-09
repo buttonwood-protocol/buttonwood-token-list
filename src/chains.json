@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Ethereum Mainnet",
+    "chainId": 1
+  },
+  {
+    "name": "Ropsten",
+    "title": "Ethereum Testnet Ropsten",
+    "chainId": 3
+  },
+  {
+    "name": "Rinkeby",
+    "title": "Ethereum Testnet Rinkeby",
+    "chainId": 4
+  },
+  {
+    "name": "Goerli",
+    "title": "Ethereum Testnet Goerli",
+    "chainId": 5
+  },
+  {
+    "name": "Arbitrum One",
+    "chainId": 42161
+  },
+  {
+    "name": "Avalanche C-Chain",
+    "chainId": 43114
+  },
+  {
+    "name": "Arbitrum Goerli",
+    "title": "Arbitrum Goerli Rollup Testnet",
+    "chainId": 421613
+  }
+]

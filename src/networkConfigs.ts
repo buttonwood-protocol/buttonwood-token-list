@@ -1,3 +1,5 @@
+import { getChainDefinitionFromName } from './chains';
+
 export interface NetworkConfig {
   chainId: number;
   subgraphTranche?: string;
@@ -6,7 +8,7 @@ export interface NetworkConfig {
 
 export const networkConfigs: NetworkConfig[] = [
   {
-    chainId: 1,
+    chainId: getChainDefinitionFromName('Ethereum Mainnet').chainId,
     subgraphTranche:
       'https://api.thegraph.com/subgraphs/name/buttonwood-protocol/tranche',
     bondMinters: [
@@ -16,7 +18,7 @@ export const networkConfigs: NetworkConfig[] = [
     ],
   },
   {
-    chainId: 5,
+    chainId: getChainDefinitionFromName('Goerli').chainId,
     subgraphTranche:
       'https://api.thegraph.com/subgraphs/name/buttonwood-protocol/tranche-goerli',
     bondMinters: [
