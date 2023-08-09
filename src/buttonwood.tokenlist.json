@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2023-08-09T14:58:46.602Z",
+  "timestamp": "2023-08-09T15:49:35.636Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -103,7 +103,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c.png"
     },
     {
       "chainId": 1,
@@ -114,7 +115,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a.png"
     },
     {
       "chainId": 1,
@@ -177,7 +179,8 @@
       "tags": [
         "comp_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xc3d688B66703497DAA19211EEdff47f25384cdc3.png"
     },
     {
       "chainId": 1,
@@ -188,7 +191,8 @@
       "tags": [
         "comp_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xA17581A9E3356d9A858b789D68B4d866e593aE94.png"
     },
     {
       "chainId": 1,
@@ -198,7 +202,8 @@
       "symbol": "ECO",
       "tags": [
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x8dBF9A4c99580fC7Fd4024ee08f3994420035727.png"
     },
     {
       "chainId": 1,
@@ -220,7 +225,8 @@
       "symbol": "eUSD",
       "tags": [
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x97de57eC338AB5d51557DA3434828C5DbFaDA371.png"
     },
     {
       "chainId": 1,
@@ -228,7 +234,8 @@
       "name": "FOX",
       "decimals": 18,
       "symbol": "FOX",
-      "tags": []
+      "tags": [],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d.png"
     },
     {
       "chainId": 1,
@@ -238,7 +245,8 @@
       "symbol": "FOXy",
       "tags": [
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xDc49108ce5C57bc3408c3A5E95F3d864eC386Ed3.png"
     },
     {
       "chainId": 1,
@@ -248,7 +256,8 @@
       "symbol": "SPOT",
       "tags": [
         "ampl_eco"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC1f33e0cf7e40a67375007104B929E49a581bafE.png"
     },
     {
       "chainId": 1,
@@ -369,7 +378,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c.png"
     },
     {
       "chainId": 5,
@@ -380,7 +390,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a.png"
     },
     {
       "chainId": 5,
@@ -443,7 +454,8 @@
       "tags": [
         "comp_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xc3d688B66703497DAA19211EEdff47f25384cdc3.png"
     },
     {
       "chainId": 5,
@@ -454,7 +466,8 @@
       "tags": [
         "comp_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xA17581A9E3356d9A858b789D68B4d866e593aE94.png"
     },
     {
       "chainId": 5,
@@ -476,7 +489,8 @@
       "symbol": "SPOT",
       "tags": [
         "ampl_eco"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC1f33e0cf7e40a67375007104B929E49a581bafE.png"
     },
     {
       "chainId": 5,
@@ -546,7 +560,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x625E7708f30cA75bfd92586e17077590C60eb4cD.png"
     },
     {
       "chainId": 42161,
@@ -557,7 +572,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x6ab707Aca953eDAeFBc4fD23bA73294241490620.png"
     },
     {
       "chainId": 42161,
@@ -568,7 +584,8 @@
       "tags": [
         "comp_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xc3d688B66703497DAA19211EEdff47f25384cdc3.png"
     },
     {
       "chainId": 42161,
@@ -638,7 +655,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x625E7708f30cA75bfd92586e17077590C60eb4cD.png"
     },
     {
       "chainId": 43113,
@@ -649,7 +667,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x6ab707Aca953eDAeFBc4fD23bA73294241490620.png"
     },
     {
       "chainId": 43113,
@@ -660,7 +679,8 @@
       "tags": [
         "comp_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xc3d688B66703497DAA19211EEdff47f25384cdc3.png"
     },
     {
       "chainId": 43114,
@@ -671,7 +691,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x625E7708f30cA75bfd92586e17077590C60eb4cD.png"
     },
     {
       "chainId": 43114,
@@ -682,7 +703,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x6ab707Aca953eDAeFBc4fD23bA73294241490620.png"
     },
     {
       "chainId": 43114,
@@ -785,7 +807,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x625E7708f30cA75bfd92586e17077590C60eb4cD.png"
     },
     {
       "chainId": 421613,
@@ -796,7 +819,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x6ab707Aca953eDAeFBc4fD23bA73294241490620.png"
     },
     {
       "chainId": 421613,
@@ -807,7 +831,8 @@
       "tags": [
         "comp_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xc3d688B66703497DAA19211EEdff47f25384cdc3.png"
     },
     {
       "chainId": 421613,
@@ -866,7 +891,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c.png"
     },
     {
       "chainId": 11155111,
@@ -877,7 +903,8 @@
       "tags": [
         "aave_eco",
         "rebasing"
-      ]
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a.png"
     }
   ]
 }
