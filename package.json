@@ -14,10 +14,11 @@
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
-    "build": "tsc -p tsconfig-dist.json && tsc -p tsconfig.json",
+    "build": "yarn lint-tokens && tsc -p tsconfig-dist.json && tsc -p tsconfig.json",
     "build:watch": "tsc -w -p tsconfig.json",
     "lint": "yarn eslint && yarn prettier:list-different",
     "lint:fix": "yarn eslint:fix && yarn prettier",
+    "lint-tokens": "node scripts/lint-tokens.mjs",
     "eslint": "eslint . --ext .ts,.tsx",
     "eslint:fix": "eslint . --fix --ext .ts,.tsx",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,json,md,sol,ts}\"",
