@@ -23,6 +23,10 @@
     "chainId": 42161
   },
   {
+    "name": "Avalanche Fuji Testnet",
+    "chainId": 43113
+  },
+  {
     "name": "Avalanche C-Chain",
     "chainId": 43114
   },
@@ -30,5 +34,10 @@
     "name": "Arbitrum Goerli",
     "title": "Arbitrum Goerli Rollup Testnet",
     "chainId": 421613
+  },
+  {
+    "name": "Sepolia",
+    "title": "Ethereum Testnet Sepolia",
+    "chainId": 11155111
   }
 ]

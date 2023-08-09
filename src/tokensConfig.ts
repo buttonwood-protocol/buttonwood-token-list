@@ -1,4 +1,4 @@
-import { getChainDefinitionFromName } from './chains';
+import {getChainDefinitionFromName} from './chains';
 import rawTokenJson from './tokens.json';
 
 export interface TokenData {
@@ -49,7 +49,7 @@ class TokensConfig {
   constructor() {
     // First convert raw data config to regular config
     // It's preferable to handle the rest of the build task using chainId rather than chainName
-    const rawData = rawTokenJson as RawTokenConfig[];
+    const rawData = (rawTokenJson as unknown) as RawTokenConfig[];
     this.data = [];
     for (const rawTokenConfig of rawData) {
       const {
@@ -85,7 +85,7 @@ class TokensConfig {
         parseInt(key, 10),
       );
       for (const chainId of chainIds) {
-        const { address } = tokenConfig.chains[chainId];
+        const {address} = tokenConfig.chains[chainId];
         const key = TokensConfig.getKey(chainId, address);
         if (this.map.has(key)) {
           throw new Error(`Duplicate definition for ${key}`);
