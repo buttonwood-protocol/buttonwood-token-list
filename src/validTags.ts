@@ -4,6 +4,10 @@ import { Tags } from '@uniswap/token-lists/dist/types';
 // It also limits tokens to no more than 10 tags each.
 
 export const validTags: Tags = {
+  aave_eco: {
+    name: 'aave_ecosystem',
+    description: 'The token is used within the AAVE ecosystem',
+  },
   ampl_eco: {
     name: 'ampleforth_ecosystem',
     description: 'The token is used within the Ampleforth ecosystem',
@@ -15,6 +19,10 @@ export const validTags: Tags = {
   btc_eco: {
     name: 'bitcoin_ecosystem',
     description: 'The token is used within the Bitcoin ecosystem',
+  },
+  comp_eco: {
+    name: 'compound_ecosystem',
+    description: 'The token is used within the Compound ecosystem',
   },
   eth_eco: {
     name: 'ethereum_ecosystem',

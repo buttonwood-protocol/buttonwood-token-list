@@ -1,12 +1,16 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2023-07-17T07:46:32.371Z",
+  "timestamp": "2023-08-09T15:49:35.647Z",
   "version": {
     "major": 0,
     "minor": 4,
     "patch": 1
   },
   "tags": {
+    "aave_eco": {
+      "name": "aave_ecosystem",
+      "description": "The token is used within the AAVE ecosystem"
+    },
     "ampl_eco": {
       "name": "ampleforth_ecosystem",
       "description": "The token is used within the Ampleforth ecosystem"
@@ -18,6 +22,10 @@
     "btc_eco": {
       "name": "bitcoin_ecosystem",
       "description": "The token is used within the Bitcoin ecosystem"
+    },
+    "comp_eco": {
+      "name": "compound_ecosystem",
+      "description": "The token is used within the Compound ecosystem"
     },
     "eth_eco": {
       "name": "ethereum_ecosystem",
@@ -74,37 +82,20 @@
     "defi"
   ],
   "wrappers": {
-    "unbutton": [
-      {
-        "unwrapped": "0x1E6bb68Acec8fefBD87D192bE09bb274170a0548",
-        "wrapped": "0xF03387d8d0FF326ab586A58E0ab4121d106147DF",
-        "chainId": 1
-      },
-      {
-        "unwrapped": "0x3E0437898a5667a4769B1Ca5A34aAB1ae7E81377",
-        "wrapped": "0xeBB66682BE59c7DE222AFD7e884C065b5f1cA9Ca",
-        "chainId": 42
-      }
-    ],
     "button": [
       {
-        "unwrapped": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "wrapped": "0x8F471E1896D16481678db553F86283EAB1561B02",
+        "unwrapped": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef",
+        "wrapped": "0x6484F9c02fe1a0ed1edE923BE36243d361A480F5",
         "chainId": 1
       },
       {
-        "unwrapped": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
-        "wrapped": "0x73CB4fDe4ad1e5944a54785873b003E6f89eDBB9",
+        "unwrapped": "0x3b624861a14979537DE1B88F9565F41a7fc45FBf",
+        "wrapped": "0x7176c51918A279641a06A4889d70670C10B2Aad9",
         "chainId": 5
       },
       {
-        "unwrapped": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-        "wrapped": "0x8ea34f5856bd3dfaaA27309F85853F1737BE7832",
-        "chainId": 42
-      },
-      {
-        "unwrapped": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
-        "wrapped": "0x227d7A0e2586A5bFdA7f32aDF066d20D1bfDfDfb",
+        "unwrapped": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        "wrapped": "0x9f61aE42c01698aC35AedeF651B0FE5E407bC6A0",
         "chainId": 43114
       },
       {
@@ -118,34 +109,31 @@
         "chainId": 5
       },
       {
-        "unwrapped": "0x11c3d23EF6Cbb1acC757064D17A5cF9f105273D4",
-        "wrapped": "0xaB6FCbBb7828B3de2f44A0fA22027A001572f7Ad",
-        "chainId": 42
-      },
-      {
         "unwrapped": "0x50b7545627a5162F82A992c33b87aDc75187B218",
         "wrapped": "0x9bFE32D18e66ffAF6dcB0306AE7D24F768469f91",
         "chainId": 43114
       },
       {
-        "unwrapped": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
-        "wrapped": "0x9f61aE42c01698aC35AedeF651B0FE5E407bC6A0",
-        "chainId": 43114
-      },
-      {
-        "unwrapped": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef",
-        "wrapped": "0x6484F9c02fe1a0ed1edE923BE36243d361A480F5",
+        "unwrapped": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "wrapped": "0x8F471E1896D16481678db553F86283EAB1561B02",
         "chainId": 1
       },
       {
-        "unwrapped": "0x3b624861a14979537DE1B88F9565F41a7fc45FBf",
-        "wrapped": "0x7176c51918A279641a06A4889d70670C10B2Aad9",
+        "unwrapped": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+        "wrapped": "0x73CB4fDe4ad1e5944a54785873b003E6f89eDBB9",
         "chainId": 5
       },
       {
-        "unwrapped": "0xD012092D13e5a4aa7A9032335B380C62Fc707232",
-        "wrapped": "0x36bAE294D987209FCE01c5f482E135424D6C21AB",
-        "chainId": 42
+        "unwrapped": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+        "wrapped": "0x227d7A0e2586A5bFdA7f32aDF066d20D1bfDfDfb",
+        "chainId": 43114
+      }
+    ],
+    "unbutton": [
+      {
+        "unwrapped": "0x1E6bb68Acec8fefBD87D192bE09bb274170a0548",
+        "wrapped": "0xF03387d8d0FF326ab586A58E0ab4121d106147DF",
+        "chainId": 1
       }
     ],
     "wampl": [
@@ -158,11 +146,6 @@
         "unwrapped": "0x08c5b39F000705ebeC8427C1d64D6262392944EE",
         "wrapped": "0x3b624861a14979537DE1B88F9565F41a7fc45FBf",
         "chainId": 5
-      },
-      {
-        "unwrapped": "0x3E0437898a5667a4769B1Ca5A34aAB1ae7E81377",
-        "wrapped": "0xD012092D13e5a4aa7A9032335B380C62Fc707232",
-        "chainId": 42
       }
     ]
   }

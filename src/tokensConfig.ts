@@ -1,4 +1,5 @@
-import tokenJson from './tokens.json';
+import { getChainDefinitionFromName } from './chains';
+import rawTokenJson from './tokens.json';
 
 export interface TokenData {
   name: string;
@@ -15,6 +16,18 @@ export interface DerivedTokenConfig {
     address: string;
   };
   bespokeLogo?: boolean;
+}
+
+export interface RawTokenConfig {
+  name: string;
+  symbol: string;
+  decimals: number;
+  primaryChain: string;
+  chains: {
+    [key: string]: Partial<TokenData> & Pick<TokenData, 'address'>;
+  };
+  derived?: DerivedTokenConfig;
+  tags?: string[];
 }
 
 export interface TokenConfig {
@@ -34,7 +47,38 @@ class TokensConfig {
   readonly map: Map<string, TokenConfig>;
 
   constructor() {
-    this.data = tokenJson as TokenConfig[];
+    // First convert raw data config to regular config
+    // It's preferable to handle the rest of the build task using chainId rather than chainName
+    const rawData = rawTokenJson as unknown as RawTokenConfig[];
+    this.data = [];
+    for (const rawTokenConfig of rawData) {
+      const {
+        name,
+        symbol,
+        decimals,
+        primaryChain,
+        chains: rawChains,
+        derived,
+        tags,
+      } = rawTokenConfig;
+      const primaryChainId = getChainDefinitionFromName(primaryChain).chainId;
+      const chains: TokenConfig['chains'] = {};
+      Object.keys(rawChains).forEach((chainName) => {
+        const chainId = getChainDefinitionFromName(chainName).chainId;
+        chains[chainId] = rawChains[chainName];
+      });
+      const tokenConfig = {
+        name,
+        symbol,
+        decimals,
+        primaryChainId,
+        chains,
+        derived,
+        tags,
+      };
+      this.data.push(tokenConfig);
+    }
+    // Now do everything else
     this.map = new Map();
     for (const tokenConfig of this.data) {
       const chainIds = Object.keys(tokenConfig.chains).map((key) =>

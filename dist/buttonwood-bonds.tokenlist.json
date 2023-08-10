@@ -1,12 +1,16 @@
 {
     "name": "Buttonwood Bonds",
-    "timestamp": "2023-07-17T07:46:32.370Z",
+    "timestamp": "2023-08-09T15:49:35.647Z",
     "version": {
         "major": 0,
         "minor": 4,
         "patch": 1
     },
     "tags": {
+        "aave_eco": {
+            "name": "aave_ecosystem",
+            "description": "The token is used within the AAVE ecosystem"
+        },
         "ampl_eco": {
             "name": "ampleforth_ecosystem",
             "description": "The token is used within the Ampleforth ecosystem"
@@ -18,6 +22,10 @@
         "btc_eco": {
             "name": "bitcoin_ecosystem",
             "description": "The token is used within the Bitcoin ecosystem"
+        },
+        "comp_eco": {
+            "name": "compound_ecosystem",
+            "description": "The token is used within the Compound ecosystem"
         },
         "eth_eco": {
             "name": "ethereum_ecosystem",
