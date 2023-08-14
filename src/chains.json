@@ -4,16 +4,6 @@
     "chainId": 1
   },
   {
-    "name": "Ropsten",
-    "title": "Ethereum Testnet Ropsten",
-    "chainId": 3
-  },
-  {
-    "name": "Rinkeby",
-    "title": "Ethereum Testnet Rinkeby",
-    "chainId": 4
-  },
-  {
     "name": "Goerli",
     "title": "Ethereum Testnet Goerli",
     "chainId": 5
