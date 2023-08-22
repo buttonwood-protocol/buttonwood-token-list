@@ -91,9 +91,11 @@ The following is a list of files to examine and edit, with some brief pointers:
 ## Sourcing data
 
 Token addresses:
+
 - Coinbase uses https://github.com/ethereum-optimism/ethereum-optimism.github.io for their Base tokenlist
-- 
+-
 
 Token logos:
+
 - https://assets.trustwallet.com/?
-- 
+-
