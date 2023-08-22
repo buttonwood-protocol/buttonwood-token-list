@@ -87,3 +87,13 @@ The following is a list of files to examine and edit, with some brief pointers:
   - the behaviour of the `downloadLogo` function can be changed to add or remove endpoints that missing logos can be retrieved from
 - `test/*`
   - add, rename, remove test files as appropriate based on modifications made to the tokenlists being output
+
+## Sourcing data
+
+Token addresses:
+- Coinbase uses https://github.com/ethereum-optimism/ethereum-optimism.github.io for their Base tokenlist
+- 
+
+Token logos:
+- https://assets.trustwallet.com/?
+- 

@@ -9,9 +9,11 @@ const chainsPath = path.join(projectRoot, 'src', 'chains.json');
 const watchedChains = [
   1,
   5,
+  8453,
   42161,
   43113,
   43114,
+  84531,
   421613,
   11155111
 ];

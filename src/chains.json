@@ -9,6 +9,10 @@
     "chainId": 5
   },
   {
+    "name": "Base",
+    "chainId": 8453
+  },
+  {
     "name": "Arbitrum One",
     "chainId": 42161
   },
@@ -19,6 +23,10 @@
   {
     "name": "Avalanche C-Chain",
     "chainId": 43114
+  },
+  {
+    "name": "Base Goerli Testnet",
+    "chainId": 84531
   },
   {
     "name": "Arbitrum Goerli",
