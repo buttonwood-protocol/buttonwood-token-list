@@ -1,6 +1,6 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2023-08-13T13:22:37.337Z",
+    "timestamp": "2023-08-22T04:31:29.965Z",
     "version": {
         "major": 0,
         "minor": 4,
@@ -169,6 +169,18 @@
                 "w_button"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
+        },
+        {
+            "chainId": 1,
+            "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+            "name": "Coinbase Wrapped Staked ETH",
+            "decimals": 18,
+            "symbol": "cbETH",
+            "tags": [
+                "rebasing",
+                "staked_eth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
         },
         {
             "chainId": 1,
@@ -419,6 +431,18 @@
         },
         {
             "chainId": 5,
+            "address": "0xD0bb78d0B337aA6D3A0530DD2e58560bf00851f1",
+            "name": "Coinbase Wrapped Staked ETH",
+            "decimals": 18,
+            "symbol": "cbETH",
+            "tags": [
+                "rebasing",
+                "staked_eth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
+        },
+        {
+            "chainId": 5,
             "address": "0x3EE77595A8459e93C2888b13aDB354017B198188",
             "name": "Compound USDC",
             "decimals": 6,
@@ -524,6 +548,32 @@
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
         },
         {
+            "chainId": 8453,
+            "address": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+            "name": "Coinbase Wrapped Staked ETH",
+            "decimals": 18,
+            "symbol": "cbETH",
+            "tags": [
+                "rebasing",
+                "staked_eth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
+        },
+        {
+            "chainId": 8453,
+            "address": "0x4200000000000000000000000000000000000006",
+            "name": "Wrapped Ether",
+            "decimals": 18,
+            "symbol": "WETH",
+            "tags": [
+                "eth_eco",
+                "net_d",
+                "w_net",
+                "weth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
+        },
+        {
             "chainId": 42161,
             "address": "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
             "name": "Aave Arbitrum USDC",
@@ -546,6 +596,18 @@
                 "rebasing"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x6ab707Aca953eDAeFBc4fD23bA73294241490620.png"
+        },
+        {
+            "chainId": 42161,
+            "address": "0x1DEBd73E752bEaF79865Fd6446b0c970EaE7732f",
+            "name": "Coinbase Wrapped Staked ETH",
+            "decimals": 18,
+            "symbol": "cbETH",
+            "tags": [
+                "rebasing",
+                "staked_eth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
         },
         {
             "chainId": 42161,
@@ -762,6 +824,32 @@
             "name": "Wrapped Ether",
             "decimals": 18,
             "symbol": "WETH.e",
+            "tags": [
+                "eth_eco",
+                "net_d",
+                "w_net",
+                "weth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
+        },
+        {
+            "chainId": 84531,
+            "address": "0x4fC531f8Ae7A7808E0dccCA08F1e3c7694582950",
+            "name": "Coinbase Wrapped Staked ETH",
+            "decimals": 18,
+            "symbol": "cbETH",
+            "tags": [
+                "rebasing",
+                "staked_eth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
+        },
+        {
+            "chainId": 84531,
+            "address": "0x4200000000000000000000000000000000000006",
+            "name": "Wrapped Ether",
+            "decimals": 18,
+            "symbol": "WETH",
             "tags": [
                 "eth_eco",
                 "net_d",
