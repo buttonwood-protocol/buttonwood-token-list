@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2023-08-22T04:31:29.965Z",
+  "timestamp": "2023-09-04T15:26:59.715Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -561,6 +561,18 @@
     },
     {
       "chainId": 8453,
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "name": "Ether",
+      "decimals": 18,
+      "symbol": "ETH",
+      "tags": [
+        "eth_eco",
+        "net"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0x4200000000000000000000000000000000000006",
       "name": "Wrapped Ether",
       "decimals": 18,
@@ -843,6 +855,18 @@
         "staked_eth"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
+    },
+    {
+      "chainId": 84531,
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "name": "Ether",
+      "decimals": 18,
+      "symbol": "ETH",
+      "tags": [
+        "eth_eco",
+        "net"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
     },
     {
       "chainId": 84531,
