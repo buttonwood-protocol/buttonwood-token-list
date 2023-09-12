@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2023-09-04T15:26:59.715Z",
+  "timestamp": "2023-09-12T02:22:39.807Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -177,7 +177,6 @@
       "decimals": 18,
       "symbol": "cbETH",
       "tags": [
-        "rebasing",
         "staked_eth"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
@@ -436,7 +435,6 @@
       "decimals": 18,
       "symbol": "cbETH",
       "tags": [
-        "rebasing",
         "staked_eth"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
@@ -554,7 +552,6 @@
       "decimals": 18,
       "symbol": "cbETH",
       "tags": [
-        "rebasing",
         "staked_eth"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
@@ -570,6 +567,18 @@
         "net"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x692eF3afD21F172680b82285759Bc13CF8e70710",
+      "name": "Rebasing cbETH",
+      "decimals": 18,
+      "symbol": "rcbETH",
+      "tags": [
+        "rebasing",
+        "staked_eth"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704-button.png"
     },
     {
       "chainId": 8453,
@@ -616,7 +625,6 @@
       "decimals": 18,
       "symbol": "cbETH",
       "tags": [
-        "rebasing",
         "staked_eth"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
@@ -851,7 +859,6 @@
       "decimals": 18,
       "symbol": "cbETH",
       "tags": [
-        "rebasing",
         "staked_eth"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
