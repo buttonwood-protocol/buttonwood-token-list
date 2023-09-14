@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2023-09-12T02:22:39.807Z",
+  "timestamp": "2023-09-14T04:24:39.426Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -582,6 +582,17 @@
     },
     {
       "chainId": 8453,
+      "address": "0x489fe42C267fe0366B16b0c39e7AEEf977E841eF",
+      "name": "Wrapped Ampleforth",
+      "decimals": 18,
+      "symbol": "WAMPL",
+      "tags": [
+        "ampl_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/8453/0x489fe42C267fe0366B16b0c39e7AEEf977E841eF.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0x4200000000000000000000000000000000000006",
       "name": "Wrapped Ether",
       "decimals": 18,
@@ -874,6 +885,17 @@
         "net"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+    },
+    {
+      "chainId": 84531,
+      "address": "0x395Ae52bB17aef68C2888d941736A71dC6d4e125",
+      "name": "Wrapped Ampleforth",
+      "decimals": 18,
+      "symbol": "WAMPL",
+      "tags": [
+        "ampl_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/8453/0x489fe42C267fe0366B16b0c39e7AEEf977E841eF.png"
     },
     {
       "chainId": 84531,
