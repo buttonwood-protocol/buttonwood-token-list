@@ -1,6 +1,6 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2023-09-12T02:22:39.807Z",
+    "timestamp": "2023-09-28T00:17:14.530Z",
     "version": {
         "major": 0,
         "minor": 4,
@@ -42,6 +42,10 @@
         "rebasing": {
             "name": "rebasing",
             "description": "The token is rebasing"
+        },
+        "staked_ava": {
+            "name": "staked_avax",
+            "description": "The token is a staked Avax token"
         },
         "staked_eth": {
             "name": "staked_ether",
@@ -812,6 +816,30 @@
                 "w_button"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0xA38Bfa13bEEf9beb75F3698B4647F027fbe8f61D",
+            "name": "Rebasing sAVAX",
+            "decimals": 18,
+            "symbol": "rsAVAX",
+            "tags": [
+                "rebasing",
+                "staked_ava"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE-button.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+            "name": "Benqi Staked Avax",
+            "decimals": 18,
+            "symbol": "sAVAX",
+            "tags": [
+                "avax_eco",
+                "staked_ava"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE.png"
         },
         {
             "chainId": 43114,
