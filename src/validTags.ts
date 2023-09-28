@@ -40,7 +40,7 @@ export const validTags: Tags = {
     name: 'rebasing',
     description: 'The token is rebasing',
   },
-  staked_avax: {
+  staked_ava: {
     name: 'staked_avax',
     description: 'The token is a staked Avax token',
   },

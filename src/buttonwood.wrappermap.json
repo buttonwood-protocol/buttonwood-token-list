@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2023-09-28T00:10:35.673Z",
+  "timestamp": "2023-09-28T00:17:14.531Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -43,7 +43,7 @@
       "name": "rebasing",
       "description": "The token is rebasing"
     },
-    "staked_avax": {
+    "staked_ava": {
       "name": "staked_avax",
       "description": "The token is a staked Avax token"
     },

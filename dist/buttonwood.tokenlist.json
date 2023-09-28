@@ -1,6 +1,6 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2023-09-28T00:10:35.672Z",
+    "timestamp": "2023-09-28T00:17:14.530Z",
     "version": {
         "major": 0,
         "minor": 4,
@@ -43,7 +43,7 @@
             "name": "rebasing",
             "description": "The token is rebasing"
         },
-        "staked_avax": {
+        "staked_ava": {
             "name": "staked_avax",
             "description": "The token is a staked Avax token"
         },
@@ -825,7 +825,7 @@
             "symbol": "rsAVAX",
             "tags": [
                 "rebasing",
-                "staked_avax"
+                "staked_ava"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE-button.png"
         },
@@ -837,7 +837,7 @@
             "symbol": "sAVAX",
             "tags": [
                 "avax_eco",
-                "staked_avax"
+                "staked_ava"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE.png"
         },
