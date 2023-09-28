@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2023-09-12T02:22:39.814Z",
+  "timestamp": "2023-09-28T00:10:35.673Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -42,6 +42,10 @@
     "rebasing": {
       "name": "rebasing",
       "description": "The token is rebasing"
+    },
+    "staked_avax": {
+      "name": "staked_avax",
+      "description": "The token is a staked Avax token"
     },
     "staked_eth": {
       "name": "staked_ether",
@@ -132,6 +136,11 @@
         "unwrapped": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
         "wrapped": "0x692eF3afD21F172680b82285759Bc13CF8e70710",
         "chainId": 8453
+      },
+      {
+        "unwrapped": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+        "wrapped": "0xA38Bfa13bEEf9beb75F3698B4647F027fbe8f61D",
+        "chainId": 43114
       }
     ],
     "unbutton": [

@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood Bonds",
-  "timestamp": "2023-09-12T02:22:39.813Z",
+  "timestamp": "2023-09-28T00:10:35.673Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -42,6 +42,10 @@
     "rebasing": {
       "name": "rebasing",
       "description": "The token is rebasing"
+    },
+    "staked_avax": {
+      "name": "staked_avax",
+      "description": "The token is a staked Avax token"
     },
     "staked_eth": {
       "name": "staked_ether",
