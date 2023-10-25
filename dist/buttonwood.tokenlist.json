@@ -1,6 +1,6 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2023-09-28T00:17:14.530Z",
+    "timestamp": "2023-10-25T21:21:48.381Z",
     "version": {
         "major": 0,
         "minor": 4,
@@ -357,6 +357,17 @@
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
         },
         {
+            "chainId": 1,
+            "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+            "name": "Wrapped liquid staked Ether 2.0",
+            "decimals": 18,
+            "symbol": "wstETH",
+            "tags": [
+                "staked_eth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0.png"
+        },
+        {
             "chainId": 5,
             "address": "0x8Be59D90A7Dc679C5cE5a7963cD1082dAB499918",
             "name": "Aave Ethereum USDC",
@@ -548,6 +559,17 @@
                 "weth"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
+        },
+        {
+            "chainId": 5,
+            "address": "0x6320cD32aA674d2898A68ec82e869385Fc5f7E2f",
+            "name": "Wrapped liquid staked Ether 2.0",
+            "decimals": 18,
+            "symbol": "wstETH",
+            "tags": [
+                "staked_eth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0.png"
         },
         {
             "chainId": 8453,
@@ -879,6 +901,17 @@
                 "weth"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x2Bbbdf97295F73175b12CC087cF446765931e1C3",
+            "name": "Wrapped liquid staked Ether 2.0",
+            "decimals": 18,
+            "symbol": "wstETH",
+            "tags": [
+                "staked_eth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0.png"
         },
         {
             "chainId": 84531,
