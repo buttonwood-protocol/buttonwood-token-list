@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2023-12-11T07:35:30.620Z",
+  "timestamp": "2023-12-11T09:07:53.728Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -1106,12 +1106,12 @@
     },
     {
       "chainId": 43114,
-      "address": "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
+      "address": "0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5",
       "name": "BENQI",
       "decimals": 18,
       "symbol": "QI",
       "tags": [],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5.png"
     },
     {
       "chainId": 43114,
