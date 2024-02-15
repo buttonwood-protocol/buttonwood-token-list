@@ -37,5 +37,9 @@
     "name": "Sepolia",
     "title": "Ethereum Testnet Sepolia",
     "chainId": 11155111
+  },
+  {
+    "name": "Blast Sepolia Testnet",
+    "chainId": 168587773
   }
 ]
