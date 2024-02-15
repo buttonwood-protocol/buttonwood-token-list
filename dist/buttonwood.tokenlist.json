@@ -1,6 +1,6 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2023-12-11T09:07:53.728Z",
+    "timestamp": "2024-02-15T13:24:08.642Z",
     "version": {
         "major": 0,
         "minor": 4,
@@ -1332,6 +1332,46 @@
                 "rebasing"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a.png"
+        },
+        {
+            "chainId": 168587773,
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "name": "Ether",
+            "decimals": 18,
+            "symbol": "ETH",
+            "tags": [
+                "eth_eco",
+                "net",
+                "rebasing"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/168587773/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+        },
+        {
+            "chainId": 168587773,
+            "address": "0x4200000000000000000000000000000000000022",
+            "name": "Rebasing USD",
+            "decimals": 18,
+            "symbol": "USDB",
+            "tags": [
+                "rebasing",
+                "usd"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/168587773/0x4200000000000000000000000000000000000022.png"
+        },
+        {
+            "chainId": 168587773,
+            "address": "0x4200000000000000000000000000000000000023",
+            "name": "Wrapped Ether",
+            "decimals": 18,
+            "symbol": "WETH",
+            "tags": [
+                "eth_eco",
+                "net_d",
+                "rebasing",
+                "w_net",
+                "weth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/168587773/0x4200000000000000000000000000000000000023.png"
         }
     ]
 }

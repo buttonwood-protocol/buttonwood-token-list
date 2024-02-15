@@ -15,7 +15,8 @@ const watchedChains = [
   43114,
   84531,
   421613,
-  11155111
+  11155111,
+  168587773
 ];
 
 async function fetchData() {
