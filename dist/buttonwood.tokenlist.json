@@ -1,10 +1,10 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2024-02-16T00:26:39.208Z",
+    "timestamp": "2024-02-28T12:15:31.767Z",
     "version": {
         "major": 0,
         "minor": 4,
-        "patch": 3
+        "patch": 4
     },
     "tags": {
         "aave_eco": {
@@ -1042,6 +1042,19 @@
                 "net"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+        },
+        {
+            "chainId": 42161,
+            "address": "0xdB719A1A0fB8E2eB362A4d919a2e27e4275aCccD",
+            "name": "Rebasing cbETH",
+            "decimals": 18,
+            "symbol": "rcbETH",
+            "tags": [
+                "rebasing",
+                "staked_eth",
+                "w_button"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704-button.png"
         },
         {
             "chainId": 42161,
