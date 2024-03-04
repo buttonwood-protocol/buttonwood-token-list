@@ -1,6 +1,6 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2024-02-28T12:15:31.767Z",
+    "timestamp": "2024-03-04T14:48:22.672Z",
     "version": {
         "major": 0,
         "minor": 4,
@@ -1240,6 +1240,19 @@
         },
         {
             "chainId": 43114,
+            "address": "0x5a5EB36504FE5ED644ada88c54CfB5be549084C6",
+            "name": "Rebasing yyAVAX",
+            "decimals": 18,
+            "symbol": "ryyAVAX",
+            "tags": [
+                "rebasing",
+                "staked_ava",
+                "w_button"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0xF7D9281e8e363584973F946201b82ba72C965D27-button.png"
+        },
+        {
+            "chainId": 43114,
             "address": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
             "name": "Benqi Staked Avax",
             "decimals": 18,
@@ -1299,6 +1312,18 @@
                 "staked_eth"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0xF7D9281e8e363584973F946201b82ba72C965D27",
+            "name": "YieldYak gAVAX",
+            "decimals": 18,
+            "symbol": "yyAVAX",
+            "tags": [
+                "avax_eco",
+                "staked_ava"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0xF7D9281e8e363584973F946201b82ba72C965D27.png"
         },
         {
             "chainId": 84531,
