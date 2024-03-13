@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2024-03-13T14:00:13.468Z",
+  "timestamp": "2024-03-13T14:05:44.139Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -176,6 +176,11 @@
         "unwrapped": "0xae78736Cd615f374D3085123A210448E74Fc6393",
         "wrapped": "0x5396b0e6314B7dEdfbb23913CB43C9735ECD8099",
         "chainId": 1
+      },
+      {
+        "unwrapped": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+        "wrapped": "0x8c7B1DBD47141aeF1802259FE4A8bfDb0C7E43B6",
+        "chainId": 42161
       },
       {
         "unwrapped": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
