@@ -28,7 +28,7 @@
     "start-ci": "yarn build && node dist-build/src/build.js --reuse-timestamp && yarn build",
     "test": "yarn build && node dist-build/test/runner.js",
     "update-chains": "node scripts/update-chain-data.mjs",
-    "update-lwtf": "yarn remove lwtf; yarn add lwtf@https://github.com/Fiddlekins/lwtf.git"
+    "update-lwtf": "yarn remove lwtf; yarn add --dev lwtf@https://github.com/Fiddlekins/lwtf.git"
   },
   "engines": {
     "node": ">=20.5"
