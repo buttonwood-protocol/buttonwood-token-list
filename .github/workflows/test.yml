@@ -49,7 +49,7 @@ jobs:
         run: |
           if [[ -n $(yarn start-ci && git status -s) ]]; then
             git status -s
-            diff
+            git diff
             echo "::error title={Build Check}::{'yarn start' must be ran before committing.}"
             exit 1
           else
