@@ -1,10 +1,10 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2024-03-16T10:28:08.927Z",
+  "timestamp": "2024-03-25T11:02:35.533Z",
   "version": {
     "major": 0,
     "minor": 4,
-    "patch": 7
+    "patch": 8
   },
   "tags": {
     "aave_eco": {
@@ -984,6 +984,67 @@
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0.png"
     },
     {
+      "chainId": 10,
+      "address": "0xadDb6A0412DE1BA0F936DCaeb8Aaa24578dcF3B2",
+      "name": "Coinbase Wrapped Staked ETH",
+      "decimals": 18,
+      "symbol": "cbETH",
+      "tags": [
+        "staked_eth"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704.png"
+    },
+    {
+      "chainId": 10,
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "name": "Ether",
+      "decimals": 18,
+      "symbol": "ETH",
+      "tags": [
+        "eth_eco",
+        "net"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+    },
+    {
+      "chainId": 10,
+      "address": "0x9Bcef72be871e61ED4fBbc7630889beE758eb81D",
+      "name": "Rocket Pool ETH",
+      "decimals": 18,
+      "symbol": "rETH",
+      "tags": [
+        "staked_eth"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xae78736Cd615f374D3085123A210448E74Fc6393.png"
+    },
+    {
+      "chainId": 10,
+      "address": "0x0c97040aDDbdDA59D136e1AcA249d2Cc29c5BDAE",
+      "name": "Rebasing rETH",
+      "decimals": 18,
+      "symbol": "rrETH",
+      "tags": [
+        "rebasing",
+        "staked_eth",
+        "w_button"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xae78736Cd615f374D3085123A210448E74Fc6393-button.png"
+    },
+    {
+      "chainId": 10,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "symbol": "WETH",
+      "tags": [
+        "eth_eco",
+        "net_d",
+        "w_net",
+        "weth"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
+    },
+    {
       "chainId": 8453,
       "address": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
       "name": "Coinbase Wrapped Staked ETH",
@@ -1144,7 +1205,7 @@
     },
     {
       "chainId": 42161,
-      "address": "0x11e65c2C2Dfc6089dff3062eD297ffb4ddDD448C",
+      "address": "0x049799d77b74D86b788d314E59AEd3926A464091",
       "name": "Rebasing uniETH",
       "decimals": 18,
       "symbol": "runiETH",
@@ -1157,7 +1218,7 @@
     },
     {
       "chainId": 42161,
-      "address": "0x792EDe502Cb24C181a796b081AC9717701908cD8",
+      "address": "0x3d15fD46CE9e551498328B1C83071D9509E2C3a0",
       "name": "Universal ETH",
       "decimals": 18,
       "symbol": "uniETH",
@@ -1604,6 +1665,32 @@
         "rebasing"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a.png"
+    },
+    {
+      "chainId": 11155420,
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "name": "Ether",
+      "decimals": 18,
+      "symbol": "ETH",
+      "tags": [
+        "eth_eco",
+        "net"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+    },
+    {
+      "chainId": 11155420,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "symbol": "WETH",
+      "tags": [
+        "eth_eco",
+        "net_d",
+        "w_net",
+        "weth"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
     },
     {
       "chainId": 168587773,
