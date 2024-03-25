@@ -3,6 +3,7 @@
   "version": "0.4.7",
   "private": true,
   "description": "Tokenlist for Buttonwood Protocol",
+  "packageManager": "yarn@3.6.1",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -29,7 +30,7 @@
     "update-chains": "node scripts/update-chain-data.mjs"
   },
   "engines": {
-    "node": ">=14.17"
+    "node": ">=20.0"
   },
   "license": "GPL-3.0-or-later",
   "devDependencies": {

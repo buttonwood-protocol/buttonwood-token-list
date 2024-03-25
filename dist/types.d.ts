@@ -1,6 +1,6 @@
 import { TokenList } from '@uniswap/token-lists';
 export type { TokenList } from '@uniswap/token-lists';
-export declare type CommonList = Omit<TokenList, 'tokens'>;
+export type CommonList = Omit<TokenList, 'tokens'>;
 export interface WrapperPair {
     readonly unwrapped: string;
     readonly wrapped: string;
@@ -32,4 +32,4 @@ export interface TokenDefinition {
         chainId: number;
     };
 }
-export declare type TokenDefinitions = TokenDefinition[];
+export type TokenDefinitions = TokenDefinition[];
