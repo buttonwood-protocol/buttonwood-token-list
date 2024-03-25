@@ -1,4 +1,3 @@
-import { TokenList } from '@uniswap/token-lists';
 import { readFile, writeFile } from 'fs/promises';
 import { createLogos } from './createLogos';
 import { getTokenDefinitionsFromBonds } from './getTokenDefinitionsFromBonds';
@@ -6,7 +5,7 @@ import { getTokenDefinitionsFromConfig } from './getTokenDefinitionsFromConfig';
 import { getTokenList } from './getTokenList';
 import { getWrapperMap } from './getWrapperMap';
 import { TokenDefinitionsMap } from './TokenDefinitionsMap';
-import { TokenDefinitions } from './types';
+import { TokenDefinitions, TokenList } from './types';
 import { validTags } from './validTags';
 
 async function build(): Promise<void> {
