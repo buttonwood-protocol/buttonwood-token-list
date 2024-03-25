@@ -26,8 +26,9 @@
     "prettier:list-different": "prettier --config .prettierrc --list-different \"**/*.{js,json,md,sol,ts}\"",
     "start": "yarn build && node dist-build/src/build.js && yarn build",
     "start-ci": "yarn build && node dist-build/src/build.js --reuse-timestamp && yarn build",
-    "test": "mocha -r ts-node/register 'test/**/*test.ts'",
-    "update-chains": "node scripts/update-chain-data.mjs"
+    "test": "yarn build && node dist-build/test/runner.js",
+    "update-chains": "node scripts/update-chain-data.mjs",
+    "update-lwtf": "yarn remove lwtf; yarn add lwtf@https://github.com/Fiddlekins/lwtf.git"
   },
   "engines": {
     "node": ">=20.5"
@@ -36,8 +37,6 @@
   "devDependencies": {
     "@apollo/client": "^3.9.9",
     "@ethersproject/address": "^5.7.0",
-    "@types/chai": "^4.3.14",
-    "@types/mocha": "^10.0.6",
     "@types/node": "^20.11.30",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
@@ -45,14 +44,12 @@
     "ajv": "^8.12.0",
     "ajv-formats": "^2.1.1",
     "canvas": "^2.11.2",
-    "chai": "^5.1.0",
     "cross-fetch": "^4.0.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "graphql": "^16.8.1",
-    "mocha": "^10.3.0",
+    "lwtf": "https://github.com/Fiddlekins/lwtf.git",
     "prettier": "^3.2.5",
-    "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
   }
 }
