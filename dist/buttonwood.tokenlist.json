@@ -1,6 +1,6 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2024-03-25T06:09:56.982Z",
+    "timestamp": "2024-03-25T11:02:35.533Z",
     "version": {
         "major": 0,
         "minor": 4,
@@ -1005,6 +1005,30 @@
                 "net"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+        },
+        {
+            "chainId": 10,
+            "address": "0x9Bcef72be871e61ED4fBbc7630889beE758eb81D",
+            "name": "Rocket Pool ETH",
+            "decimals": 18,
+            "symbol": "rETH",
+            "tags": [
+                "staked_eth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xae78736Cd615f374D3085123A210448E74Fc6393.png"
+        },
+        {
+            "chainId": 10,
+            "address": "0x0c97040aDDbdDA59D136e1AcA249d2Cc29c5BDAE",
+            "name": "Rebasing rETH",
+            "decimals": 18,
+            "symbol": "rrETH",
+            "tags": [
+                "rebasing",
+                "staked_eth",
+                "w_button"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xae78736Cd615f374D3085123A210448E74Fc6393-button.png"
         },
         {
             "chainId": 10,
