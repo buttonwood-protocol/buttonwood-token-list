@@ -28,7 +28,7 @@
     "start-ci": "yarn build && node dist-build/src/build.js --reuse-timestamp && yarn build",
     "test": "yarn build && node dist-build/test/runner.js",
     "update-chains": "node scripts/update-chain-data.mjs",
-    "update-lwtf": "yarn remove lwtf; yarn add --dev lwtf@https://github.com/Fiddlekins/lwtf.git"
+    "update-lwtf": "yarn remove lwtf; yarn add --dev lwtf@https://github.com/buttonwood-protocol/lwtf.git"
   },
   "engines": {
     "node": ">=20.5"
@@ -48,7 +48,7 @@
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "graphql": "^16.8.1",
-    "lwtf": "https://github.com/Fiddlekins/lwtf.git",
+    "lwtf": "https://github.com/buttonwood-protocol/lwtf.git",
     "prettier": "^3.2.5",
     "typescript": "^5.4.3"
   }

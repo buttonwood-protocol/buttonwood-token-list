@@ -697,7 +697,7 @@ __metadata:
     eslint: ^8.57.0
     eslint-config-prettier: ^9.1.0
     graphql: ^16.8.1
-    lwtf: "https://github.com/Fiddlekins/lwtf.git"
+    lwtf: "https://github.com/buttonwood-protocol/lwtf.git"
     prettier: ^3.2.5
     typescript: ^5.4.3
   languageName: unknown
@@ -1625,10 +1625,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lwtf@https://github.com/Fiddlekins/lwtf.git":
-  version: 1.0.1
-  resolution: "lwtf@https://github.com/Fiddlekins/lwtf.git#commit=ca01f356e9eda03a4739fb2698f482d2ca308b13"
-  checksum: 51cdbf7999f5c4d45dd6548ac8c4f42eb673bd5909e58f53d3059bba023e336703998e2f399817634fd29da16e28492e0074226371c35bfc4613b951dde6b801
+"lwtf@https://github.com/buttonwood-protocol/lwtf.git":
+  version: 1.0.2
+  resolution: "lwtf@https://github.com/buttonwood-protocol/lwtf.git#commit=d1ebe3436e703342b3721ca998b8e68625a0b00d"
+  checksum: 71f8ae632e69772d2c52a4b9e047b1a83fc5b017702db54be3d412fd7aa25586c8eede4609c5728f81f49f60b4b64d9a5812f47d5f48df59c79c4c5de079f878
   languageName: node
   linkType: hard
 
