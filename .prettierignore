@@ -2,3 +2,4 @@ dist/
 build/
 **/*.json
 *.json
+pull_request_template.md
