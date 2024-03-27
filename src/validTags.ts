@@ -40,6 +40,10 @@ export const validTags: Tags = {
     name: 'rebasing',
     description: 'The token is rebasing',
   },
+  sei_eco: {
+    name: 'sei_ecosystem',
+    description: 'The token is used within the Sei ecosystem',
+  },
   staked_ava: {
     name: 'staked_avax',
     description: 'The token is a staked Avax token',

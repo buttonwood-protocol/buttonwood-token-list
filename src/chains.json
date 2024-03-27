@@ -38,6 +38,10 @@
     "chainId": 421613
   },
   {
+    "name": "Sei Devnet",
+    "chainId": 713715
+  },
+  {
     "name": "Sepolia",
     "title": "Ethereum Testnet Sepolia",
     "chainId": 11155111
