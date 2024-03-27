@@ -13,28 +13,28 @@ function getWrapperPath(wrapper: string) {
   return path.join('.', 'src', 'wrappers', wrapper);
 }
 
-async function downloadLogo(chainId: number, address: string, dst: string) {
-  const canvas = createCanvas(logoSize, logoSize);
-  const ctx = canvas.getContext('2d');
-  ctx.quality = 'best';
-  let url;
-  if (chainId === 1) {
-    url = `https://tokens.1inch.exchange/${address.toLowerCase()}.png`;
-  } else {
-    throw new Error(
-      `Automatic logo retrieval not supported for this network. Please manually supply ${dst}`,
-    );
-  }
-  console.log(`Attempting to download ${url}`);
-  const image = await loadImage(url);
-  // If they're really small, treat them as pixel art and scale with nearest neighbour
-  if (image.width < logoSize / 4 || image.height < logoSize / 4) {
-    ctx.patternQuality = 'nearest';
-  }
-  ctx.drawImage(image, 0, 0, logoSize, logoSize);
-  const output = canvas.toBuffer('image/png');
-  await fs.writeFile(dst, output);
-}
+// async function downloadLogo(chainId: number, address: string, dst: string) {
+//   const canvas = createCanvas(logoSize, logoSize);
+//   const ctx = canvas.getContext('2d');
+//   ctx.quality = 'best';
+//   let url;
+//   if (chainId === 1) {
+//     url = `https://tokens.1inch.exchange/${address.toLowerCase()}.png`;
+//   } else {
+//     throw new Error(
+//       `Automatic logo retrieval not supported for this network. Please manually supply ${dst}`,
+//     );
+//   }
+//   console.log(`Attempting to download ${url}`);
+//   const image = await loadImage(url);
+//   // If they're really small, treat them as pixel art and scale with nearest neighbour
+//   if (image.width < logoSize / 4 || image.height < logoSize / 4) {
+//     ctx.patternQuality = 'nearest';
+//   }
+//   ctx.drawImage(image, 0, 0, logoSize, logoSize);
+//   const output = canvas.toBuffer('image/png');
+//   await fs.writeFile(dst, output);
+// }
 
 async function createWrapperLogo(
   tokenDefinitionsMap: TokenDefinitionsMap,
@@ -78,7 +78,8 @@ async function createLogo(
   tokenDefinitionsMap: TokenDefinitionsMap,
   tokenDefinition: TokenDefinition,
 ): Promise<void> {
-  const { chainId, address, name, symbol, derived, dedupe } = tokenDefinition;
+  const { chainId, address, name, symbol, derived /*, dedupe*/ } =
+    tokenDefinition;
   if (derived && !derived.bespokeLogo) {
     // Always regenerate composite logos
     await createWrapperLogo(tokenDefinitionsMap, tokenDefinition);
@@ -89,16 +90,20 @@ async function createLogo(
       address,
     );
     if (!(await pathExists(localPath))) {
-      try {
-        await ensureDir(localDir);
-        if (dedupe) {
-          await downloadLogo(dedupe.chainId, dedupe.address, localPath);
-        } else {
-          await downloadLogo(chainId, address, localPath);
-        }
-      } catch (err) {
-        console.error(`Failed to get logoURI for ${name} [${symbol}]: ${err}`);
-      }
+      // Stop bothering with trying to automatically get a logo until we find a new source for consistently high quality logos
+
+      // try {
+      //   await ensureDir(localDir);
+      //   if (dedupe) {
+      //     await downloadLogo(dedupe.chainId, dedupe.address, localPath);
+      //   } else {
+      //     await downloadLogo(chainId, address, localPath);
+      //   }
+      // } catch (err) {
+      //   console.error(`Failed to get logoURI for ${name} [${symbol}]: ${err}`);
+      // }
+      await ensureDir(localDir);
+      console.error(`Missing logoURI for ${name} [${symbol}]`);
     }
   }
 }

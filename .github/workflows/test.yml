@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [16.x]
+        node-version: [20.5]
 
     runs-on: ${{ matrix.os }}
 
@@ -44,3 +44,14 @@ jobs:
 
       - name: Lint
         run: yarn lint
+
+      - name: Build Check
+        run: |
+          if [[ -n $(yarn start-ci > /dev/null && git status -s | grep -v '.png') ]]; then
+            git status -s
+            git diff
+            echo "::error title={Build Check}::{'yarn start' must be ran before committing.}"
+            exit 1
+          else
+            exit 0
+          fi
