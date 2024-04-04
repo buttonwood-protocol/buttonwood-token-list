@@ -2,7 +2,7 @@ import { getAddress } from '@ethersproject/address';
 import schema from '@uniswap/token-lists/src/tokenlist.schema.json';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
-import { expect } from 'chai';
+import { describe } from 'lwtf';
 import path from 'path';
 import packageJson from '../package.json';
 import { buttonwoodTokenList } from '../src';
@@ -12,70 +12,79 @@ const ajv = new Ajv({ allErrors: true, verbose: true });
 addFormats(ajv);
 const validator = ajv.compile(schema);
 
-describe('buildList', () => {
-  it('validates', async () => {
+describe('buildlist', ({ it }) => {
+  it('validates', async ({ assert }) => {
     const validates = validator(buttonwoodTokenList);
     if (!validates) {
       console.error(validator.errors);
     }
-    expect(validates).to.equal(true);
+    assert('validates is true').boolean(validates).isTrue();
   });
 
-  it('contains no duplicate addresses', async () => {
+  it('contains no duplicate addresses', async ({ assert }) => {
     const map: Record<string, true> = {};
     for (const token of buttonwoodTokenList.tokens) {
       const key = `${token.chainId}-${token.address}`;
-      expect(typeof map[key]).to.equal('undefined');
+      assert(`unique address: ${token.address}`).object(map).lacksKey(key);
       map[key] = true;
     }
   });
 
-  it('contains no duplicate symbols', async () => {
+  it('contains no duplicate symbols', async ({ assert }) => {
     const map: Record<string, true> = {};
     for (const token of buttonwoodTokenList.tokens) {
       const key = `${token.chainId}-${token.symbol.toLowerCase()}`;
-      expect(typeof map[key]).to.equal('undefined');
+      assert(`unique symbol: ${token.symbol}`).object(map).lacksKey(key);
       map[key] = true;
     }
   });
 
-  it('contains no duplicate names', async () => {
+  it('contains no duplicate names', async ({ assert }) => {
     const map: Record<string, true> = {};
     for (const token of buttonwoodTokenList.tokens) {
       const key = `${token.chainId}-${token.name.toLowerCase()}`;
-      expect(typeof map[key]).to.equal(
-        'undefined',
-        `duplicate name: ${token.name}`,
-      );
+      assert(`unique name: ${token.name}`).object(map).lacksKey(key);
       map[key] = true;
     }
   });
 
-  it('all tokenlist addresses are valid and checksummed', async () => {
+  it('all tokenlist addresses are valid and checksummed', async ({
+    assert,
+  }) => {
     for (const token of buttonwoodTokenList.tokens) {
-      expect(token.address).to.eq(getAddress(token.address));
+      assert(`valid checksum: ${token.address}`)
+        .string(token.address)
+        .equalTo(getAddress(token.address));
     }
   });
 
-  it('all asset addresses are valid and checksummed', async () => {
+  it('all asset addresses are valid and checksummed', async ({ assert }) => {
     for (const token of buttonwoodTokenList.tokens) {
       if (token.logoURI) {
         const localPath = getLocalPath(token.logoURI);
         if (localPath) {
           const ext = path.extname(localPath);
-          expect(ext).to.eq('.png');
+          assert(`extension is .png: ${token.logoURI}`)
+            .string(ext)
+            .equalTo('.png');
           const name = path.basename(localPath, ext);
           const [address] = name.split('-');
-          expect(address).to.eq(getAddress(address));
+          assert(`filename is checksummed address: ${token.logoURI}`)
+            .string(address)
+            .equalTo(getAddress(address));
         }
       }
     }
   });
 
-  it('version matches package.json', async () => {
-    expect(packageJson.version).to.match(/^\d+\.\d+\.\d+$/);
-    expect(packageJson.version).to.equal(
-      `${buttonwoodTokenList.version.major}.${buttonwoodTokenList.version.minor}.${buttonwoodTokenList.version.patch}`,
-    );
+  it('version matches package.json', async ({ assert }) => {
+    assert('valid version')
+      .string(packageJson.version)
+      .matches(/^\d+\.\d+\.\d+$/);
+    assert('expected version')
+      .string(packageJson.version)
+      .equalTo(
+        `${buttonwoodTokenList.version.major}.${buttonwoodTokenList.version.minor}.${buttonwoodTokenList.version.patch}`,
+      );
   });
 });

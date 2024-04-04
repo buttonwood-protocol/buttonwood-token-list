@@ -1,10 +1,10 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2023-09-14T04:24:39.429Z",
+    "timestamp": "2024-03-25T14:59:55.424Z",
     "version": {
         "major": 0,
         "minor": 4,
-        "patch": 1
+        "patch": 8
     },
     "tags": {
         "aave_eco": {
@@ -42,6 +42,10 @@
         "rebasing": {
             "name": "rebasing",
             "description": "The token is rebasing"
+        },
+        "staked_ava": {
+            "name": "staked_avax",
+            "description": "The token is a staked Avax token"
         },
         "staked_eth": {
             "name": "staked_ether",
@@ -129,9 +133,104 @@
                 "chainId": 43114
             },
             {
+                "unwrapped": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
+                "wrapped": "0xa918A6b92d38EeEc8EFcc02B8F78Ef778052FaBb",
+                "chainId": 1
+            },
+            {
+                "unwrapped": "0x63dC5749fa134fF3B752813388a7215460a8aB01",
+                "wrapped": "0xB22549224068CC33016D5C982871bad0bf35b237",
+                "chainId": 5
+            },
+            {
                 "unwrapped": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
                 "wrapped": "0x692eF3afD21F172680b82285759Bc13CF8e70710",
                 "chainId": 8453
+            },
+            {
+                "unwrapped": "0x1DEBd73E752bEaF79865Fd6446b0c970EaE7732f",
+                "wrapped": "0xdB719A1A0fB8E2eB362A4d919a2e27e4275aCccD",
+                "chainId": 42161
+            },
+            {
+                "unwrapped": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+                "wrapped": "0x94454d17C23a876D6e9cCdA866Ff2b21bD5ac5af",
+                "chainId": 1
+            },
+            {
+                "unwrapped": "0x3338eCd3ab3d3503c55c931d759fA6d78d287236",
+                "wrapped": "0x775911B6366155D462C11Fe9946b7888C095C225",
+                "chainId": 5
+            },
+            {
+                "unwrapped": "0x7FA768E035F956c41d6aeaa3Bd857e7E5141CAd5",
+                "wrapped": "0xA0c21317C57ba0458768953Fb795e60B9f722d8D",
+                "chainId": 1
+            },
+            {
+                "unwrapped": "0x24Ae2dA0f361AA4BE46b48EB19C91e02c5e4f27E",
+                "wrapped": "0x8Be0bE4C411eE0AfcDBf0F84A26C90CE1d54240E",
+                "chainId": 1
+            },
+            {
+                "unwrapped": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+                "wrapped": "0x5396b0e6314B7dEdfbb23913CB43C9735ECD8099",
+                "chainId": 1
+            },
+            {
+                "unwrapped": "0x9Bcef72be871e61ED4fBbc7630889beE758eb81D",
+                "wrapped": "0x0c97040aDDbdDA59D136e1AcA249d2Cc29c5BDAE",
+                "chainId": 10
+            },
+            {
+                "unwrapped": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+                "wrapped": "0x8c7B1DBD47141aeF1802259FE4A8bfDb0C7E43B6",
+                "chainId": 42161
+            },
+            {
+                "unwrapped": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+                "wrapped": "0xA38Bfa13bEEf9beb75F3698B4647F027fbe8f61D",
+                "chainId": 43114
+            },
+            {
+                "unwrapped": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+                "wrapped": "0xd34D24552119bF248D1D1332D9c41b35f605a75a",
+                "chainId": 1
+            },
+            {
+                "unwrapped": "0xD8134205b0328F5676aaeFb3B2a0DC15f4029d8C",
+                "wrapped": "0x28358206e8324C537850399f1F846DeAaAce8666",
+                "chainId": 5
+            },
+            {
+                "unwrapped": "0xf951E335afb289353dc249e82926178EaC7DEd78",
+                "wrapped": "0xabE3f6d59fd9Cd70493A10d9bdB89c1D38a3b00C",
+                "chainId": 1
+            },
+            {
+                "unwrapped": "0x8bb383A752Ff3c1d510625C6F536E3332327068F",
+                "wrapped": "0x7005C28b69A0A8984C3b7DF55Dc26b772f6a6aCE",
+                "chainId": 5
+            },
+            {
+                "unwrapped": "0xF1376bceF0f78459C0Ed0ba5ddce976F1ddF51F4",
+                "wrapped": "0x0f264f6888F10f10352C1D0beabEf051bFb9B5a7",
+                "chainId": 1
+            },
+            {
+                "unwrapped": "0xB4f4231fC4Be7A34f0a1BE046538793Dc8D99c0E",
+                "wrapped": "0xa4D8306D78bF6F1d8050a8E4a3250a84F09FB74E",
+                "chainId": 5
+            },
+            {
+                "unwrapped": "0x3d15fD46CE9e551498328B1C83071D9509E2C3a0",
+                "wrapped": "0x049799d77b74D86b788d314E59AEd3926A464091",
+                "chainId": 42161
+            },
+            {
+                "unwrapped": "0xF7D9281e8e363584973F946201b82ba72C965D27",
+                "wrapped": "0x5a5EB36504FE5ED644ada88c54CfB5be549084C6",
+                "chainId": 43114
             }
         ],
         "unbutton": [

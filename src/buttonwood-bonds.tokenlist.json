@@ -1,10 +1,10 @@
 {
   "name": "Buttonwood Bonds",
-  "timestamp": "2023-09-14T04:24:39.429Z",
+  "timestamp": "2024-03-25T14:59:55.424Z",
   "version": {
     "major": 0,
     "minor": 4,
-    "patch": 1
+    "patch": 8
   },
   "tags": {
     "aave_eco": {
@@ -42,6 +42,10 @@
     "rebasing": {
       "name": "rebasing",
       "description": "The token is rebasing"
+    },
+    "staked_ava": {
+      "name": "staked_avax",
+      "description": "The token is a staked Avax token"
     },
     "staked_eth": {
       "name": "staked_ether",

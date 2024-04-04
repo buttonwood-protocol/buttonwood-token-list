@@ -1,14 +1,25 @@
-import { writeFile } from 'fs/promises';
+import { readFile, writeFile } from 'fs/promises';
 import { createLogos } from './createLogos';
 import { getTokenDefinitionsFromBonds } from './getTokenDefinitionsFromBonds';
 import { getTokenDefinitionsFromConfig } from './getTokenDefinitionsFromConfig';
 import { getTokenList } from './getTokenList';
 import { getWrapperMap } from './getWrapperMap';
 import { TokenDefinitionsMap } from './TokenDefinitionsMap';
-import { TokenDefinitions } from './types';
+import { TokenDefinitions, TokenList } from './types';
 import { validTags } from './validTags';
 
 async function build(): Promise<void> {
+  let timestamp = new Date();
+  if (process.argv.includes('--reuse-timestamp')) {
+    try {
+      const previousTokenlist = JSON.parse(
+        await readFile('./src/buttonwood.tokenlist.json', 'utf8'),
+      ) as TokenList;
+      timestamp = new Date(previousTokenlist.timestamp);
+    } catch (err) {
+      // Give up, use new timestamp
+    }
+  }
   let tokenDefinitions: TokenDefinitions = [];
   tokenDefinitions = tokenDefinitions.concat(getTokenDefinitionsFromConfig());
   tokenDefinitions = tokenDefinitions.concat(
@@ -42,6 +53,7 @@ async function build(): Promise<void> {
   const buttonwoodTokenList = await getTokenList(
     {
       name: 'Buttonwood',
+      timestamp,
       keywords: ['buttonwood', 'defi'],
       tags: validTags,
     },
@@ -51,6 +63,7 @@ async function build(): Promise<void> {
   const buttonwoodBondsTokenList = await getTokenList(
     {
       name: 'Buttonwood Bonds',
+      timestamp,
       keywords: ['buttonwood', 'bonds', 'defi'],
       tags: validTags,
     },
@@ -60,6 +73,7 @@ async function build(): Promise<void> {
   const wrapperMap = getWrapperMap(
     {
       name: 'Buttonwood',
+      timestamp,
       keywords: ['buttonwood', 'defi'],
       tags: validTags,
     },

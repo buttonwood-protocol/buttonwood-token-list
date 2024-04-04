@@ -9,6 +9,10 @@
     "chainId": 5
   },
   {
+    "name": "OP Mainnet",
+    "chainId": 10
+  },
+  {
     "name": "Base",
     "chainId": 8453
   },
@@ -37,5 +41,13 @@
     "name": "Sepolia",
     "title": "Ethereum Testnet Sepolia",
     "chainId": 11155111
+  },
+  {
+    "name": "OP Sepolia Testnet",
+    "chainId": 11155420
+  },
+  {
+    "name": "Blast Sepolia Testnet",
+    "chainId": 168587773
   }
 ]

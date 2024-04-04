@@ -5,6 +5,7 @@ import { CommonList } from './types';
 
 export interface CommonListParams {
   name: string;
+  timestamp: Date;
   tags?: Tags;
   keywords?: string[];
 }
@@ -15,7 +16,7 @@ export function getCommonList(params: CommonListParams): CommonList {
     .map((segment) => parseInt(segment, 10));
   return {
     name: params.name,
-    timestamp: new Date().toISOString(),
+    timestamp: params.timestamp.toISOString(),
     version: {
       major,
       minor,
