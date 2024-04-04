@@ -1,6 +1,6 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2024-03-25T14:59:55.424Z",
+    "timestamp": "2024-04-04T02:25:11.968Z",
     "version": {
         "major": 0,
         "minor": 4,
@@ -1082,6 +1082,17 @@
         },
         {
             "chainId": 8453,
+            "address": "0x8f2E6758C4D6570344bd5007DEc6301cd57590A0",
+            "name": "SPOT",
+            "decimals": 9,
+            "symbol": "SPOT",
+            "tags": [
+                "ampl_eco"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC1f33e0cf7e40a67375007104B929E49a581bafE.png"
+        },
+        {
+            "chainId": 8453,
             "address": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C",
             "name": "Mountain Protocol USD",
             "decimals": 18,
@@ -1091,6 +1102,17 @@
                 "usd"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C.png"
+        },
+        {
+            "chainId": 8453,
+            "address": "0x489fe42C267fe0366B16b0c39e7AEEf977E841eF",
+            "name": "Wrapped Ampleforth",
+            "decimals": 18,
+            "symbol": "WAMPL",
+            "tags": [
+                "ampl_eco"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/8453/0x489fe42C267fe0366B16b0c39e7AEEf977E841eF.png"
         },
         {
             "chainId": 8453,
@@ -1543,6 +1565,17 @@
                 "net"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+        },
+        {
+            "chainId": 84531,
+            "address": "0x395Ae52bB17aef68C2888d941736A71dC6d4e125",
+            "name": "Wrapped Ampleforth",
+            "decimals": 18,
+            "symbol": "WAMPL",
+            "tags": [
+                "ampl_eco"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/8453/0x489fe42C267fe0366B16b0c39e7AEEf977E841eF.png"
         },
         {
             "chainId": 84531,
