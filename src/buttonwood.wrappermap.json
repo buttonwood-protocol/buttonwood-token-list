@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2024-03-25T14:59:55.424Z",
+  "timestamp": "2024-04-04T11:31:56.648Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -250,6 +250,58 @@
         "unwrapped": "0x08c5b39F000705ebeC8427C1d64D6262392944EE",
         "wrapped": "0x3b624861a14979537DE1B88F9565F41a7fc45FBf",
         "chainId": 5
+      }
+    ],
+    "wrapped-network": [
+      {
+        "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "wrapped": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        "chainId": 43114
+      },
+      {
+        "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "wrapped": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "chainId": 1
+      },
+      {
+        "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "wrapped": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+        "chainId": 5
+      },
+      {
+        "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "wrapped": "0x4200000000000000000000000000000000000006",
+        "chainId": 10
+      },
+      {
+        "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "wrapped": "0x4200000000000000000000000000000000000006",
+        "chainId": 8453
+      },
+      {
+        "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "wrapped": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "chainId": 42161
+      },
+      {
+        "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "wrapped": "0x4200000000000000000000000000000000000006",
+        "chainId": 84531
+      },
+      {
+        "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "wrapped": "0xe39Ab88f8A4777030A534146A9Ca3B52bd5D43A3",
+        "chainId": 421613
+      },
+      {
+        "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "wrapped": "0x4200000000000000000000000000000000000006",
+        "chainId": 11155420
+      },
+      {
+        "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "wrapped": "0x4200000000000000000000000000000000000023",
+        "chainId": 168587773
       }
     ]
   }

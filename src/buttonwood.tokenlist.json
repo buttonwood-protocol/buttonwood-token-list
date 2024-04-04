@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2024-03-25T14:59:55.424Z",
+  "timestamp": "2024-04-04T11:31:56.648Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -1410,7 +1410,7 @@
         "rebasing",
         "w_button"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB-button.png"
     },
     {
       "chainId": 43114,
@@ -1493,10 +1493,9 @@
       "tags": [
         "eth_eco",
         "net_d",
-        "w_net",
         "weth"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB.png"
     },
     {
       "chainId": 43114,
