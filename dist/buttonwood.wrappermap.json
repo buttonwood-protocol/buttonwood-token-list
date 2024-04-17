@@ -1,10 +1,10 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2024-04-04T11:31:56.648Z",
+    "timestamp": "2024-04-17T15:24:24.231Z",
     "version": {
         "major": 0,
         "minor": 4,
-        "patch": 8
+        "patch": 9
     },
     "tags": {
         "aave_eco": {
@@ -42,6 +42,10 @@
         "rebasing": {
             "name": "rebasing",
             "description": "The token is rebasing"
+        },
+        "sei_eco": {
+            "name": "sei_ecosystem",
+            "description": "The token is used within the Sei ecosystem"
         },
         "staked_ava": {
             "name": "staked_avax",
@@ -302,6 +306,11 @@
                 "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
                 "wrapped": "0x4200000000000000000000000000000000000023",
                 "chainId": 168587773
+            },
+            {
+                "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+                "wrapped": "0x54478819FcbAba3C0fe5288871c5b4Dec3793e05",
+                "chainId": 713715
             }
         ]
     }
