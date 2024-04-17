@@ -1,10 +1,10 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2024-03-27T17:17:11.379Z",
+    "timestamp": "2024-04-04T11:31:56.648Z",
     "version": {
         "major": 0,
         "minor": 4,
-        "patch": 9
+        "patch": 8
     },
     "tags": {
         "aave_eco": {
@@ -42,10 +42,6 @@
         "rebasing": {
             "name": "rebasing",
             "description": "The token is rebasing"
-        },
-        "sei_eco": {
-            "name": "sei_ecosystem",
-            "description": "The token is used within the Sei ecosystem"
         },
         "staked_ava": {
             "name": "staked_avax",
@@ -1414,7 +1410,7 @@
                 "rebasing",
                 "w_button"
             ],
-            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2-button.png"
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB-button.png"
         },
         {
             "chainId": 43114,
@@ -1497,10 +1493,9 @@
             "tags": [
                 "eth_eco",
                 "net_d",
-                "w_net",
                 "weth"
             ],
-            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB.png"
         },
         {
             "chainId": 43114,
@@ -1645,18 +1640,6 @@
                 "weth"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
-        },
-        {
-            "chainId": 713715,
-            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
-            "name": "Sei",
-            "decimals": 18,
-            "symbol": "SEI",
-            "tags": [
-                "net",
-                "sei_eco"
-            ],
-            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/713715/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
         },
         {
             "chainId": 11155111,
