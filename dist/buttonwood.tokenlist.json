@@ -1,10 +1,10 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2024-04-17T14:36:57.384Z",
+    "timestamp": "2024-04-17T15:24:24.231Z",
     "version": {
         "major": 0,
         "minor": 4,
-        "patch": 10
+        "patch": 9
     },
     "tags": {
         "aave_eco": {
@@ -1678,6 +1678,19 @@
                 "btc_eco"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
+        },
+        {
+            "chainId": 713715,
+            "address": "0x54478819FcbAba3C0fe5288871c5b4Dec3793e05",
+            "name": "Wrapped Sei",
+            "decimals": 18,
+            "symbol": "WSEI",
+            "tags": [
+                "net_d",
+                "sei_eco",
+                "w_net"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/713715/0x54478819FcbAba3C0fe5288871c5b4Dec3793e05.png"
         },
         {
             "chainId": 11155111,
