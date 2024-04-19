@@ -1,10 +1,10 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2024-04-17T15:24:24.231Z",
+    "timestamp": "2024-04-19T10:23:10.184Z",
     "version": {
         "major": 0,
         "minor": 4,
-        "patch": 9
+        "patch": 10
     },
     "tags": {
         "aave_eco": {
@@ -1715,6 +1715,54 @@
                 "rebasing"
             ],
             "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a.png"
+        },
+        {
+            "chainId": 11155111,
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "name": "Ether",
+            "decimals": 18,
+            "symbol": "ETH",
+            "tags": [
+                "eth_eco",
+                "net"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png"
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x6aC04c1F979128862E555Ba3BE6f90a26b7d1BFc",
+            "name": "Tether USD",
+            "decimals": 6,
+            "symbol": "USDT",
+            "tags": [
+                "usd"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
+        },
+        {
+            "chainId": 11155111,
+            "address": "0xa2568b17b1c02327f697D2b607cF7140cf22C35a",
+            "name": "Wrapped BTC",
+            "decimals": 18,
+            "symbol": "WBTC",
+            "tags": [
+                "btc_eco"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
+        },
+        {
+            "chainId": 11155111,
+            "address": "0xE781EE1B97763c6Af0d14A1A3847b60Fa60E29Db",
+            "name": "Wrapped Ether",
+            "decimals": 18,
+            "symbol": "WETH",
+            "tags": [
+                "eth_eco",
+                "net_d",
+                "w_net",
+                "weth"
+            ],
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png"
         },
         {
             "chainId": 11155420,
