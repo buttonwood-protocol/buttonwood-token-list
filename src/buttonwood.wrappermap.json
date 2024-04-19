@@ -1,10 +1,10 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2024-04-17T15:24:24.231Z",
+  "timestamp": "2024-04-19T10:23:10.184Z",
   "version": {
     "major": 0,
     "minor": 4,
-    "patch": 9
+    "patch": 10
   },
   "tags": {
     "aave_eco": {
@@ -296,6 +296,11 @@
         "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
         "wrapped": "0xe39Ab88f8A4777030A534146A9Ca3B52bd5D43A3",
         "chainId": 421613
+      },
+      {
+        "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "wrapped": "0xE781EE1B97763c6Af0d14A1A3847b60Fa60E29Db",
+        "chainId": 11155111
       },
       {
         "unwrapped": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
