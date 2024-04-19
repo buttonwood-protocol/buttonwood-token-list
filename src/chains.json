@@ -13,6 +13,18 @@
     "chainId": 10
   },
   {
+    "name": "Polygon Mainnet",
+    "chainId": 137
+  },
+  {
+    "name": "Fantom Opera",
+    "chainId": 250
+  },
+  {
+    "name": "Moonbeam",
+    "chainId": 1284
+  },
+  {
     "name": "Base",
     "chainId": 8453
   },
@@ -29,6 +41,11 @@
     "chainId": 43114
   },
   {
+    "name": "Linea",
+    "title": "Linea Mainnet",
+    "chainId": 59144
+  },
+  {
     "name": "Base Goerli Testnet",
     "chainId": 84531
   },
@@ -36,6 +53,10 @@
     "name": "Arbitrum Goerli",
     "title": "Arbitrum Goerli Rollup Testnet",
     "chainId": 421613
+  },
+  {
+    "name": "Scroll",
+    "chainId": 534352
   },
   {
     "name": "Sei Devnet",
