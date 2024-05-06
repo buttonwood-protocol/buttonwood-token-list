@@ -1,10 +1,10 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2024-05-06T04:21:51.177Z",
+  "timestamp": "2024-05-06T11:09:22.786Z",
   "version": {
     "major": 0,
     "minor": 4,
-    "patch": 10
+    "patch": 11
   },
   "tags": {
     "aave_eco": {
@@ -1816,6 +1816,17 @@
     },
     {
       "chainId": 713715,
+      "address": "0x3e573f1D81ed534FB9fD9DE5604E91c133D395B8",
+      "name": "iSEI",
+      "decimals": 18,
+      "symbol": "iSEI",
+      "tags": [
+        "sei_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/713715/0x3e573f1D81ed534FB9fD9DE5604E91c133D395B8.png"
+    },
+    {
+      "chainId": 713715,
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
       "name": "Sei",
       "decimals": 18,
@@ -1828,20 +1839,20 @@
     },
     {
       "chainId": 713715,
-      "address": "0xaAeeb3AF9f6195D0Fe10FF1E15899202B0Aa9051",
-      "name": "Tether USD",
-      "decimals": 6,
-      "symbol": "USDT",
+      "address": "0x647a310a1116b80fFaA83cBBeB2AE4B73D2308c0",
+      "name": "USD Coin",
+      "decimals": 18,
+      "symbol": "USDC",
       "tags": [
         "usd"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xdAC17F958D2ee523a2206206994597C13D831ec7.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/1/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.png"
     },
     {
       "chainId": 713715,
-      "address": "0xB1018403D9569f8FE6A98d728Bc7641c320c64DD",
+      "address": "0x00B575Ee5cfaE5af0EF1a313A733cdF5135CDDfd",
       "name": "Wrapped BTC",
-      "decimals": 18,
+      "decimals": 8,
       "symbol": "WBTC",
       "tags": [
         "btc_eco"
