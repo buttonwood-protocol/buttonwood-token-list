@@ -28,6 +28,10 @@ export const validTags: Tags = {
     name: 'ethereum_ecosystem',
     description: 'The token is used within the Ethereum ecosystem',
   },
+  hrglyp_eco: {
+    name: 'heroglyphs_eco',
+    description: 'The token is used within the Heroglyphs ecosystem',
+  },
   net: {
     name: 'network',
     description: 'The token is the network token for a chain',
