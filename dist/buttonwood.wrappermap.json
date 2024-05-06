@@ -1,10 +1,10 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2024-05-03T07:34:16.217Z",
+    "timestamp": "2024-05-06T04:21:51.177Z",
     "version": {
         "major": 0,
         "minor": 4,
-        "patch": 11
+        "patch": 10
     },
     "tags": {
         "aave_eco": {
@@ -30,6 +30,10 @@
         "eth_eco": {
             "name": "ethereum_ecosystem",
             "description": "The token is used within the Ethereum ecosystem"
+        },
+        "hrglyp_eco": {
+            "name": "heroglyphs_eco",
+            "description": "The token is used within the Heroglyphs ecosystem"
         },
         "net": {
             "name": "network",
