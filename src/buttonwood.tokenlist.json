@@ -1,6 +1,6 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2024-04-19T10:23:10.184Z",
+  "timestamp": "2024-05-06T03:50:26.747Z",
   "version": {
     "major": 0,
     "minor": 4,
@@ -30,6 +30,10 @@
     "eth_eco": {
       "name": "ethereum_ecosystem",
       "description": "The token is used within the Ethereum ecosystem"
+    },
+    "hrglyp_eco": {
+      "name": "heroglyphs_eco",
+      "description": "The token is used within the Heroglyphs ecosystem"
     },
     "net": {
       "name": "network",
@@ -1133,6 +1137,17 @@
         "rebasing"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x6ab707Aca953eDAeFBc4fD23bA73294241490620.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x291b4A2E55B0D444F446e326A1a8e974B15E2165",
+      "name": "ARBINAUTS",
+      "decimals": 18,
+      "symbol": "ARBINAUTS",
+      "tags": [
+        "hrglyp_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x291b4A2E55B0D444F446e326A1a8e974B15E2165.png"
     },
     {
       "chainId": 42161,
