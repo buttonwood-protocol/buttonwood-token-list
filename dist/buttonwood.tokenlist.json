@@ -1,6 +1,6 @@
 {
     "name": "Buttonwood",
-    "timestamp": "2024-05-06T11:09:22.786Z",
+    "timestamp": "2024-05-09T18:51:15.948Z",
     "version": {
         "major": 0,
         "minor": 4,
@@ -1358,14 +1358,14 @@
         },
         {
             "chainId": 42161,
-            "address": "0x32831534F71bdBdEA065e9842E5A68AD7dCe5A18",
+            "address": "0x3B87930029138c1b1DF444905BeDA537052C852C",
             "name": "SANICSUPERSPEED",
             "decimals": 18,
             "symbol": "SANICSUPERSPEED",
             "tags": [
                 "hrglyp_eco"
             ],
-            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x32831534F71bdBdEA065e9842E5A68AD7dCe5A18.png"
+            "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x3B87930029138c1b1DF444905BeDA537052C852C.png"
         },
         {
             "chainId": 42161,
