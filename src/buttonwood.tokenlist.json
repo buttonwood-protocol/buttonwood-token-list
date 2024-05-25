@@ -1,10 +1,10 @@
 {
   "name": "Buttonwood",
-  "timestamp": "2024-05-09T18:51:15.948Z",
+  "timestamp": "2024-05-24T12:23:33.809Z",
   "version": {
     "major": 0,
     "minor": 4,
-    "patch": 11
+    "patch": 12
   },
   "tags": {
     "aave_eco": {
@@ -1077,14 +1077,14 @@
     },
     {
       "chainId": 8453,
-      "address": "0xfa4aDaeb61eac93CA5713f0ED1C4d99aE162d25D",
+      "address": "0x344C796cc2474e4b779D0e81765AFB91D7741a42",
       "name": "GARFELDO",
       "decimals": 18,
       "symbol": "LASAGNA",
       "tags": [
         "hrglyp_eco"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0xfa4aDaeb61eac93CA5713f0ED1C4d99aE162d25D.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x344C796cc2474e4b779D0e81765AFB91D7741a42.png"
     },
     {
       "chainId": 8453,
@@ -1127,69 +1127,14 @@
     },
     {
       "chainId": 42161,
-      "address": "0x350F1F7d83c98bcCd19caB739Fa42F121a8d8d9C",
-      "name": "frxBULLAS",
-      "decimals": 18,
-      "symbol": "$frxBULLAS",
-      "tags": [
-        "hrglyp_eco"
-      ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x350F1F7d83c98bcCd19caB739Fa42F121a8d8d9C.png"
-    },
-    {
-      "chainId": 42161,
-      "address": "0x7ab8EA5eF610f979e1C59fBd9dA9284672e5a136",
-      "name": "KABOSU",
-      "decimals": 18,
-      "symbol": "$KABOSUCHAN",
-      "tags": [
-        "hrglyp_eco"
-      ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x7ab8EA5eF610f979e1C59fBd9dA9284672e5a136.png"
-    },
-    {
-      "chainId": 42161,
-      "address": "0x4Ff5f900ecA8F848bEDf09Fbff7d1CAa2C11a857",
-      "name": "lueygi",
-      "decimals": 18,
-      "symbol": "$lueygi",
-      "tags": [
-        "hrglyp_eco"
-      ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x4Ff5f900ecA8F848bEDf09Fbff7d1CAa2C11a857.png"
-    },
-    {
-      "chainId": 42161,
-      "address": "0x3A91c63ee29b23fB74DfB06B9Cc796a9487a87A7",
-      "name": "MOLANDAK",
-      "decimals": 18,
-      "symbol": "$MOLANDAK",
-      "tags": [
-        "hrglyp_eco"
-      ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x3A91c63ee29b23fB74DfB06B9Cc796a9487a87A7.png"
-    },
-    {
-      "chainId": 42161,
-      "address": "0x6630Ae120DBDA654c18f04Eb82ee89C54493378d",
-      "name": "OVERPOWERED",
-      "decimals": 18,
-      "symbol": "$OVERPOWERED",
-      "tags": [
-        "hrglyp_eco"
-      ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x6630Ae120DBDA654c18f04Eb82ee89C54493378d.png"
-    },
-    {
-      "chainId": 42161,
-      "address": "0x5F96E55571D4e3c29D3025Ee79CC8eF0C1A8dab4",
+      "address": "0x74262b38609a4155EaB4eEcFDcD0E339Da2cF1b2",
       "name": "69",
       "decimals": 18,
       "symbol": "69",
       "tags": [
         "hrglyp_eco"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x5F96E55571D4e3c29D3025Ee79CC8eF0C1A8dab4.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x74262b38609a4155EaB4eEcFDcD0E339Da2cF1b2.png"
     },
     {
       "chainId": 42161,
@@ -1217,14 +1162,14 @@
     },
     {
       "chainId": 42161,
-      "address": "0x291b4A2E55B0D444F446e326A1a8e974B15E2165",
+      "address": "0x836975C507bfF631FCD7FBa875e9127C8A50dBa6",
       "name": "ARBINAUTS",
       "decimals": 18,
       "symbol": "ARBINAUTS",
       "tags": [
         "hrglyp_eco"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x291b4A2E55B0D444F446e326A1a8e974B15E2165.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x836975C507bfF631FCD7FBa875e9127C8A50dBa6.png"
     },
     {
       "chainId": 42161,
@@ -1263,47 +1208,102 @@
     },
     {
       "chainId": 42161,
-      "address": "0xd78544e8270AcE4Ba28fB69Fc1c12931d6f5d69e",
+      "address": "0x3Ec67133bB7d9D2d93D40FBD9238f1Fb085E01eE",
+      "name": "frxBULLAS",
+      "decimals": 18,
+      "symbol": "frxBULLAS",
+      "tags": [
+        "hrglyp_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x3Ec67133bB7d9D2d93D40FBD9238f1Fb085E01eE.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x1a8805194D0eF2F73045a00c70Da399d9E74221c",
       "name": "GNOBBY",
       "decimals": 18,
       "symbol": "GNOBBY",
       "tags": [
         "hrglyp_eco"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0xd78544e8270AcE4Ba28fB69Fc1c12931d6f5d69e.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x1a8805194D0eF2F73045a00c70Da399d9E74221c.png"
     },
     {
       "chainId": 42161,
-      "address": "0xfa4aDaeb61eac93CA5713f0ED1C4d99aE162d25D",
+      "address": "0x9e949461F9EC22C6032cE26Ea509824Fd2f6d98f",
+      "name": "KABOSU",
+      "decimals": 18,
+      "symbol": "KABOSUCHAN",
+      "tags": [
+        "hrglyp_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x9e949461F9EC22C6032cE26Ea509824Fd2f6d98f.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x344C796cc2474e4b779D0e81765AFB91D7741a42",
       "name": "GARFELDO",
       "decimals": 18,
       "symbol": "LASAGNA",
       "tags": [
         "hrglyp_eco"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0xfa4aDaeb61eac93CA5713f0ED1C4d99aE162d25D.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x344C796cc2474e4b779D0e81765AFB91D7741a42.png"
     },
     {
       "chainId": 42161,
-      "address": "0xE862106c941B59D3dF42DF1832bdbec3A74EB6A5",
+      "address": "0xcCF580E697B8bBA73748BA881C1872DD4fB01cdA",
+      "name": "LUEYGI",
+      "decimals": 18,
+      "symbol": "LUEYGI",
+      "tags": [
+        "hrglyp_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0xcCF580E697B8bBA73748BA881C1872DD4fB01cdA.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xA170Eaa9a74ab4b3218C736210b0421aF35C3c00",
+      "name": "MOLANDAK",
+      "decimals": 18,
+      "symbol": "MOLANDAK",
+      "tags": [
+        "hrglyp_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0xA170Eaa9a74ab4b3218C736210b0421aF35C3c00.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x1F63D0EC7193964142ef6B13d901462d0E5CbB50",
       "name": "ONEPUNCH",
       "decimals": 18,
       "symbol": "ONEPUNCH",
       "tags": [
         "hrglyp_eco"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0xE862106c941B59D3dF42DF1832bdbec3A74EB6A5.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x1F63D0EC7193964142ef6B13d901462d0E5CbB50.png"
     },
     {
       "chainId": 42161,
-      "address": "0x9Ff606f0BFd752Bf8f68092eD70D35CCc1643492",
+      "address": "0xfe5B10F053871e66a319a57a16CF4e709f51367F",
+      "name": "OVERPOWERED",
+      "decimals": 18,
+      "symbol": "OVERPOWERED",
+      "tags": [
+        "hrglyp_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0xfe5B10F053871e66a319a57a16CF4e709f51367F.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xC3323b6e71925b25943fB7369EE6769837e9C676",
       "name": "PORIGON",
       "decimals": 18,
       "symbol": "PORIGON",
       "tags": [
         "hrglyp_eco"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x9Ff606f0BFd752Bf8f68092eD70D35CCc1643492.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0xC3323b6e71925b25943fB7369EE6769837e9C676.png"
     },
     {
       "chainId": 42161,
@@ -1358,25 +1358,25 @@
     },
     {
       "chainId": 42161,
-      "address": "0x3B87930029138c1b1DF444905BeDA537052C852C",
+      "address": "0xE2eca013A124FBcE7F7507a66FDf9Ad2e22d999B",
       "name": "SANICSUPERSPEED",
       "decimals": 18,
       "symbol": "SANICSUPERSPEED",
       "tags": [
         "hrglyp_eco"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x3B87930029138c1b1DF444905BeDA537052C852C.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0xE2eca013A124FBcE7F7507a66FDf9Ad2e22d999B.png"
     },
     {
       "chainId": 42161,
-      "address": "0x33E02485076B885Caf5333A12975FD31131f523D",
+      "address": "0x750351a9F75F98f2c2E91D4eDb3BeB14e719557E",
       "name": "SCRIBES",
       "decimals": 18,
       "symbol": "SCRIBES",
       "tags": [
         "hrglyp_eco"
       ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x33E02485076B885Caf5333A12975FD31131f523D.png"
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x750351a9F75F98f2c2E91D4eDb3BeB14e719557E.png"
     },
     {
       "chainId": 42161,
@@ -1499,17 +1499,6 @@
     },
     {
       "chainId": 43114,
-      "address": "0x4Ff5f900ecA8F848bEDf09Fbff7d1CAa2C11a857",
-      "name": "lueygi",
-      "decimals": 18,
-      "symbol": "$lueygi",
-      "tags": [
-        "hrglyp_eco"
-      ],
-      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0x4Ff5f900ecA8F848bEDf09Fbff7d1CAa2C11a857.png"
-    },
-    {
-      "chainId": 43114,
       "address": "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
       "name": "Aave Avalanche USDC",
       "decimals": 6,
@@ -1584,6 +1573,17 @@
         "w_button"
       ],
       "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/43114/0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB-button.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xcCF580E697B8bBA73748BA881C1872DD4fB01cdA",
+      "name": "LUEYGI",
+      "decimals": 18,
+      "symbol": "LUEYGI",
+      "tags": [
+        "hrglyp_eco"
+      ],
+      "logoURI": "https://buttonwood-protocol.github.io/buttonwood-token-list/assets/tokens/42161/0xcCF580E697B8bBA73748BA881C1872DD4fB01cdA.png"
     },
     {
       "chainId": 43114,
